@@ -72,7 +72,7 @@ public class UserInterface implements Runnable {
     private void createWest(Container container){
         JPanel west = new JPanel();
         // Temp testing area's
-            west.setBackground(Color.black);
+            west.setBackground(Color.red);
         // ADding all components
             container.add(west, BorderLayout.WEST);
     }

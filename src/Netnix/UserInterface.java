@@ -47,7 +47,7 @@ public class UserInterface implements Runnable {
             imageNetnix = new ImageIcon("Images/Netnix.PNG");
             labelNetnix = new JLabel(imageNetnix);
         // Temp testing area's
-            north.setBackground(Color.red);
+            north.setBackground(Color.darkGray);
         // Adding all components
             north.add(labelNetnix);
             container.add(north, BorderLayout.NORTH);

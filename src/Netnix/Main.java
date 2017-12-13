@@ -1,3 +1,6 @@
+package Netnix;
+
+import javax.swing.*;
 import java.sql.*;
 
 /**
@@ -59,5 +62,8 @@ public class Main {
             if (stmt != null) try { stmt.close(); } catch(Exception e) {}
             if (con != null) try { con.close(); } catch(Exception e) {}
         }
+
+        UserInterface gui = new UserInterface();
+        SwingUtilities.invokeLater(gui);
     }
 }

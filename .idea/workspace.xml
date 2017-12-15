@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aa6c38b0-fcf6-4637-91c2-6390a35816cb" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Netnix/UserInterface.java" afterPath="$PROJECT_DIR$/src/Netnix/UserInterface.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -31,8 +30,8 @@
       <file leaf-file-name="UserInterface.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Netnix/UserInterface.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="64" column="0" lean-forward="true" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
+            <state relative-caret-position="527">
+              <caret line="34" column="34" lean-forward="true" selection-start-line="34" selection-start-column="34" selection-end-line="34" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -81,7 +80,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="953" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
@@ -249,15 +248,15 @@
       <workItem from="1512980699997" duration="889000" />
       <workItem from="1513162163380" duration="7324000" />
       <workItem from="1513244364606" duration="6143000" />
-      <workItem from="1513323515042" duration="1676000" />
+      <workItem from="1513323515042" duration="1892000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19634000" />
+    <option name="totallyTimeSpent" value="19850000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -398,8 +397,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Netnix/UserInterface.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="64" column="0" lean-forward="true" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
+        <state relative-caret-position="527">
+          <caret line="34" column="34" lean-forward="true" selection-start-line="34" selection-start-column="34" selection-end-line="34" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

@@ -33,7 +33,7 @@ public class UserInterface implements Runnable {
             createSouth(container);
         // WEST adding
             createWest(container);
-            //bananen zijn krom
+            
     }
 
     private void addCenterComponent(Container container){

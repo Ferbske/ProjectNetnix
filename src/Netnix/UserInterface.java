@@ -29,8 +29,6 @@ public class UserInterface implements Runnable {
         container.setLayout(new BorderLayout());
         // NORTH adding
             createNorth(container);
-        // EAST adding
-            createEast(container);
         // SOUTH adding
             createSouth(container);
         // WEST adding
@@ -63,21 +61,6 @@ public class UserInterface implements Runnable {
         // Adding all components
             north.add(buttonNetnix);
             container.add(north, BorderLayout.NORTH);
-    }
-
-    private void createEast(Container container){
-        JPanel east = new JPanel();
-        GridLayout layoutEast = new GridLayout(5, 1);
-        east.setLayout(layoutEast);
-        east.add(new JLabel("Grid 1"));
-        east.add(new JLabel("Grid 2"));
-        east.add(new JLabel("Grid 3"));
-        east.add(new JLabel("Grid 4"));
-        east.add(new JLabel("Grid 5"));
-        // Temp testing area's
-            east.setBackground(Color.green);
-        // ADding all components
-        container.add(east, BorderLayout.EAST);
     }
 
     private void createSouth(Container container){

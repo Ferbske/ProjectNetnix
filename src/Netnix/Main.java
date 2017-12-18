@@ -63,7 +63,7 @@ public class Main {
             if (con != null) try { con.close(); } catch(Exception e) {}
         }
 
-        UserInterface gui = new UserInterface();
-        SwingUtilities.invokeLater(gui);
+        StartupPage app = new StartupPage();
+        SwingUtilities.invokeLater(app);
     }
 }

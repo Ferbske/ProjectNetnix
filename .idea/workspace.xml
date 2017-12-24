@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aa6c38b0-fcf6-4637-91c2-6390a35816cb" name="Default" comment="">
+<<<<<<< Updated upstream
       <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ProjectNetnix/Netnix/StartupPage.class" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ProjectNetnix/Netnix/UserInterface$1.class" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ProjectNetnix/Netnix/UserInterface.class" afterPath="" />
@@ -11,6 +12,12 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Netnix/Main.java" afterPath="$PROJECT_DIR$/src/Netnix/Main.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Netnix/UserInterface.java" afterPath="$PROJECT_DIR$/src/Netnix/UserInterface.java" />
+=======
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ProjectNetnix/Netnix/StartupPage.class" afterPath="$PROJECT_DIR$/out/production/ProjectNetnix/Netnix/StartupPage.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Netnix/StartupPage.form" afterPath="$PROJECT_DIR$/src/Netnix/StartupPage.form" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Netnix/StartupPage.java" afterPath="$PROJECT_DIR$/src/Netnix/StartupPage.java" />
+>>>>>>> Stashed changes
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,11 +32,19 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Netnix/Main.java">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< Updated upstream
             <state relative-caret-position="776">
               <caret line="66" column="40" lean-forward="true" selection-start-line="66" selection-start-column="40" selection-end-line="66" selection-end-column="40" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <marker date="1514043824380" expanded="true" signature="1187:1212" ph="SELECT TOP 1... Boek" />
+=======
+            <state relative-caret-position="969">
+              <caret line="57" column="32" lean-forward="false" selection-start-line="57" selection-start-column="32" selection-end-line="57" selection-end-column="32" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <marker date="1513755743380" expanded="true" signature="1187:1212" ph="SELECT TOP 1... Boek" />
+>>>>>>> Stashed changes
               </folding>
             </state>
           </provider>
@@ -38,8 +53,13 @@
       <file leaf-file-name="UserInterface.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Netnix/UserInterface.java">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< Updated upstream
             <state relative-caret-position="405">
               <caret line="96" column="101" lean-forward="false" selection-start-line="96" selection-start-column="101" selection-end-line="96" selection-end-column="101" />
+=======
+            <state relative-caret-position="215">
+              <caret line="36" column="23" lean-forward="true" selection-start-line="36" selection-start-column="23" selection-end-line="36" selection-end-column="23" />
+>>>>>>> Stashed changes
               <folding>
                 <element signature="method#UserInterface#0;class#UserInterface#0" expanded="false" />
                 <element signature="method#run#0;class#UserInterface#0" expanded="false" />
@@ -144,10 +164,17 @@
         <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$PROJECT_DIR$/src/Netnix/Buttons/Homebutton.java" />
         <option value="$PROJECT_DIR$/src/Netnix/ActionListener.java" />
+<<<<<<< Updated upstream
         <option value="$PROJECT_DIR$/src/Netnix/StartupPage.form" />
         <option value="$PROJECT_DIR$/src/Netnix/StartupPage.java" />
         <option value="$PROJECT_DIR$/src/Netnix/Main.java" />
         <option value="$PROJECT_DIR$/src/Netnix/UserInterface.java" />
+=======
+        <option value="$PROJECT_DIR$/src/Netnix/UserInterface.java" />
+        <option value="$PROJECT_DIR$/src/Netnix/Main.java" />
+        <option value="$PROJECT_DIR$/src/Netnix/StartupPage.java" />
+        <option value="$PROJECT_DIR$/src/Netnix/StartupPage.form" />
+>>>>>>> Stashed changes
       </list>
     </option>
   </component>
@@ -158,9 +185,15 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
+<<<<<<< Updated upstream
     <option name="x" value="953" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
+=======
+    <option name="x" value="-7" />
+    <option name="width" value="974" />
+    <option name="height" value="527" />
+>>>>>>> Stashed changes
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -184,6 +217,11 @@
       <pane id="Scratches" />
       <pane id="AndroidView" />
       <pane id="PackagesPane" />
+<<<<<<< Updated upstream
+=======
+      <pane id="Scratches" />
+      <pane id="Scope" />
+>>>>>>> Stashed changes
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -335,16 +373,28 @@
       <workItem from="1513332798129" duration="19000" />
       <workItem from="1513599581535" duration="2621000" />
       <workItem from="1513602229326" duration="3333000" />
+<<<<<<< Updated upstream
       <workItem from="1513712283217" duration="1725000" />
       <workItem from="1514043794917" duration="9566000" />
+=======
+      <workItem from="1513755904283" duration="4014000" />
+      <workItem from="1513767548714" duration="1821000" />
+>>>>>>> Stashed changes
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< Updated upstream
     <option name="totallyTimeSpent" value="37114000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="953" y="0" width="974" height="1047" extended-state="0" />
+=======
+    <option name="totallyTimeSpent" value="31658000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="0" width="974" height="527" extended-state="0" />
+>>>>>>> Stashed changes
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -354,14 +404,22 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="TMC Test Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+<<<<<<< Updated upstream
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34475374" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+=======
+      <window_info id="TMC Test Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28985506" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+>>>>>>> Stashed changes
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32976446" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+<<<<<<< Updated upstream
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17536534" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+=======
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20041753" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+>>>>>>> Stashed changes
       <window_info id="TMC Project List" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32985386" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -393,15 +451,24 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/Netnix/Main.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< Updated upstream
         <state relative-caret-position="952">
           <caret line="57" column="32" lean-forward="false" selection-start-line="57" selection-start-column="32" selection-end-line="57" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
             <marker date="1514043824380" expanded="true" signature="1187:1212" ph="SELECT TOP 1... Boek" />
+=======
+        <state relative-caret-position="969">
+          <caret line="57" column="32" lean-forward="false" selection-start-line="57" selection-start-column="32" selection-end-line="57" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1513755743380" expanded="true" signature="1187:1212" ph="SELECT TOP 1... Boek" />
+>>>>>>> Stashed changes
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< Updated upstream
     <entry file="file://$PROJECT_DIR$/src/Netnix/StartupPage.form">
       <provider selected="true" editor-type-id="ui-designer">
         <state />
@@ -415,13 +482,34 @@
         </state>
       </provider>
     </entry>
+=======
+    <entry file="file://$PROJECT_DIR$/src/Netnix/StartupPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1258">
+          <caret line="74" column="10" lean-forward="false" selection-start-line="74" selection-start-column="10" selection-end-line="74" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Netnix/StartupPage.form">
+      <provider selected="true" editor-type-id="ui-designer">
+        <state />
+      </provider>
+    </entry>
+>>>>>>> Stashed changes
     <entry file="file://$PROJECT_DIR$/src/Netnix/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="952">
           <caret line="57" column="32" lean-forward="false" selection-start-line="57" selection-start-column="32" selection-end-line="57" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
+<<<<<<< Updated upstream
             <marker date="1514043824380" expanded="true" signature="1187:1212" ph="SELECT TOP 1... Boek" />
+=======
+            <marker date="1513755743380" expanded="true" signature="1187:1212" ph="SELECT TOP 1... Boek" />
+>>>>>>> Stashed changes
           </folding>
         </state>
       </provider>
@@ -435,7 +523,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1547">
           <caret line="92" column="52" lean-forward="true" selection-start-line="92" selection-start-column="52" selection-end-line="92" selection-end-column="52" />
+<<<<<<< Updated upstream
           <folding />
+=======
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+>>>>>>> Stashed changes
         </state>
       </provider>
     </entry>
@@ -445,7 +539,11 @@
           <caret line="66" column="10" lean-forward="false" selection-start-line="66" selection-start-column="10" selection-end-line="66" selection-end-column="10" />
           <folding>
             <element signature="imports" expanded="true" />
+<<<<<<< Updated upstream
             <marker date="1514043824380" expanded="true" signature="1187:1212" ph="SELECT TOP 1... Boek" />
+=======
+            <marker date="1513755743380" expanded="true" signature="1187:1212" ph="SELECT TOP 1... Boek" />
+>>>>>>> Stashed changes
           </folding>
         </state>
       </provider>
@@ -462,6 +560,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="935">
           <caret line="60" column="12" lean-forward="false" selection-start-line="60" selection-start-column="12" selection-end-line="60" selection-end-column="48" />
+<<<<<<< Updated upstream
           <folding>
             <element signature="method#UserInterface#0;class#UserInterface#0" expanded="false" />
             <element signature="method#run#0;class#UserInterface#0" expanded="false" />
@@ -531,6 +630,8 @@
             <element signature="e#13146#13147#0" expanded="true" />
             <element signature="e#13226#13227#0" expanded="true" />
           </folding>
+=======
+>>>>>>> Stashed changes
         </state>
       </provider>
     </entry>
@@ -545,7 +646,11 @@
           <caret line="65" column="34" lean-forward="false" selection-start-line="65" selection-start-column="34" selection-end-line="65" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
+<<<<<<< Updated upstream
             <marker date="1514043824380" expanded="true" signature="1187:1212" ph="SELECT TOP 1... Boek" />
+=======
+            <marker date="1513755743380" expanded="true" signature="1187:1212" ph="SELECT TOP 1... Boek" />
+>>>>>>> Stashed changes
           </folding>
         </state>
       </provider>
@@ -554,6 +659,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="544">
           <caret line="35" column="12" lean-forward="false" selection-start-line="35" selection-start-column="12" selection-end-line="35" selection-end-column="12" />
+<<<<<<< Updated upstream
           <folding>
             <element signature="method#UserInterface#0;class#UserInterface#0" expanded="false" />
             <element signature="method#run#0;class#UserInterface#0" expanded="false" />
@@ -623,6 +729,8 @@
             <element signature="e#13146#13147#0" expanded="true" />
             <element signature="e#13226#13227#0" expanded="true" />
           </folding>
+=======
+>>>>>>> Stashed changes
         </state>
       </provider>
     </entry>
@@ -632,7 +740,11 @@
           <caret line="65" column="34" lean-forward="false" selection-start-line="65" selection-start-column="34" selection-end-line="65" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
+<<<<<<< Updated upstream
             <marker date="1514043824380" expanded="true" signature="1187:1212" ph="SELECT TOP 1... Boek" />
+=======
+            <marker date="1513755743380" expanded="true" signature="1187:1212" ph="SELECT TOP 1... Boek" />
+>>>>>>> Stashed changes
           </folding>
         </state>
       </provider>
@@ -641,6 +753,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="527">
           <caret line="34" column="34" lean-forward="true" selection-start-line="34" selection-start-column="34" selection-end-line="34" selection-end-column="34" />
+<<<<<<< Updated upstream
           <folding>
             <element signature="method#UserInterface#0;class#UserInterface#0" expanded="false" />
             <element signature="method#run#0;class#UserInterface#0" expanded="false" />
@@ -710,6 +823,8 @@
             <element signature="e#13146#13147#0" expanded="true" />
             <element signature="e#13226#13227#0" expanded="true" />
           </folding>
+=======
+>>>>>>> Stashed changes
         </state>
       </provider>
     </entry>
@@ -719,7 +834,11 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+<<<<<<< Updated upstream
             <marker date="1514043824380" expanded="true" signature="1187:1212" ph="SELECT TOP 1... Boek" />
+=======
+            <marker date="1513755743380" expanded="true" signature="1187:1212" ph="SELECT TOP 1... Boek" />
+>>>>>>> Stashed changes
           </folding>
         </state>
       </provider>
@@ -728,6 +847,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" column="18" lean-forward="true" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
+<<<<<<< Updated upstream
           <folding>
             <element signature="method#UserInterface#0;class#UserInterface#0" expanded="false" />
             <element signature="method#run#0;class#UserInterface#0" expanded="false" />
@@ -797,6 +917,8 @@
             <element signature="e#13146#13147#0" expanded="true" />
             <element signature="e#13226#13227#0" expanded="true" />
           </folding>
+=======
+>>>>>>> Stashed changes
         </state>
       </provider>
     </entry>
@@ -806,7 +928,11 @@
           <caret line="65" column="34" lean-forward="false" selection-start-line="65" selection-start-column="34" selection-end-line="65" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
+<<<<<<< Updated upstream
             <marker date="1514043824380" expanded="true" signature="1187:1212" ph="SELECT TOP 1... Boek" />
+=======
+            <marker date="1513755743380" expanded="true" signature="1187:1212" ph="SELECT TOP 1... Boek" />
+>>>>>>> Stashed changes
           </folding>
         </state>
       </provider>
@@ -815,6 +941,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="901">
           <caret line="57" column="30" lean-forward="true" selection-start-line="57" selection-start-column="30" selection-end-line="57" selection-end-column="30" />
+<<<<<<< Updated upstream
           <folding>
             <element signature="method#UserInterface#0;class#UserInterface#0" expanded="false" />
             <element signature="method#run#0;class#UserInterface#0" expanded="false" />
@@ -884,6 +1011,8 @@
             <element signature="e#13146#13147#0" expanded="true" />
             <element signature="e#13226#13227#0" expanded="true" />
           </folding>
+=======
+>>>>>>> Stashed changes
         </state>
       </provider>
     </entry>
@@ -893,7 +1022,11 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+<<<<<<< Updated upstream
             <marker date="1514043824380" expanded="true" signature="1187:1212" ph="SELECT TOP 1... Boek" />
+=======
+            <marker date="1513755743380" expanded="true" signature="1187:1212" ph="SELECT TOP 1... Boek" />
+>>>>>>> Stashed changes
           </folding>
         </state>
       </provider>
@@ -904,7 +1037,11 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+<<<<<<< Updated upstream
             <marker date="1514043824380" expanded="true" signature="1187:1212" ph="SELECT TOP 1... Boek" />
+=======
+            <marker date="1513755743380" expanded="true" signature="1187:1212" ph="SELECT TOP 1... Boek" />
+>>>>>>> Stashed changes
           </folding>
         </state>
       </provider>
@@ -925,6 +1062,7 @@
         <state />
       </provider>
     </entry>
+<<<<<<< Updated upstream
     <entry file="file://$PROJECT_DIR$/src/Netnix/StartupPage.form">
       <provider selected="true" editor-type-id="ui-designer">
         <state />
@@ -953,14 +1091,35 @@
           <folding>
             <element signature="imports" expanded="true" />
             <marker date="1514043824380" expanded="true" signature="1187:1212" ph="SELECT TOP 1... Boek" />
+=======
+    <entry file="file://$PROJECT_DIR$/src/Netnix/UserInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1142">
+          <caret line="90" column="35" lean-forward="true" selection-start-line="90" selection-start-column="35" selection-end-line="90" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Netnix/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="969">
+          <caret line="57" column="32" lean-forward="false" selection-start-line="57" selection-start-column="32" selection-end-line="57" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1513755743380" expanded="true" signature="1187:1212" ph="SELECT TOP 1... Boek" />
+>>>>>>> Stashed changes
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Netnix/UserInterface.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< Updated upstream
         <state relative-caret-position="405">
           <caret line="96" column="101" lean-forward="false" selection-start-line="96" selection-start-column="101" selection-end-line="96" selection-end-column="101" />
+=======
+        <state relative-caret-position="215">
+          <caret line="36" column="23" lean-forward="true" selection-start-line="36" selection-start-column="23" selection-end-line="36" selection-end-column="23" />
+>>>>>>> Stashed changes
           <folding>
             <element signature="method#UserInterface#0;class#UserInterface#0" expanded="false" />
             <element signature="method#run#0;class#UserInterface#0" expanded="false" />

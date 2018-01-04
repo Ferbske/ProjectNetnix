@@ -1,10 +1,10 @@
 package Netnix;
 import java.awt.*;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
-import java.awt.event.MouseEvent;
-import java.awt.event.MouseListener;
+import java.awt.event.*;
 import javax.swing.*;
+import javax.swing.border.Border;
+import javax.swing.table.DefaultTableModel;
+import javax.swing.table.TableModel;
 
 public class UserInterface implements Runnable {
 
@@ -13,11 +13,11 @@ public class UserInterface implements Runnable {
     private JPanel south;
     private JPanel west;
     private JPanel pnlCenterMain;
-    private JPanel pnlCenter1;
-    private JPanel pnlCenter2;
-    private JPanel pnlCenter3;
-    private JPanel pnlCenter4;
-    private JPanel pnlCenter5;
+    private JPanel pnlCenter1, pnlCenter2, pnlCenter3, pnlCenter4, pnlCenter5;
+    private JTable table;
+    private JLabel naam, adres, postcode, stad, telefoonNum, email;
+    private JTextField naamfield, adresfield, postcodefield, stadfield, telefoonNumfield, emailfield;
+    private TableModel model;
 
     public UserInterface() {
     }
@@ -41,7 +41,7 @@ public class UserInterface implements Runnable {
             mainpage.pack();
             mainpage.setVisible(true);
     }
-    public void addDefaultComponents(Container container) {
+    private void addDefaultComponents(Container container) {
         container.setLayout(new BorderLayout());
         // NORTH adding
             createNorth(container);
@@ -107,20 +107,30 @@ public class UserInterface implements Runnable {
             pnlCenter4.setPreferredSize(new Dimension(1500,800));
             pnlCenter5.setVisible(false);
             pnlCenter5.setPreferredSize(new Dimension(1500,800));
-        // Background Panels
+        // Testing Panels
             pnlCenterMain.setBackground(Color.LIGHT_GRAY);
             pnlCenter1.setBackground(Color.RED);
             pnlCenter2.setBackground(Color.GREEN);
             pnlCenter3.setBackground(Color.BLUE);
             pnlCenter4.setBackground(Color.BLACK);
             pnlCenter5.setBackground(Color.WHITE);
+        // Panel 1 Accounts
+        createCenterPanel1(pnlCenter1);
+        // Panel 2 Profielen
+        //createCenterPanel2(pnlCenter2);
+        // Panel 3 Bekeken
+        //createCenterPanel3(pnlCenter3);
+        // Panel 4 Films
+        //createCenterPanel4(pnlCenter4);
+        // Panel 5 Series
+        //createCenterPanel5(pnlCenter5);
         // Adding all components
-            pnlCenterMain.add(pnlCenter1);
-            pnlCenterMain.add(pnlCenter2);
-            pnlCenterMain.add(pnlCenter3);
-            pnlCenterMain.add(pnlCenter4);
-            pnlCenterMain.add(pnlCenter5);
-            container.add(pnlCenterMain, BorderLayout.CENTER);
+        pnlCenterMain.add(pnlCenter1);
+        pnlCenterMain.add(pnlCenter2);
+        pnlCenterMain.add(pnlCenter3);
+        pnlCenterMain.add(pnlCenter4);
+        pnlCenterMain.add(pnlCenter5);
+        container.add(pnlCenterMain, BorderLayout.CENTER);
     }
     private void createWest(Container container){
         GridLayout layoutWest = new GridLayout(20, 1);
@@ -341,6 +351,129 @@ public class UserInterface implements Runnable {
             west.add(blank4);
             west.add(btnPanel5);
             container.add(west, BorderLayout.WEST);
+    }
+    private void createCenterPanel1(Container container){
+        JPanel CenterSouth1 = new JPanel(new GridLayout(1,14));
+        table = new JTable();
+        pnlCenter1.setLayout(new BorderLayout());
+        Object[] columns = {"Firstname", "Adres", "Postal Code", "City", "Phonenumber", "Email"};
+        DefaultTableModel model = new DefaultTableModel();
+        model.setColumnIdentifiers(columns);
+        table.setModel(model);
+        table.setBackground(Color.LIGHT_GRAY);
+        table.setForeground(Color.BLACK);
+        Font font = new Font("",1,22);
+        table.setFont(font);
+        table.setRowHeight(30);
+        Object[] rows = new Object [6];
+        // Labels
+            naam = new JLabel(" Name: ");
+            adres = new JLabel(" Adress: ");
+            postcode = new JLabel(" Postal Code");
+            stad = new JLabel(" City");
+            telefoonNum = new JLabel(" Cell Phone");
+            email = new JLabel(" Email");
+        // Input fields
+            naamfield = new JTextField();
+            adresfield = new JTextField();
+            postcodefield = new JTextField();
+            stadfield = new JTextField();
+            telefoonNumfield = new JTextField();
+            emailfield = new JTextField();
+        // Buttons
+            JButton btnAdd = new JButton("Add");
+            JButton btnDelete = new JButton ("Delete");
+            JButton btnUpdate = new JButton("Update");
+        // ScrollPane
+            JScrollPane pane = new JScrollPane(table);
+            pane.setBounds(0, 0, 880, 200);
+        // ActionListeners
+            btnAdd.addActionListener(new ActionListener() {
+                @Override
+                public void actionPerformed(ActionEvent e) {
+                    rows[0] = naamfield.getText();
+                    rows[1] = adresfield.getText();
+                    rows[2] = postcodefield.getText();
+                    rows[3] = stadfield.getText();
+                    rows[4] = telefoonNumfield.getText();
+                    rows[5] = emailfield.getText();
+                    model.addRow(rows);
+                    naamfield.setText("");
+                    adresfield.setText("");
+                    postcodefield.setText("");
+                    stadfield.setText("");
+                    telefoonNumfield.setText("");
+                    emailfield.setText("");
+                }
+            });
+            btnDelete.addActionListener(new ActionListener() {
+                @Override
+                public void actionPerformed(ActionEvent e) {
+                   int i = table.getSelectedRow();
+                   if (i >= 0) {
+                       model.removeRow(i);
+
+                   }
+                   else{
+                       System.out.println("Delete Error");
+                   }
+                    naamfield.setText("");
+                    adresfield.setText("");
+                    postcodefield.setText("");
+                    stadfield.setText("");
+                    telefoonNumfield.setText("");
+                    emailfield.setText("");
+                }
+            });
+
+            table.addMouseListener(new MouseAdapter() {
+                @Override
+                public void mouseClicked(MouseEvent e){
+                    int i = table.getSelectedRow();
+                    naamfield.setText(model.getValueAt(i, 0).toString());
+                    adresfield.setText(model.getValueAt(i, 1).toString());
+                    postcodefield.setText(model.getValueAt(i, 2).toString());
+                    stadfield.setText(model.getValueAt(i, 3).toString());
+                    telefoonNumfield.setText(model.getValueAt(i, 4).toString());
+                    emailfield.setText(model.getValueAt(i, 5).toString());
+                }
+            });
+
+            btnUpdate.addActionListener(new ActionListener() {
+                @Override
+                public void actionPerformed(ActionEvent e) {
+                    int i = table.getSelectedRow();
+                    if (i >= 0) {
+                        model.setValueAt(naamfield.getText(), i, 0);
+                        model.setValueAt(adresfield.getText(), i, 1);
+                        model.setValueAt(postcodefield.getText(), i, 2);
+                        model.setValueAt(stadfield.getText(), i, 3);
+                        model.setValueAt(telefoonNumfield.getText(), i, 4);
+                        model.setValueAt(emailfield.getText(), i, 5);
+                    }
+                    else{
+                        System.out.println("Update Error");
+                    }
+                }
+            });
+        // Adding all the things
+            pnlCenter1.add(pane);
+            CenterSouth1.add(naam);
+            CenterSouth1.add(naamfield);
+            CenterSouth1.add(adres);
+            CenterSouth1.add(adresfield);
+            CenterSouth1.add(postcode);
+            CenterSouth1.add(postcodefield);
+            CenterSouth1.add(stad);
+            CenterSouth1.add(stadfield);
+            CenterSouth1.add(telefoonNum);
+            CenterSouth1.add(telefoonNumfield);
+            CenterSouth1.add(email);
+            CenterSouth1.add(emailfield);
+            CenterSouth1.add(btnAdd);
+            CenterSouth1.add(btnDelete);
+            CenterSouth1.add(btnUpdate);
+            pnlCenter1.add(CenterSouth1, BorderLayout.SOUTH);
     }
     public JFrame getFrame() {
         return mainpage;

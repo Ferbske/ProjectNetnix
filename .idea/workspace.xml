@@ -2,22 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aa6c38b0-fcf6-4637-91c2-6390a35816cb" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Netnix/Accounts.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ProjectNetnix/Netnix/UserInterface$1.class" afterPath="$PROJECT_DIR$/out/production/ProjectNetnix/Netnix/UserInterface$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ProjectNetnix/Netnix/UserInterface$10.class" afterPath="$PROJECT_DIR$/out/production/ProjectNetnix/Netnix/UserInterface$10.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ProjectNetnix/Netnix/UserInterface$11.class" afterPath="$PROJECT_DIR$/out/production/ProjectNetnix/Netnix/UserInterface$11.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ProjectNetnix/Netnix/UserInterface$2.class" afterPath="$PROJECT_DIR$/out/production/ProjectNetnix/Netnix/UserInterface$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ProjectNetnix/Netnix/UserInterface$3.class" afterPath="$PROJECT_DIR$/out/production/ProjectNetnix/Netnix/UserInterface$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ProjectNetnix/Netnix/UserInterface$4.class" afterPath="$PROJECT_DIR$/out/production/ProjectNetnix/Netnix/UserInterface$4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ProjectNetnix/Netnix/UserInterface$5.class" afterPath="$PROJECT_DIR$/out/production/ProjectNetnix/Netnix/UserInterface$5.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ProjectNetnix/Netnix/UserInterface$6.class" afterPath="$PROJECT_DIR$/out/production/ProjectNetnix/Netnix/UserInterface$6.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ProjectNetnix/Netnix/UserInterface$7.class" afterPath="$PROJECT_DIR$/out/production/ProjectNetnix/Netnix/UserInterface$7.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ProjectNetnix/Netnix/UserInterface$8.class" afterPath="$PROJECT_DIR$/out/production/ProjectNetnix/Netnix/UserInterface$8.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ProjectNetnix/Netnix/UserInterface$9.class" afterPath="$PROJECT_DIR$/out/production/ProjectNetnix/Netnix/UserInterface$9.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ProjectNetnix/Netnix/UserInterface.class" afterPath="$PROJECT_DIR$/out/production/ProjectNetnix/Netnix/UserInterface.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Concept/src/sample/Main.java" afterPath="$PROJECT_DIR$/Concept/src/sample/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ProjectNetnix.iml" afterPath="$PROJECT_DIR$/ProjectNetnix.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Netnix/UserInterface.java" afterPath="$PROJECT_DIR$/src/Netnix/UserInterface.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -33,8 +17,8 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Netnix/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1122">
-              <caret line="66" column="40" lean-forward="true" selection-start-line="66" selection-start-column="40" selection-end-line="66" selection-end-column="40" />
+            <state relative-caret-position="0">
+              <caret line="66" column="40" lean-forward="false" selection-start-line="66" selection-start-column="40" selection-end-line="66" selection-end-column="40" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <marker date="1514043824380" expanded="true" signature="1187:1212" ph="SELECT TOP 1... Boek" />
@@ -46,7 +30,7 @@
       <file leaf-file-name="Accounts.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Netnix/Accounts.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
+            <state relative-caret-position="17">
               <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
               <folding />
             </state>
@@ -56,28 +40,37 @@
       <file leaf-file-name="UserInterface.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Netnix/UserInterface.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="354" column="56" lean-forward="false" selection-start-line="354" selection-start-column="56" selection-end-line="354" selection-end-column="56" />
+            <state relative-caret-position="468">
+              <caret line="1087" column="0" lean-forward="true" selection-start-line="1087" selection-start-column="0" selection-end-line="1087" selection-end-column="0" />
               <folding>
                 <element signature="method#UserInterface#0;class#UserInterface#0" expanded="false" />
                 <element signature="method#run#0;class#UserInterface#0" expanded="false" />
                 <element signature="method#addDefaultComponents#0;class#UserInterface#0" expanded="false" />
                 <element signature="method#createNorth#0;class#UserInterface#0" expanded="false" />
-                <element signature="e#2448#2449#0" expanded="true" />
-                <element signature="e#2513#2514#0" expanded="true" />
                 <element signature="method#createSouth#0;class#UserInterface#0" expanded="false" />
-                <element signature="method#createCenter#0;class#UserInterface#0" expanded="false" />
                 <element signature="method#createWest#0;class#UserInterface#0" expanded="false" />
-                <element signature="class#6229:7109" expanded="false" />
-                <element signature="class#7883:8760" expanded="false" />
-                <element signature="class#9532:10409" expanded="false" />
-                <element signature="class#11179:12056" expanded="false" />
-                <element signature="class#12827:13704" expanded="false" />
+                <element signature="class#7119:7999" expanded="false" />
+                <element signature="class#8823:9700" expanded="false" />
+                <element signature="class#10522:11399" expanded="false" />
+                <element signature="class#12219:13096" expanded="false" />
+                <element signature="class#13917:14794" expanded="false" />
+                <element signature="class#15557:16350" expanded="false" />
                 <element signature="method#createCenterPanel1#0;class#UserInterface#0" expanded="false" />
-                <element signature="e#17785#18428#0" expanded="true" />
-                <element signature="e#18427#18428#0" expanded="true" />
-                <element signature="e#20031#20032#0" expanded="true" />
-                <element signature="e#20062#20063#0" expanded="true" />
+                <element signature="method#createCenterPanel2#0;class#UserInterface#0" expanded="false" />
+                <element signature="e#25297#25717#0" expanded="true" />
+                <element signature="e#25716#25717#0" expanded="true" />
+                <element signature="method#createCenterPanel3#0;class#UserInterface#0" expanded="false" />
+                <element signature="e#29401#29875#0" expanded="true" />
+                <element signature="e#29874#29875#0" expanded="true" />
+                <element signature="method#createCenterPanel4#0;class#UserInterface#0" expanded="false" />
+                <element signature="e#34128#34748#0" expanded="true" />
+                <element signature="e#34747#34748#0" expanded="true" />
+                <element signature="method#createCenterPanel5#0;class#UserInterface#0" expanded="false" />
+                <element signature="e#39025#39566#0" expanded="true" />
+                <element signature="e#39565#39566#0" expanded="true" />
+                <element signature="method#createCenterPanel6#0;class#UserInterface#0" expanded="false" />
+                <element signature="e#43705#44249#0" expanded="true" />
+                <element signature="e#44248#44249#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -154,8 +147,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -196,8 +187,10 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -358,11 +351,12 @@
       <workItem from="1513712283217" duration="1725000" />
       <workItem from="1514043794917" duration="9566000" />
       <workItem from="1515066550798" duration="11793000" />
+      <workItem from="1515327633745" duration="8658000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48907000" />
+    <option name="totallyTimeSpent" value="57565000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -370,15 +364,15 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3254818" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32441112" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="TMC Test Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34464476" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34464476" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32976446" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -389,8 +383,8 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3997879" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3997879" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -407,19 +401,67 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Netnix/UserInterface.java</url>
-          <line>135</line>
-          <properties />
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-      </breakpoints>
-      <option name="time" value="9" />
+      <option name="time" value="13" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/Netnix/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1105">
+          <caret line="66" column="40" lean-forward="false" selection-start-line="66" selection-start-column="40" selection-end-line="66" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1514043824380" expanded="true" signature="1187:1212" ph="SELECT TOP 1... Boek" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Netnix/Accounts.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Netnix/UserInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6018">
+          <caret line="354" column="56" lean-forward="false" selection-start-line="354" selection-start-column="56" selection-end-line="354" selection-end-column="56" />
+          <folding>
+            <element signature="method#UserInterface#0;class#UserInterface#0" expanded="false" />
+            <element signature="method#run#0;class#UserInterface#0" expanded="false" />
+            <element signature="method#addDefaultComponents#0;class#UserInterface#0" expanded="false" />
+            <element signature="method#createNorth#0;class#UserInterface#0" expanded="false" />
+            <element signature="method#createSouth#0;class#UserInterface#0" expanded="false" />
+            <element signature="method#createWest#0;class#UserInterface#0" expanded="false" />
+            <element signature="class#7119:7999" expanded="false" />
+            <element signature="class#8823:9700" expanded="false" />
+            <element signature="class#10522:11399" expanded="false" />
+            <element signature="class#12219:13096" expanded="false" />
+            <element signature="class#13917:14794" expanded="false" />
+            <element signature="class#15557:16350" expanded="false" />
+            <element signature="method#createCenterPanel1#0;class#UserInterface#0" expanded="false" />
+            <element signature="method#createCenterPanel2#0;class#UserInterface#0" expanded="false" />
+            <element signature="e#25297#25717#0" expanded="true" />
+            <element signature="e#25716#25717#0" expanded="true" />
+            <element signature="method#createCenterPanel3#0;class#UserInterface#0" expanded="false" />
+            <element signature="e#29401#29875#0" expanded="true" />
+            <element signature="e#29874#29875#0" expanded="true" />
+            <element signature="method#createCenterPanel4#0;class#UserInterface#0" expanded="false" />
+            <element signature="e#34128#34748#0" expanded="true" />
+            <element signature="e#34747#34748#0" expanded="true" />
+            <element signature="method#createCenterPanel5#0;class#UserInterface#0" expanded="false" />
+            <element signature="e#39025#39566#0" expanded="true" />
+            <element signature="e#39565#39566#0" expanded="true" />
+            <element signature="method#createCenterPanel6#0;class#UserInterface#0" expanded="false" />
+            <element signature="e#43705#44249#0" expanded="true" />
+            <element signature="e#44248#44249#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Netnix/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1105">
@@ -440,21 +482,30 @@
             <element signature="method#run#0;class#UserInterface#0" expanded="false" />
             <element signature="method#addDefaultComponents#0;class#UserInterface#0" expanded="false" />
             <element signature="method#createNorth#0;class#UserInterface#0" expanded="false" />
-            <element signature="e#2448#2449#0" expanded="true" />
-            <element signature="e#2513#2514#0" expanded="true" />
             <element signature="method#createSouth#0;class#UserInterface#0" expanded="false" />
-            <element signature="method#createCenter#0;class#UserInterface#0" expanded="false" />
             <element signature="method#createWest#0;class#UserInterface#0" expanded="false" />
-            <element signature="class#6229:7109" expanded="false" />
-            <element signature="class#7883:8760" expanded="false" />
-            <element signature="class#9532:10409" expanded="false" />
-            <element signature="class#11179:12056" expanded="false" />
-            <element signature="class#12827:13704" expanded="false" />
+            <element signature="class#7119:7999" expanded="false" />
+            <element signature="class#8823:9700" expanded="false" />
+            <element signature="class#10522:11399" expanded="false" />
+            <element signature="class#12219:13096" expanded="false" />
+            <element signature="class#13917:14794" expanded="false" />
+            <element signature="class#15557:16350" expanded="false" />
             <element signature="method#createCenterPanel1#0;class#UserInterface#0" expanded="false" />
-            <element signature="e#17785#18428#0" expanded="true" />
-            <element signature="e#18427#18428#0" expanded="true" />
-            <element signature="e#20031#20032#0" expanded="true" />
-            <element signature="e#20062#20063#0" expanded="true" />
+            <element signature="method#createCenterPanel2#0;class#UserInterface#0" expanded="false" />
+            <element signature="e#25297#25717#0" expanded="true" />
+            <element signature="e#25716#25717#0" expanded="true" />
+            <element signature="method#createCenterPanel3#0;class#UserInterface#0" expanded="false" />
+            <element signature="e#29401#29875#0" expanded="true" />
+            <element signature="e#29874#29875#0" expanded="true" />
+            <element signature="method#createCenterPanel4#0;class#UserInterface#0" expanded="false" />
+            <element signature="e#34128#34748#0" expanded="true" />
+            <element signature="e#34747#34748#0" expanded="true" />
+            <element signature="method#createCenterPanel5#0;class#UserInterface#0" expanded="false" />
+            <element signature="e#39025#39566#0" expanded="true" />
+            <element signature="e#39565#39566#0" expanded="true" />
+            <element signature="method#createCenterPanel6#0;class#UserInterface#0" expanded="false" />
+            <element signature="e#43705#44249#0" expanded="true" />
+            <element signature="e#44248#44249#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -506,21 +557,30 @@
             <element signature="method#run#0;class#UserInterface#0" expanded="false" />
             <element signature="method#addDefaultComponents#0;class#UserInterface#0" expanded="false" />
             <element signature="method#createNorth#0;class#UserInterface#0" expanded="false" />
-            <element signature="e#2448#2449#0" expanded="true" />
-            <element signature="e#2513#2514#0" expanded="true" />
             <element signature="method#createSouth#0;class#UserInterface#0" expanded="false" />
-            <element signature="method#createCenter#0;class#UserInterface#0" expanded="false" />
             <element signature="method#createWest#0;class#UserInterface#0" expanded="false" />
-            <element signature="class#6229:7109" expanded="false" />
-            <element signature="class#7883:8760" expanded="false" />
-            <element signature="class#9532:10409" expanded="false" />
-            <element signature="class#11179:12056" expanded="false" />
-            <element signature="class#12827:13704" expanded="false" />
+            <element signature="class#7119:7999" expanded="false" />
+            <element signature="class#8823:9700" expanded="false" />
+            <element signature="class#10522:11399" expanded="false" />
+            <element signature="class#12219:13096" expanded="false" />
+            <element signature="class#13917:14794" expanded="false" />
+            <element signature="class#15557:16350" expanded="false" />
             <element signature="method#createCenterPanel1#0;class#UserInterface#0" expanded="false" />
-            <element signature="e#17785#18428#0" expanded="true" />
-            <element signature="e#18427#18428#0" expanded="true" />
-            <element signature="e#20031#20032#0" expanded="true" />
-            <element signature="e#20062#20063#0" expanded="true" />
+            <element signature="method#createCenterPanel2#0;class#UserInterface#0" expanded="false" />
+            <element signature="e#25297#25717#0" expanded="true" />
+            <element signature="e#25716#25717#0" expanded="true" />
+            <element signature="method#createCenterPanel3#0;class#UserInterface#0" expanded="false" />
+            <element signature="e#29401#29875#0" expanded="true" />
+            <element signature="e#29874#29875#0" expanded="true" />
+            <element signature="method#createCenterPanel4#0;class#UserInterface#0" expanded="false" />
+            <element signature="e#34128#34748#0" expanded="true" />
+            <element signature="e#34747#34748#0" expanded="true" />
+            <element signature="method#createCenterPanel5#0;class#UserInterface#0" expanded="false" />
+            <element signature="e#39025#39566#0" expanded="true" />
+            <element signature="e#39565#39566#0" expanded="true" />
+            <element signature="method#createCenterPanel6#0;class#UserInterface#0" expanded="false" />
+            <element signature="e#43705#44249#0" expanded="true" />
+            <element signature="e#44248#44249#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -546,21 +606,30 @@
             <element signature="method#run#0;class#UserInterface#0" expanded="false" />
             <element signature="method#addDefaultComponents#0;class#UserInterface#0" expanded="false" />
             <element signature="method#createNorth#0;class#UserInterface#0" expanded="false" />
-            <element signature="e#2448#2449#0" expanded="true" />
-            <element signature="e#2513#2514#0" expanded="true" />
             <element signature="method#createSouth#0;class#UserInterface#0" expanded="false" />
-            <element signature="method#createCenter#0;class#UserInterface#0" expanded="false" />
             <element signature="method#createWest#0;class#UserInterface#0" expanded="false" />
-            <element signature="class#6229:7109" expanded="false" />
-            <element signature="class#7883:8760" expanded="false" />
-            <element signature="class#9532:10409" expanded="false" />
-            <element signature="class#11179:12056" expanded="false" />
-            <element signature="class#12827:13704" expanded="false" />
+            <element signature="class#7119:7999" expanded="false" />
+            <element signature="class#8823:9700" expanded="false" />
+            <element signature="class#10522:11399" expanded="false" />
+            <element signature="class#12219:13096" expanded="false" />
+            <element signature="class#13917:14794" expanded="false" />
+            <element signature="class#15557:16350" expanded="false" />
             <element signature="method#createCenterPanel1#0;class#UserInterface#0" expanded="false" />
-            <element signature="e#17785#18428#0" expanded="true" />
-            <element signature="e#18427#18428#0" expanded="true" />
-            <element signature="e#20031#20032#0" expanded="true" />
-            <element signature="e#20062#20063#0" expanded="true" />
+            <element signature="method#createCenterPanel2#0;class#UserInterface#0" expanded="false" />
+            <element signature="e#25297#25717#0" expanded="true" />
+            <element signature="e#25716#25717#0" expanded="true" />
+            <element signature="method#createCenterPanel3#0;class#UserInterface#0" expanded="false" />
+            <element signature="e#29401#29875#0" expanded="true" />
+            <element signature="e#29874#29875#0" expanded="true" />
+            <element signature="method#createCenterPanel4#0;class#UserInterface#0" expanded="false" />
+            <element signature="e#34128#34748#0" expanded="true" />
+            <element signature="e#34747#34748#0" expanded="true" />
+            <element signature="method#createCenterPanel5#0;class#UserInterface#0" expanded="false" />
+            <element signature="e#39025#39566#0" expanded="true" />
+            <element signature="e#39565#39566#0" expanded="true" />
+            <element signature="method#createCenterPanel6#0;class#UserInterface#0" expanded="false" />
+            <element signature="e#43705#44249#0" expanded="true" />
+            <element signature="e#44248#44249#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -585,21 +654,30 @@
             <element signature="method#run#0;class#UserInterface#0" expanded="false" />
             <element signature="method#addDefaultComponents#0;class#UserInterface#0" expanded="false" />
             <element signature="method#createNorth#0;class#UserInterface#0" expanded="false" />
-            <element signature="e#2448#2449#0" expanded="true" />
-            <element signature="e#2513#2514#0" expanded="true" />
             <element signature="method#createSouth#0;class#UserInterface#0" expanded="false" />
-            <element signature="method#createCenter#0;class#UserInterface#0" expanded="false" />
             <element signature="method#createWest#0;class#UserInterface#0" expanded="false" />
-            <element signature="class#6229:7109" expanded="false" />
-            <element signature="class#7883:8760" expanded="false" />
-            <element signature="class#9532:10409" expanded="false" />
-            <element signature="class#11179:12056" expanded="false" />
-            <element signature="class#12827:13704" expanded="false" />
+            <element signature="class#7119:7999" expanded="false" />
+            <element signature="class#8823:9700" expanded="false" />
+            <element signature="class#10522:11399" expanded="false" />
+            <element signature="class#12219:13096" expanded="false" />
+            <element signature="class#13917:14794" expanded="false" />
+            <element signature="class#15557:16350" expanded="false" />
             <element signature="method#createCenterPanel1#0;class#UserInterface#0" expanded="false" />
-            <element signature="e#17785#18428#0" expanded="true" />
-            <element signature="e#18427#18428#0" expanded="true" />
-            <element signature="e#20031#20032#0" expanded="true" />
-            <element signature="e#20062#20063#0" expanded="true" />
+            <element signature="method#createCenterPanel2#0;class#UserInterface#0" expanded="false" />
+            <element signature="e#25297#25717#0" expanded="true" />
+            <element signature="e#25716#25717#0" expanded="true" />
+            <element signature="method#createCenterPanel3#0;class#UserInterface#0" expanded="false" />
+            <element signature="e#29401#29875#0" expanded="true" />
+            <element signature="e#29874#29875#0" expanded="true" />
+            <element signature="method#createCenterPanel4#0;class#UserInterface#0" expanded="false" />
+            <element signature="e#34128#34748#0" expanded="true" />
+            <element signature="e#34747#34748#0" expanded="true" />
+            <element signature="method#createCenterPanel5#0;class#UserInterface#0" expanded="false" />
+            <element signature="e#39025#39566#0" expanded="true" />
+            <element signature="e#39565#39566#0" expanded="true" />
+            <element signature="method#createCenterPanel6#0;class#UserInterface#0" expanded="false" />
+            <element signature="e#43705#44249#0" expanded="true" />
+            <element signature="e#44248#44249#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -624,21 +702,30 @@
             <element signature="method#run#0;class#UserInterface#0" expanded="false" />
             <element signature="method#addDefaultComponents#0;class#UserInterface#0" expanded="false" />
             <element signature="method#createNorth#0;class#UserInterface#0" expanded="false" />
-            <element signature="e#2448#2449#0" expanded="true" />
-            <element signature="e#2513#2514#0" expanded="true" />
             <element signature="method#createSouth#0;class#UserInterface#0" expanded="false" />
-            <element signature="method#createCenter#0;class#UserInterface#0" expanded="false" />
             <element signature="method#createWest#0;class#UserInterface#0" expanded="false" />
-            <element signature="class#6229:7109" expanded="false" />
-            <element signature="class#7883:8760" expanded="false" />
-            <element signature="class#9532:10409" expanded="false" />
-            <element signature="class#11179:12056" expanded="false" />
-            <element signature="class#12827:13704" expanded="false" />
+            <element signature="class#7119:7999" expanded="false" />
+            <element signature="class#8823:9700" expanded="false" />
+            <element signature="class#10522:11399" expanded="false" />
+            <element signature="class#12219:13096" expanded="false" />
+            <element signature="class#13917:14794" expanded="false" />
+            <element signature="class#15557:16350" expanded="false" />
             <element signature="method#createCenterPanel1#0;class#UserInterface#0" expanded="false" />
-            <element signature="e#17785#18428#0" expanded="true" />
-            <element signature="e#18427#18428#0" expanded="true" />
-            <element signature="e#20031#20032#0" expanded="true" />
-            <element signature="e#20062#20063#0" expanded="true" />
+            <element signature="method#createCenterPanel2#0;class#UserInterface#0" expanded="false" />
+            <element signature="e#25297#25717#0" expanded="true" />
+            <element signature="e#25716#25717#0" expanded="true" />
+            <element signature="method#createCenterPanel3#0;class#UserInterface#0" expanded="false" />
+            <element signature="e#29401#29875#0" expanded="true" />
+            <element signature="e#29874#29875#0" expanded="true" />
+            <element signature="method#createCenterPanel4#0;class#UserInterface#0" expanded="false" />
+            <element signature="e#34128#34748#0" expanded="true" />
+            <element signature="e#34747#34748#0" expanded="true" />
+            <element signature="method#createCenterPanel5#0;class#UserInterface#0" expanded="false" />
+            <element signature="e#39025#39566#0" expanded="true" />
+            <element signature="e#39565#39566#0" expanded="true" />
+            <element signature="method#createCenterPanel6#0;class#UserInterface#0" expanded="false" />
+            <element signature="e#43705#44249#0" expanded="true" />
+            <element signature="e#44248#44249#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -663,21 +750,30 @@
             <element signature="method#run#0;class#UserInterface#0" expanded="false" />
             <element signature="method#addDefaultComponents#0;class#UserInterface#0" expanded="false" />
             <element signature="method#createNorth#0;class#UserInterface#0" expanded="false" />
-            <element signature="e#2448#2449#0" expanded="true" />
-            <element signature="e#2513#2514#0" expanded="true" />
             <element signature="method#createSouth#0;class#UserInterface#0" expanded="false" />
-            <element signature="method#createCenter#0;class#UserInterface#0" expanded="false" />
             <element signature="method#createWest#0;class#UserInterface#0" expanded="false" />
-            <element signature="class#6229:7109" expanded="false" />
-            <element signature="class#7883:8760" expanded="false" />
-            <element signature="class#9532:10409" expanded="false" />
-            <element signature="class#11179:12056" expanded="false" />
-            <element signature="class#12827:13704" expanded="false" />
+            <element signature="class#7119:7999" expanded="false" />
+            <element signature="class#8823:9700" expanded="false" />
+            <element signature="class#10522:11399" expanded="false" />
+            <element signature="class#12219:13096" expanded="false" />
+            <element signature="class#13917:14794" expanded="false" />
+            <element signature="class#15557:16350" expanded="false" />
             <element signature="method#createCenterPanel1#0;class#UserInterface#0" expanded="false" />
-            <element signature="e#17785#18428#0" expanded="true" />
-            <element signature="e#18427#18428#0" expanded="true" />
-            <element signature="e#20031#20032#0" expanded="true" />
-            <element signature="e#20062#20063#0" expanded="true" />
+            <element signature="method#createCenterPanel2#0;class#UserInterface#0" expanded="false" />
+            <element signature="e#25297#25717#0" expanded="true" />
+            <element signature="e#25716#25717#0" expanded="true" />
+            <element signature="method#createCenterPanel3#0;class#UserInterface#0" expanded="false" />
+            <element signature="e#29401#29875#0" expanded="true" />
+            <element signature="e#29874#29875#0" expanded="true" />
+            <element signature="method#createCenterPanel4#0;class#UserInterface#0" expanded="false" />
+            <element signature="e#34128#34748#0" expanded="true" />
+            <element signature="e#34747#34748#0" expanded="true" />
+            <element signature="method#createCenterPanel5#0;class#UserInterface#0" expanded="false" />
+            <element signature="e#39025#39566#0" expanded="true" />
+            <element signature="e#39565#39566#0" expanded="true" />
+            <element signature="method#createCenterPanel6#0;class#UserInterface#0" expanded="false" />
+            <element signature="e#43705#44249#0" expanded="true" />
+            <element signature="e#44248#44249#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -742,29 +838,21 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="44" column="9" lean-forward="false" selection-start-line="44" selection-start-column="9" selection-end-line="44" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Concept/src/sample/sample.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Netnix/Center1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="29" column="15" lean-forward="true" selection-start-line="29" selection-start-column="15" selection-end-line="29" selection-end-column="15" />
-          <folding />
-        </state>
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Netnix/Center1.java" />
     <entry file="file://$PROJECT_DIR$/Concept/src/sample/Accounts.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -778,16 +866,16 @@
         <state relative-caret-position="170">
           <caret line="10" column="32" lean-forward="true" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
           <folding>
-            <element signature="e#699#700#0" expanded="true" />
-            <element signature="e#727#728#0" expanded="true" />
+            <element signature="e#699#700#0" expanded="false" />
+            <element signature="e#727#728#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Netnix/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1122">
-          <caret line="66" column="40" lean-forward="true" selection-start-line="66" selection-start-column="40" selection-end-line="66" selection-end-column="40" />
+        <state relative-caret-position="0">
+          <caret line="66" column="40" lean-forward="false" selection-start-line="66" selection-start-column="40" selection-end-line="66" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
             <marker date="1514043824380" expanded="true" signature="1187:1212" ph="SELECT TOP 1... Boek" />
@@ -797,36 +885,71 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Netnix/Accounts.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
+        <state relative-caret-position="17">
           <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/awt/Container.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="478" column="0" lean-forward="false" selection-start-line="478" selection-start-column="0" selection-end-line="478" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/awt/Dimension.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="110" column="0" lean-forward="false" selection-start-line="110" selection-start-column="0" selection-end-line="110" selection-end-column="0" />
+          <folding>
+            <element signature="e#2604#2605#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/awt/event/MouseAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="73" column="16" lean-forward="false" selection-start-line="73" selection-start-column="16" selection-end-line="73" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Netnix/UserInterface.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="354" column="56" lean-forward="false" selection-start-line="354" selection-start-column="56" selection-end-line="354" selection-end-column="56" />
+        <state relative-caret-position="468">
+          <caret line="1087" column="0" lean-forward="true" selection-start-line="1087" selection-start-column="0" selection-end-line="1087" selection-end-column="0" />
           <folding>
             <element signature="method#UserInterface#0;class#UserInterface#0" expanded="false" />
             <element signature="method#run#0;class#UserInterface#0" expanded="false" />
             <element signature="method#addDefaultComponents#0;class#UserInterface#0" expanded="false" />
             <element signature="method#createNorth#0;class#UserInterface#0" expanded="false" />
-            <element signature="e#2448#2449#0" expanded="true" />
-            <element signature="e#2513#2514#0" expanded="true" />
             <element signature="method#createSouth#0;class#UserInterface#0" expanded="false" />
-            <element signature="method#createCenter#0;class#UserInterface#0" expanded="false" />
             <element signature="method#createWest#0;class#UserInterface#0" expanded="false" />
-            <element signature="class#6229:7109" expanded="false" />
-            <element signature="class#7883:8760" expanded="false" />
-            <element signature="class#9532:10409" expanded="false" />
-            <element signature="class#11179:12056" expanded="false" />
-            <element signature="class#12827:13704" expanded="false" />
+            <element signature="class#7119:7999" expanded="false" />
+            <element signature="class#8823:9700" expanded="false" />
+            <element signature="class#10522:11399" expanded="false" />
+            <element signature="class#12219:13096" expanded="false" />
+            <element signature="class#13917:14794" expanded="false" />
+            <element signature="class#15557:16350" expanded="false" />
             <element signature="method#createCenterPanel1#0;class#UserInterface#0" expanded="false" />
-            <element signature="e#17785#18428#0" expanded="true" />
-            <element signature="e#18427#18428#0" expanded="true" />
-            <element signature="e#20031#20032#0" expanded="true" />
-            <element signature="e#20062#20063#0" expanded="true" />
+            <element signature="method#createCenterPanel2#0;class#UserInterface#0" expanded="false" />
+            <element signature="e#25297#25717#0" expanded="true" />
+            <element signature="e#25716#25717#0" expanded="true" />
+            <element signature="method#createCenterPanel3#0;class#UserInterface#0" expanded="false" />
+            <element signature="e#29401#29875#0" expanded="true" />
+            <element signature="e#29874#29875#0" expanded="true" />
+            <element signature="method#createCenterPanel4#0;class#UserInterface#0" expanded="false" />
+            <element signature="e#34128#34748#0" expanded="true" />
+            <element signature="e#34747#34748#0" expanded="true" />
+            <element signature="method#createCenterPanel5#0;class#UserInterface#0" expanded="false" />
+            <element signature="e#39025#39566#0" expanded="true" />
+            <element signature="e#39565#39566#0" expanded="true" />
+            <element signature="method#createCenterPanel6#0;class#UserInterface#0" expanded="false" />
+            <element signature="e#43705#44249#0" expanded="true" />
+            <element signature="e#44248#44249#0" expanded="true" />
           </folding>
         </state>
       </provider>

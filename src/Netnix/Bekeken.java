@@ -1,12 +1,12 @@
 package Netnix;
 
 public class Bekeken {
-    private String abonneenummerBek;
+    private int abonneenummerBek;
     private String profielnaamBek;
-    private String gezien;
-    private String procent;
+    private int gezien;
+    private int procent;
 
-    public Bekeken(String abonneenummerBek, String profielnaamBek, String gezien, String procent) {
+    public Bekeken(int abonneenummerBek, String profielnaamBek, int gezien, int procent) {
         this.abonneenummerBek = abonneenummerBek;
         this.profielnaamBek = profielnaamBek;
         this.gezien = gezien;
@@ -14,17 +14,17 @@ public class Bekeken {
     }
 
     public Bekeken() {
-        this.abonneenummerBek = "";
+        this.abonneenummerBek = 0;
         this.profielnaamBek = "";
-        this.gezien = "";
-        this.procent = "";
+        this.gezien = 0;
+        this.procent = 0;
     }
 
-    public String getAbonneenummerBek() {
+    public int getAbonneenummerBek() {
         return abonneenummerBek;
     }
 
-    public void setAbonneenummerBek(String abonneenummerBek) {
+    public void setAbonneenummerBek(int abonneenummerBek) {
         this.abonneenummerBek = abonneenummerBek;
     }
 
@@ -36,19 +36,19 @@ public class Bekeken {
         this.profielnaamBek = profielnaamBek;
     }
 
-    public String getGezien() {
+    public int getGezien() {
         return gezien;
     }
 
-    public void setGezien(String gezien) {
+    public void setGezien(int gezien) {
         this.gezien = gezien;
     }
 
-    public String getProcent() {
+    public int getProcent() {
         return procent;
     }
 
-    public void setProcent(String procent) {
+    public void setProcent(int procent) {
         this.procent = procent;
     }
 

@@ -1,14 +1,16 @@
 package Netnix;
 
+import java.sql.Time;
+
 public class Film {
-    private String filmID;
+    private int filmID;
     private String titelFilm;
     private String leeftijdFilm;
     private String taalFilm;
-    private String tijdsduurFilm;
+    private Time tijdsduurFilm;
     private String genreFilm;
 
-    public Film(String filmID, String titelFilm, String leeftijdFilm, String taalFilm, String tijdsduurFilm, String genreFilm){
+    public Film(int filmID, String titelFilm, String leeftijdFilm, String taalFilm, Time tijdsduurFilm, String genreFilm){
         this.filmID = filmID;
         this.titelFilm = titelFilm;
         this.leeftijdFilm = leeftijdFilm;
@@ -18,19 +20,19 @@ public class Film {
     }
 
     public Film(){
-        this.filmID = "";
+        this.filmID = 0;
         this.titelFilm = "";
         this.leeftijdFilm = "";
         this.taalFilm = "";
-        this.tijdsduurFilm = "";
+        this.tijdsduurFilm = null;
         this. genreFilm = "";
     }
 
-    public String getFilmID() {
+    public int getFilmID() {
         return filmID;
     }
 
-    public void setFilmID(String filmID) {
+    public void setFilmID(int filmID) {
         this.filmID = filmID;
     }
 
@@ -58,11 +60,11 @@ public class Film {
         this.taalFilm = taalFilm;
     }
 
-    public String getTijdsduurFilm() {
+    public Time getTijdsduurFilm() {
         return tijdsduurFilm;
     }
 
-    public void setTijdsduurFilm(String tijdsduurFilm) {
+    public void setTijdsduurFilm(Time tijdsduurFilm) {
         this.tijdsduurFilm = tijdsduurFilm;
     }
 

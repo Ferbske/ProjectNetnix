@@ -1,31 +1,33 @@
 package Netnix;
 
-public class Profiel {
-    private String abonneenummerPro;
-    private String profielnaamPro;
-    private String geboortedatum;
+import java.sql.Date;
 
-    public Profiel(String abonneenummerPro, String profielnaamPro, String geboortedatum){
+public class Profiel {
+    private int abonneenummerPro;
+    private String profielnaamPro;
+    private Date geboortedatum;
+
+    public Profiel(int abonneenummerPro, String profielnaamPro, Date geboortedatum){
         this.abonneenummerPro = abonneenummerPro;
         this.profielnaamPro = profielnaamPro;
         this.geboortedatum = geboortedatum;
     }
 
     public Profiel(){
-        this.abonneenummerPro = "";
+        this.abonneenummerPro = 0;
         this.profielnaamPro = "";
-        this.geboortedatum = "";
+        this.geboortedatum = null;
     }
 
-    public String getAbonneenummerPro() { return abonneenummerPro; }
+    public int getAbonneenummerPro() { return abonneenummerPro; }
 
-    public void setAbonneenummerPro(String abonneenummerPro) { this.abonneenummerPro = abonneenummerPro; }
+    public void setAbonneenummerPro(int abonneenummerPro) { this.abonneenummerPro = abonneenummerPro; }
 
     public String getProfielnaamPro() { return profielnaamPro; }
 
     public void setProfielnaamPro(String profielnaamPro) { this.profielnaamPro = profielnaamPro; }
 
-    public String getGeboortedatum() { return geboortedatum; }
+    public Date getGeboortedatum() { return geboortedatum; }
 
-    public void setGeboortedatum(String geboortedatum) { this.geboortedatum = geboortedatum; }
+    public void setGeboortedatum(Date geboortedatum) { this.geboortedatum = geboortedatum; }
 }

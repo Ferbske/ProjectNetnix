@@ -1,13 +1,15 @@
 package Netnix;
 
+import java.sql.Time;
+
 public class Aflevering {
-    private String afleveringID;
+    private int afleveringID;
     private String serieAfl;
     private String seizoen;
     private String titelAfl;
-    private String tijdsduurAfl;
+    private Time tijdsduurAfl;
 
-    public Aflevering(String afleveringID, String serieAfl, String seizoen, String titelAfl, String tijdsduurAfl){
+    public Aflevering(int afleveringID, String serieAfl, String seizoen, String titelAfl, Time tijdsduurAfl){
         this.afleveringID = afleveringID;
         this.serieAfl = serieAfl;
         this.seizoen = seizoen;
@@ -16,18 +18,18 @@ public class Aflevering {
     }
 
     public Aflevering(){
-        this.afleveringID = "";
+        this.afleveringID = 0;
         this.serieAfl = "";
         this.seizoen = "";
         this.titelAfl = "";
-        this.tijdsduurAfl = "";
+        this.tijdsduurAfl = null;
     }
 
-    public String getAfleveringID() {
+    public int getAfleveringID() {
         return afleveringID;
     }
 
-    public void setAfleveringID(String afleveringID) {
+    public void setAfleveringID(int afleveringID) {
         this.afleveringID = afleveringID;
     }
 
@@ -55,11 +57,11 @@ public class Aflevering {
         this.titelAfl = titelAfl;
     }
 
-    public String getTijdsduurAfl() {
+    public Time getTijdsduurAfl() {
         return tijdsduurAfl;
     }
 
-    public void setTijdsduurAfl(String tijdsduurAfl) {
+    public void setTijdsduurAfl(Time tijdsduurAfl) {
         this.tijdsduurAfl = tijdsduurAfl;
     }
 

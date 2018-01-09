@@ -567,13 +567,13 @@ public class UserInterface implements Runnable {
         btnAdd2.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                rows[0] = abonneenummerProField.getText();
-                rows[1] = profielnaamProField.getText();
-                rows[2] = geboortedatumField.getText();
-                model.addRow(rows);
-                abonneenummerProField.setText("");
-                profielnaamProField.setText("");
-                geboortedatumField.setText("");
+                    rows[0] = abonneenummerProField.getText();
+                    rows[1] = profielnaamProField.getText();
+                    rows[2] = geboortedatumField.getText();
+                    model.addRow(rows);
+                    abonneenummerProField.setText("");
+                    profielnaamProField.setText("");
+                    geboortedatumField.setText("");
             }
         });
         btnDelete2.addActionListener(new ActionListener() {
@@ -664,15 +664,15 @@ public class UserInterface implements Runnable {
         btnAdd3.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                rows[0] = abonneenummerBekField.getText();
-                rows[1] = profielnaamBekField.getText();
-                rows[2] = gezienField.getText();
-                rows[3] = procentField.getText();
-                model.addRow(rows);
-                abonneenummerBekField.setText("");
-                profielnaamBekField.setText("");
-                gezienField.setText("");
-                procentField.setText("");
+                    rows[0] = abonneenummerBekField.getText();
+                    rows[1] = profielnaamBekField.getText();
+                    rows[2] = gezienField.getText();
+                    rows[3] = procentField.getText();
+                    model.addRow(rows);
+                    abonneenummerBekField.setText("");
+                    profielnaamBekField.setText("");
+                    gezienField.setText("");
+                    procentField.setText("");
             }
         });
         btnDelete3.addActionListener(new ActionListener() {
@@ -772,19 +772,19 @@ public class UserInterface implements Runnable {
         btnAdd4.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                rows[0] = filmIDField.getText();
-                rows[1] = titelFilmField.getText();
-                rows[2] = leeftijdFilmField.getText();
-                rows[3] = taalFilmField.getText();
-                rows[4] = tijdsduurFilmField.getText();
-                rows[5] = genreFilmField.getText();
-                model.addRow(rows);
-                filmIDField.setText("");
-                titelFilmField.setText("");
-                leeftijdFilmField.setText("");
-                taalFilmField.setText("");
-                tijdsduurFilmField.setText("");
-                genreFilmField.setText("");
+                    rows[0] = filmIDField.getText();
+                    rows[1] = titelFilmField.getText();
+                    rows[2] = leeftijdFilmField.getText();
+                    rows[3] = taalFilmField.getText();
+                    rows[4] = tijdsduurFilmField.getText();
+                    rows[5] = genreFilmField.getText();
+                    model.addRow(rows);
+                    filmIDField.setText("");
+                    titelFilmField.setText("");
+                    leeftijdFilmField.setText("");
+                    taalFilmField.setText("");
+                    tijdsduurFilmField.setText("");
+                    genreFilmField.setText("");
             }
         });
         btnDelete4.addActionListener(new ActionListener() {
@@ -892,17 +892,17 @@ public class UserInterface implements Runnable {
         btnAdd5.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                rows[0] = serieField.getText();
-                rows[1] = leeftijdSerieField.getText();
-                rows[2] = taalSerieField.getText();
-                rows[3] = genreSerieField.getText();
-                rows[4] = lijktOpField.getText();
-                model.addRow(rows);
-                serieField.setText("");
-                leeftijdSerieField.setText("");
-                taalSerieField.setText("");
-                genreSerieField.setText("");
-                lijktOpField.setText("");
+                    rows[0] = serieField.getText();
+                    rows[1] = leeftijdSerieField.getText();
+                    rows[2] = taalSerieField.getText();
+                    rows[3] = genreSerieField.getText();
+                    rows[4] = lijktOpField.getText();
+                    model.addRow(rows);
+                    serieField.setText("");
+                    leeftijdSerieField.setText("");
+                    taalSerieField.setText("");
+                    genreSerieField.setText("");
+                    lijktOpField.setText("");
             }
         });
         btnDelete5.addActionListener(new ActionListener() {
@@ -1005,17 +1005,17 @@ public class UserInterface implements Runnable {
         btnAdd6.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                rows[0] = afleveringIDField.getText();
-                rows[1] = serieAflField.getText();
-                rows[2] = seizoenField.getText();
-                rows[3] = titelAflField.getText();
-                rows[4] = tijdsduurAflField.getText();
-                model.addRow(rows);
-                afleveringIDField.setText("");
-                serieAflField.setText("");
-                seizoenField.setText("");
-                titelAflField.setText("");
-                tijdsduurAflField.setText("");
+                    rows[0] = afleveringIDField.getText();
+                    rows[1] = serieAflField.getText();
+                    rows[2] = seizoenField.getText();
+                    rows[3] = titelAflField.getText();
+                    rows[4] = tijdsduurAflField.getText();
+                    model.addRow(rows);
+                    afleveringIDField.setText("");
+                    serieAflField.setText("");
+                    seizoenField.setText("");
+                    titelAflField.setText("");
+                    tijdsduurAflField.setText("");
             }
         });
         btnDelete6.addActionListener(new ActionListener() {

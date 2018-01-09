@@ -1,14 +1,14 @@
 package Netnix;
 
 public class Account {
-    private String abonneenummerAcc;
+    private int abonneenummerAcc;
     private String naam;
     private String straat;
     private String postcode;
-    private String huisnummer;
+    private int huisnummer;
     private String plaats;
 
-    public Account(String abonneenummer, String naam, String straat, String postcode, String huisnummer, String plaats) {
+    public Account(int abonneenummer, String naam, String straat, String postcode, int huisnummer, String plaats) {
         this.abonneenummerAcc = abonneenummer;
         this.naam = naam;
         this.straat = straat;
@@ -18,19 +18,19 @@ public class Account {
     }
 
     public Account() {
-        this.abonneenummerAcc = "";
+        this.abonneenummerAcc = 0;
         this.naam = "";
         this.straat = "";
         this.postcode = "";
-        this.huisnummer = "";
+        this.huisnummer = 0;
         this.plaats = "";
     }
 
-    public String getAbonneenummerAcc() {
+    public int getAbonneenummerAcc() {
         return abonneenummerAcc;
     }
 
-    public void setAbonneenummerAcc(String abonneenummerAcc) {
+    public void setAbonneenummerAcc(int abonneenummerAcc) {
         this.abonneenummerAcc = abonneenummerAcc;
     }
 
@@ -58,11 +58,11 @@ public class Account {
         this.postcode = postcode;
     }
 
-    public String getHuisnummer() {
+    public int getHuisnummer() {
         return huisnummer;
     }
 
-    public void setHuisnummer(String huisnummer) {
+    public void setHuisnummer(int huisnummer) {
         this.huisnummer = huisnummer;
     }
 

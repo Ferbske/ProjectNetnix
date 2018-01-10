@@ -133,8 +133,6 @@ public class Main extends Application {
         stad.clear();
         telefoonNum.clear();
         email.clear();
-
-
     }
 
     //Delete knop

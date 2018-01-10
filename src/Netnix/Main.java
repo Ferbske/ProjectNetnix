@@ -10,7 +10,7 @@ public class Main {
     public static void main(String[] args) {
 
         // Dit zijn de instellingen voor de verbinding. Vervang de databaseName indien deze voor jou anders is.
-        String connectionUrl = "jdbc:sqlserver://localhost\\SQLEXPRESS;databasename=Bibliotheek;integratedSecurity=true;portNumber=1433;";
+        String connectionUrl = "jdbc:sqlserver://localhost\\SQLEXPRESS;databasename=TrioNetnix;integratedSecurity=true;portNumber=1433;";
 
         // Connection beheert informatie over de connectie met de database.
         Connection con = null;
@@ -22,35 +22,41 @@ public class Main {
         // We kunnen door de rows heen stappen en iedere kolom lezen.
         ResultSet rs = null;
 
+        createClasses(connectionUrl, con, stmt, rs);
+        UserInterface app = new UserInterface();
+        SwingUtilities.invokeLater(app);
+    }
+
+    private static void createClasses(String connectionUrl, Connection con, Statement stmt, ResultSet rs){
         try {
             // 'Importeer' de driver die je gedownload hebt.
-             Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
+            Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
             // Maak de verbinding met de database.
             con = DriverManager.getConnection(connectionUrl);
 
             // Stel een SQL query samen.
-            String SQL = "SELECT TOP 10 * FROM Boek";
+            String SQL = "SELECT * FROM Aflevering";
             stmt = con.createStatement();
             // Voer de query uit op de database.
             rs = stmt.executeQuery(SQL);
 
-            System.out.print(String.format("| %7s | %-32s | %-24s |\n", " ", " ", " ").replace(" ", "-"));
-
             // Als de resultset waarden bevat dan lopen we hier door deze waarden en printen ze.
             while (rs.next()) {
                 // Vraag per row de kolommen in die row op.
-                int ISBN = rs.getInt("ISBN");
-                String title = rs.getString("Titel");
-                String author = rs.getString("Auteur");
-
+                int Aflevering_ID = rs.getInt("Aflevering_ID");
+                String Serie = rs.getString("Serie");
+                String Seizoen = rs.getString("Seizoen");
+                String Titel = rs.getString("Titel");
+                String Tijdsduur = rs.getString("Tijdsduur");
+                Aflevering tempAfl = new Aflevering(Aflevering_ID, Serie, Seizoen, Titel, Tijdsduur);
                 // Print de kolomwaarden.
                 // System.out.println(ISBN + " " + title + " " + author);
 
                 // Met 'format' kun je de string die je print het juiste formaat geven, als je dat wilt.
                 // %d = decimal, %s = string, %-32s = string, links uitgelijnd, 32 characters breed.
-                System.out.format("| %7d | %-32s | %-24s | \n", ISBN, title, author);
+                System.out.format("| %7d | %-15s | %-30s | %-45s | %-60s |\n", Aflevering_ID, Serie, Seizoen, Titel, Tijdsduur);
             }
-            System.out.println(String.format("| %7s | %-32s | %-24s |\n", " ", " ", " ").replace(" ", "-"));
+
         }
 
         // Handle any errors that may have occurred.
@@ -62,8 +68,5 @@ public class Main {
             if (stmt != null) try { stmt.close(); } catch(Exception e) {}
             if (con != null) try { con.close(); } catch(Exception e) {}
         }
-
-        UserInterface app = new UserInterface();
-        SwingUtilities.invokeLater(app);
     }
 }

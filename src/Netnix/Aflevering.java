@@ -7,9 +7,9 @@ public class Aflevering {
     private String serieAfl;
     private String seizoen;
     private String titelAfl;
-    private Time tijdsduurAfl;
+    private String tijdsduurAfl;
 
-    public Aflevering(int afleveringID, String serieAfl, String seizoen, String titelAfl, Time tijdsduurAfl){
+    public Aflevering(int afleveringID, String serieAfl, String seizoen, String titelAfl, String tijdsduurAfl){
         this.afleveringID = afleveringID;
         this.serieAfl = serieAfl;
         this.seizoen = seizoen;
@@ -22,7 +22,7 @@ public class Aflevering {
         this.serieAfl = "";
         this.seizoen = "";
         this.titelAfl = "";
-        this.tijdsduurAfl = null;
+        this.tijdsduurAfl = "";
     }
 
     public int getAfleveringID() {
@@ -57,11 +57,11 @@ public class Aflevering {
         this.titelAfl = titelAfl;
     }
 
-    public Time getTijdsduurAfl() {
+    public String getTijdsduurAfl() {
         return tijdsduurAfl;
     }
 
-    public void setTijdsduurAfl(Time tijdsduurAfl) {
+    public void setTijdsduurAfl(String tijdsduurAfl) {
         this.tijdsduurAfl = tijdsduurAfl;
     }
 

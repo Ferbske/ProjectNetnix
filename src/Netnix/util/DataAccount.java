@@ -1,6 +1,6 @@
 package Netnix.util;
 
-import Netnix.Account;
+import Netnix.Classes.Account;
 
 import java.sql.Connection;
 import java.sql.DriverManager;

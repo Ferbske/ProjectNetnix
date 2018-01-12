@@ -1,6 +1,6 @@
 package Netnix.util;
 
-import Netnix.Film;
+import Netnix.Classes.Film;
 
 import java.sql.Connection;
 import java.sql.DriverManager;

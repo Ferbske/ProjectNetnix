@@ -1,4 +1,4 @@
-package Netnix;
+package Netnix.Classes;
 
 public class Bekeken {
     private int abonneenummerBek;

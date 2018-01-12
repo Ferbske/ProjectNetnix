@@ -1,4 +1,4 @@
-package Netnix;
+package Netnix.Classes;
 
 import java.sql.Time;
 

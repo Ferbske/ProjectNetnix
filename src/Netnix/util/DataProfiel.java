@@ -1,6 +1,6 @@
 package Netnix.util;
 
-import Netnix.Profiel;
+import Netnix.Classes.Profiel;
 
 import java.sql.*;
 import java.util.ArrayList;

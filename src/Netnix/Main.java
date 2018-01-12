@@ -1,5 +1,7 @@
 package Netnix;
 
+import Netnix.util.DataAflevering;
+
 import javax.swing.*;
 import java.sql.*;
 
@@ -22,51 +24,8 @@ public class Main {
         // We kunnen door de rows heen stappen en iedere kolom lezen.
         ResultSet rs = null;
 
-        createClasses(connectionUrl, con, stmt, rs);
+        DataAflevering.createAfleveringen(connectionUrl, con, stmt, rs);
         UserInterface app = new UserInterface();
         SwingUtilities.invokeLater(app);
-    }
-
-    private static void createClasses(String connectionUrl, Connection con, Statement stmt, ResultSet rs){
-        try {
-            // 'Importeer' de driver die je gedownload hebt.
-            Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
-            // Maak de verbinding met de database.
-            con = DriverManager.getConnection(connectionUrl);
-
-            // Stel een SQL query samen.
-            String SQL = "SELECT * FROM Aflevering";
-            stmt = con.createStatement();
-            // Voer de query uit op de database.
-            rs = stmt.executeQuery(SQL);
-
-            // Als de resultset waarden bevat dan lopen we hier door deze waarden en printen ze.
-            while (rs.next()) {
-                // Vraag per row de kolommen in die row op.
-                int Aflevering_ID = rs.getInt("Aflevering_ID");
-                String Serie = rs.getString("Serie");
-                String Seizoen = rs.getString("Seizoen");
-                String Titel = rs.getString("Titel");
-                String Tijdsduur = rs.getString("Tijdsduur");
-                Aflevering tempAfl = new Aflevering(Aflevering_ID, Serie, Seizoen, Titel, Tijdsduur);
-                // Print de kolomwaarden.
-                // System.out.println(ISBN + " " + title + " " + author);
-
-                // Met 'format' kun je de string die je print het juiste formaat geven, als je dat wilt.
-                // %d = decimal, %s = string, %-32s = string, links uitgelijnd, 32 characters breed.
-                System.out.format("| %7d | %-15s | %-30s | %-45s | %-60s |\n", Aflevering_ID, Serie, Seizoen, Titel, Tijdsduur);
-            }
-
-        }
-
-        // Handle any errors that may have occurred.
-        catch (Exception e) {
-            e.printStackTrace();
-        }
-        finally {
-            if (rs != null) try { rs.close(); } catch(Exception e) {}
-            if (stmt != null) try { stmt.close(); } catch(Exception e) {}
-            if (con != null) try { con.close(); } catch(Exception e) {}
-        }
     }
 }

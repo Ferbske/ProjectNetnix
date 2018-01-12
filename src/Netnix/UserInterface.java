@@ -1,11 +1,13 @@
 package Netnix;
+import Netnix.util.DataAflevering;
+import Netnix.util.DataWrite;
+
 import java.awt.*;
 import java.awt.event.*;
 import javax.swing.*;
-import javax.swing.border.Border;
-import javax.swing.border.EmptyBorder;
 import javax.swing.table.DefaultTableModel;
 import javax.swing.table.TableModel;
+import java.util.List;
 
 public class UserInterface implements Runnable {
 
@@ -29,6 +31,7 @@ public class UserInterface implements Runnable {
     private JLabel afleveringID, serieAfl, seizoen, titelAfl, tijdsduurAfl;
     private JTextField afleveringIDField, serieAflField, seizoenField, titelAflField, tijdsduurAflField;
     private TableModel model;
+    private List<Aflevering> afleveringen;
 
     public UserInterface() {
     }
@@ -416,9 +419,8 @@ public class UserInterface implements Runnable {
         table1 = new JTable();
         container.setLayout(new BorderLayout());
         Object[] columns = {"Abonneenummer", "Naam", "Straat", "Post Code", "Huisnummer", "Plaats"};
-        DefaultTableModel model = new DefaultTableModel();
+        DefaultTableModel model = new DefaultTableModel(new String[]{"Abonneenummer", "Naam", "Straat", "Post Code", "Huisnummer", "Plaats"}, 0);
         model.setColumnIdentifiers(columns);
-        table1.setModel(model);
         table1.setBackground(Color.LIGHT_GRAY);
         table1.setForeground(Color.BLACK);
         Font font = new Font("",1,22);
@@ -450,13 +452,13 @@ public class UserInterface implements Runnable {
             btnAdd1.addActionListener(new ActionListener() {
                 @Override
                 public void actionPerformed(ActionEvent e) {
-                    rows[0] = abonneenummerAccField.getText();
-                    rows[1] = naamField.getText();
-                    rows[2] = straatField.getText();
-                    rows[3] = postcodeField.getText();
-                    rows[4] = huisnummerField.getText();
-                    rows[5] = plaatsField.getText();
-                    model.addRow(rows);
+                    String a = abonneenummerAccField.getText();
+                    String b = naamField.getText();
+                    String c = straatField.getText();
+                    String d = postcodeField.getText();
+                    String f = huisnummerField.getText();
+                    String g = plaatsField.getText();
+                    model.addRow(new Object[]{a,b,c,d,f,g});
                     abonneenummerAccField.setText("");
                     naamField.setText("");
                     straatField.setText("");
@@ -484,7 +486,6 @@ public class UserInterface implements Runnable {
                     plaatsField.setText("");
                 }
             });
-
             table1.addMouseListener(new MouseAdapter() {
                 @Override
                 public void mouseClicked(MouseEvent e){
@@ -515,6 +516,8 @@ public class UserInterface implements Runnable {
                     }
                 }
             });
+        // Setting Model
+        table1.setModel(model);
         // Adding all the things
         container.add(pane);
         centerSouth1.add(abonneenummerAcc);
@@ -982,6 +985,11 @@ public class UserInterface implements Runnable {
         table6.setFont(font);
         table6.setRowHeight(30);
         Object[] rows = new Object [5];
+        afleveringen = DataAflevering.getAfleveringen();
+        for(Aflevering afl : afleveringen){
+            String[] temp = {afl.getAfleveringID()+"", afl.getSerieAfl(), afl.getSeizoen(), afl.getTitelAfl(), afl.getTijdsduurAfl()};
+            model.addRow(temp);
+        }
         // Labels
         afleveringID = new JLabel(" Aflevering ID: ");
         serieAfl = new JLabel(" Serie: ");
@@ -1005,17 +1013,18 @@ public class UserInterface implements Runnable {
         btnAdd6.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                    rows[0] = afleveringIDField.getText();
-                    rows[1] = serieAflField.getText();
-                    rows[2] = seizoenField.getText();
-                    rows[3] = titelAflField.getText();
-                    rows[4] = tijdsduurAflField.getText();
-                    model.addRow(rows);
-                    afleveringIDField.setText("");
-                    serieAflField.setText("");
-                    seizoenField.setText("");
-                    titelAflField.setText("");
-                    tijdsduurAflField.setText("");
+                rows[0] = afleveringIDField.getText();
+                rows[1] = serieAflField.getText();
+                rows[2] = seizoenField.getText();
+                rows[3] = titelAflField.getText();
+                rows[4] = tijdsduurAflField.getText();
+                model.addRow(rows);
+                DataWrite.writeAflevering(afleveringIDField.getText(), serieAflField.getText(), seizoenField.getText(), titelAflField.getText(), tijdsduurAflField.getText());
+                afleveringIDField.setText("");
+                serieAflField.setText("");
+                seizoenField.setText("");
+                titelAflField.setText("");
+                tijdsduurAflField.setText("");
             }
         });
         btnDelete6.addActionListener(new ActionListener() {

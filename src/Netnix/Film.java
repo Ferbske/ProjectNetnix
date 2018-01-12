@@ -7,10 +7,10 @@ public class Film {
     private String titelFilm;
     private String leeftijdFilm;
     private String taalFilm;
-    private Time tijdsduurFilm;
+    private String tijdsduurFilm;
     private String genreFilm;
 
-    public Film(int filmID, String titelFilm, String leeftijdFilm, String taalFilm, Time tijdsduurFilm, String genreFilm){
+    public Film(int filmID, String titelFilm, String leeftijdFilm, String taalFilm, String tijdsduurFilm, String genreFilm){
         this.filmID = filmID;
         this.titelFilm = titelFilm;
         this.leeftijdFilm = leeftijdFilm;
@@ -60,11 +60,11 @@ public class Film {
         this.taalFilm = taalFilm;
     }
 
-    public Time getTijdsduurFilm() {
+    public String getTijdsduurFilm() {
         return tijdsduurFilm;
     }
 
-    public void setTijdsduurFilm(Time tijdsduurFilm) {
+    public void setTijdsduurFilm(String tijdsduurFilm) {
         this.tijdsduurFilm = tijdsduurFilm;
     }
 

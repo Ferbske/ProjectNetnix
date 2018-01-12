@@ -1,6 +1,6 @@
 package Netnix;
 
-import Netnix.util.DataAflevering;
+import Netnix.util.*;
 
 import javax.swing.*;
 import java.sql.*;
@@ -24,7 +24,14 @@ public class Main {
         // We kunnen door de rows heen stappen en iedere kolom lezen.
         ResultSet rs = null;
 
+        // Ophalen van data voor tabellen
+        DataAccount.createAccounts(connectionUrl,con,stmt,rs);
         DataAflevering.createAfleveringen(connectionUrl, con, stmt, rs);
+        DataBekeken.createBekeken(connectionUrl,con,stmt,rs);
+        DataFilm.createFilms(connectionUrl,con,stmt,rs);
+        DataProfiel.createProfielen(connectionUrl,con,stmt,rs);
+        DataSerie.createSeries(connectionUrl,con,stmt,rs);
+
         UserInterface app = new UserInterface();
         SwingUtilities.invokeLater(app);
     }

@@ -1,6 +1,5 @@
 package Netnix;
-import Netnix.util.DataAflevering;
-import Netnix.util.DataWrite;
+import Netnix.util.*;
 
 import java.awt.*;
 import java.awt.event.*;
@@ -32,6 +31,11 @@ public class UserInterface implements Runnable {
     private JTextField afleveringIDField, serieAflField, seizoenField, titelAflField, tijdsduurAflField;
     private TableModel model;
     private List<Aflevering> afleveringen;
+    private List<Account> accounts;
+    private List<Profiel> profielen;
+    private List<Bekeken> bekeken;
+    private List<Film> films;
+    private List<Serie> series;
 
     public UserInterface() {
     }
@@ -427,6 +431,11 @@ public class UserInterface implements Runnable {
         table1.setFont(font);
         table1.setRowHeight(30);
         Object[] rows = new Object [6];
+        accounts = DataAccount.getAccounts();
+        for(Account acc : accounts){
+            String[] temp = {acc.getAbonneenummerAcc()+"", acc.getNaam(), acc.getStraat(), acc.getPostcode(), acc.getHuisnummer()+"", acc.getPlaats()};
+            model.addRow(temp);
+        }
         // Labels
             abonneenummerAcc = new JLabel(" Abonneenummer: ");
             naam = new JLabel(" Naam: ");
@@ -551,6 +560,11 @@ public class UserInterface implements Runnable {
         table2.setFont(font);
         table2.setRowHeight(30);
         Object[] rows = new Object [3];
+        profielen = DataProfiel.getProfielen();
+        for(Profiel pro : profielen){
+            String[] temp = {pro.getAbonneenummerPro()+"", pro.getProfielnaamPro(), pro.getGeboortedatum()+""};
+            model.addRow(temp);
+        }
         // Labels
         abonneenummerPro = new JLabel(" Abonneenummer: ");
         profielnaamPro = new JLabel(" Profiel naam: ");
@@ -646,6 +660,11 @@ public class UserInterface implements Runnable {
         table3.setFont(font);
         table3.setRowHeight(30);
         Object[] rows = new Object [4];
+        bekeken = DataBekeken.getBekeken();
+        for(Bekeken bek : bekeken){
+            String[] temp = {bek.getAbonneenummerBek()+"", bek.getProfielnaamBek(), bek.getGezien()+"", bek.getProcent()+""};
+            model.addRow(temp);
+        }
         // Labels
         abonneenummerBek = new JLabel(" Abonneenummer: ");
         profielnaamBek = new JLabel(" Profiel: ");
@@ -750,6 +769,11 @@ public class UserInterface implements Runnable {
         table4.setFont(font);
         table4.setRowHeight(30);
         Object[] rows = new Object [6];
+        films = DataFilm.getFilms();
+        for(Film fil : films){
+            String[] temp = {fil.getFilmID()+"", fil.getTitelFilm(), fil.getLeeftijdFilm(), fil.getTaalFilm(), fil.getTijdsduurFilm()+"", fil.getGenreFilm()};
+            model.addRow(temp);
+        }
         // Labels
         filmID = new JLabel(" Film ID: ");
         titelFilm = new JLabel(" Titel: ");
@@ -872,6 +896,11 @@ public class UserInterface implements Runnable {
         table5.setFont(font);
         table5.setRowHeight(30);
         Object[] rows = new Object [5];
+        series = DataSerie.getSeries();
+        for(Serie ser : series){
+            String[] temp = {ser.getSerie(), ser.getLeeftijdSerie(), ser.getTaalSerie(), ser.getGenreSerie(), ser.getLijktOp()};
+            model.addRow(temp);
+        }
         // Labels
         serie = new JLabel(" Serie: ");
         leeftijdSerie = new JLabel(" Leeftijd: ");

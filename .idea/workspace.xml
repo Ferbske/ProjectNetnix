@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="aa6c38b0-fcf6-4637-91c2-6390a35816cb" name="Default" comment="" />
+    <list default="true" id="aa6c38b0-fcf6-4637-91c2-6390a35816cb" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Netnix/Film.java" afterPath="$PROJECT_DIR$/src/Netnix/Film.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Netnix/Main.java" afterPath="$PROJECT_DIR$/src/Netnix/Main.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Netnix/UserInterface.java" afterPath="$PROJECT_DIR$/src/Netnix/UserInterface.java" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -10,43 +15,115 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DockManager">
+    <window id="1">
+      <content type="file-editors">
+        <state>
+          <leaf>
+            <file leaf-file-name="Aflevering.java" pinned="false" current-in-tab="false">
+              <entry file="file://$PROJECT_DIR$/src/Netnix/Aflevering.java">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state relative-caret-position="34">
+                    <caret line="2" column="21" lean-forward="false" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+                    <folding />
+                  </state>
+                </provider>
+              </entry>
+            </file>
+            <file leaf-file-name="Account.java" pinned="false" current-in-tab="false">
+              <entry file="file://$PROJECT_DIR$/src/Netnix/Account.java">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state relative-caret-position="782">
+                    <caret line="62" column="5" lean-forward="false" selection-start-line="62" selection-start-column="5" selection-end-line="62" selection-end-column="5" />
+                    <folding>
+                      <element signature="e#1390#1391#0" expanded="true" />
+                      <element signature="e#1423#1424#0" expanded="true" />
+                    </folding>
+                  </state>
+                </provider>
+              </entry>
+            </file>
+            <file leaf-file-name="Serie.java" pinned="false" current-in-tab="false">
+              <entry file="file://$PROJECT_DIR$/src/Netnix/Serie.java">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state relative-caret-position="493">
+                    <caret line="33" column="34" lean-forward="false" selection-start-line="33" selection-start-column="18" selection-end-line="33" selection-end-column="34" />
+                    <folding>
+                      <element signature="e#1404#1405#0" expanded="true" />
+                      <element signature="e#1442#1443#0" expanded="true" />
+                    </folding>
+                  </state>
+                </provider>
+              </entry>
+            </file>
+            <file leaf-file-name="Profiel.java" pinned="false" current-in-tab="false">
+              <entry file="file://$PROJECT_DIR$/src/Netnix/Profiel.java">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state relative-caret-position="17">
+                    <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+                    <folding />
+                  </state>
+                </provider>
+              </entry>
+            </file>
+            <file leaf-file-name="Bekeken.java" pinned="false" current-in-tab="false">
+              <entry file="file://$PROJECT_DIR$/src/Netnix/Bekeken.java">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state relative-caret-position="646">
+                    <caret line="52" column="5" lean-forward="false" selection-start-line="52" selection-start-column="5" selection-end-line="52" selection-end-column="5" />
+                    <folding>
+                      <element signature="e#1188#1189#0" expanded="true" />
+                      <element signature="e#1226#1227#0" expanded="true" />
+                    </folding>
+                  </state>
+                </provider>
+              </entry>
+            </file>
+            <file leaf-file-name="Film.java" pinned="false" current-in-tab="true">
+              <entry file="file://$PROJECT_DIR$/src/Netnix/Film.java">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state relative-caret-position="527">
+                    <caret line="33" column="0" lean-forward="true" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+                    <folding>
+                      <element signature="e#1464#1465#0" expanded="true" />
+                      <element signature="e#1500#1501#0" expanded="true" />
+                    </folding>
+                  </state>
+                </provider>
+              </entry>
+            </file>
+          </leaf>
+        </state>
+      </content>
+    </window>
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Netnix/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="714">
-              <caret line="43" column="29" lean-forward="false" selection-start-line="43" selection-start-column="23" selection-end-line="43" selection-end-column="29" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <marker date="1514043824380" expanded="true" signature="1187:1212" ph="SELECT TOP 1... Boek" />
-              </folding>
+            <state relative-caret-position="493">
+              <caret line="32" column="56" lean-forward="false" selection-start-line="32" selection-start-column="56" selection-end-line="32" selection-end-column="56" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserInterface.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="UserInterface.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Netnix/UserInterface.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="663">
-              <caret line="970" column="56" lean-forward="false" selection-start-line="970" selection-start-column="56" selection-end-line="970" selection-end-column="56" />
+            <state relative-caret-position="508">
+              <caret line="771" column="20" lean-forward="true" selection-start-line="771" selection-start-column="20" selection-end-line="771" selection-end-column="20" />
               <folding>
-                <element signature="method#UserInterface#0;class#UserInterface#0" expanded="false" />
                 <element signature="method#run#0;class#UserInterface#0" expanded="false" />
                 <element signature="method#addDefaultComponents#0;class#UserInterface#0" expanded="false" />
                 <element signature="method#createNorth#0;class#UserInterface#0" expanded="false" />
                 <element signature="method#createSouth#0;class#UserInterface#0" expanded="false" />
                 <element signature="method#createCenter#0;class#UserInterface#0" expanded="false" />
                 <element signature="method#createWest#0;class#UserInterface#0" expanded="false" />
-                <element signature="class#8823:9700" expanded="false" />
-                <element signature="class#10522:11399" expanded="false" />
-                <element signature="class#12219:13096" expanded="false" />
-                <element signature="class#13917:14794" expanded="false" />
-                <element signature="class#15557:16350" expanded="false" />
                 <element signature="method#createCenterPanel1#0;class#UserInterface#0" expanded="false" />
                 <element signature="method#createCenterPanel2#0;class#UserInterface#0" expanded="false" />
                 <element signature="method#createCenterPanel3#0;class#UserInterface#0" expanded="false" />
-                <element signature="method#createCenterPanel4#0;class#UserInterface#0" expanded="false" />
                 <element signature="method#createCenterPanel5#0;class#UserInterface#0" expanded="false" />
                 <element signature="method#createCenterPanel6#0;class#UserInterface#0" expanded="false" />
               </folding>
@@ -54,71 +131,91 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Account.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Netnix/Account.java">
+      <file leaf-file-name="DataFilm.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Netnix/util/DataFilm.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="748">
-              <caret line="62" column="5" lean-forward="false" selection-start-line="62" selection-start-column="5" selection-end-line="62" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Profiel.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Netnix/Profiel.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Bekeken.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Netnix/Bekeken.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="612">
-              <caret line="52" column="5" lean-forward="false" selection-start-line="52" selection-start-column="5" selection-end-line="52" selection-end-column="5" />
+            <state relative-caret-position="493">
+              <caret line="29" column="42" lean-forward="false" selection-start-line="29" selection-start-column="42" selection-end-line="29" selection-end-column="42" />
               <folding>
-                <element signature="e#1188#1189#0" expanded="true" />
-                <element signature="e#1226#1227#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <marker date="1515765474381" expanded="true" signature="725:744" ph="SELECT * FRO... Films" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Film.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Netnix/Film.java">
+      <file leaf-file-name="DataWrite.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Netnix/util/DataWrite.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="782">
-              <caret line="63" column="10" lean-forward="false" selection-start-line="63" selection-start-column="10" selection-end-line="63" selection-end-column="10" />
+            <state relative-caret-position="68">
+              <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
               <folding>
-                <element signature="e#1718#1719#0" expanded="true" />
-                <element signature="e#1760#1761#0" expanded="true" />
+                <marker date="1515762774109" expanded="true" signature="300:441" ph="INSERT INTO Afleveringen... " />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Serie.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Netnix/Serie.java">
+      <file leaf-file-name="DataAflevering.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Netnix/util/DataAflevering.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="731">
-              <caret line="61" column="26" lean-forward="false" selection-start-line="61" selection-start-column="26" selection-end-line="61" selection-end-column="26" />
+            <state relative-caret-position="202">
+              <caret line="12" column="4" lean-forward="false" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="69" />
               <folding>
-                <element signature="e#1404#1405#0" expanded="true" />
-                <element signature="e#1442#1443#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <marker date="1515762774094" expanded="true" signature="757:781" ph="SELECT * FRO... Aflevering" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Aflevering.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Netnix/Aflevering.java">
+      <file leaf-file-name="DataAccount.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Netnix/util/DataAccount.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="21" lean-forward="false" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
-              <folding />
+            <state relative-caret-position="918">
+              <caret line="58" column="5" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="59" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <marker date="1515765474222" expanded="true" signature="740:762" ph="SELECT * FRO... Accounts" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DataSerie.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Netnix/util/DataSerie.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="9" selection-end-column="22" />
+              <folding>
+                <marker date="1515765474184" expanded="true" signature="730:750" ph="SELECT * FRO... Series" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DataProfiel.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Netnix/util/DataProfiel.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="19" lean-forward="false" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <marker date="1515765474135" expanded="true" signature="648:669" ph="SELECT * FRO... Profiel" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DataBekeken.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Netnix/util/DataBekeken.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="595">
+              <caret line="35" column="44" lean-forward="true" selection-start-line="35" selection-start-column="44" selection-end-line="35" selection-end-column="44" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <marker date="1515765474291" expanded="true" signature="742:763" ph="SELECT * FRO... Bekeken" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -156,7 +253,6 @@
         <option value="$PROJECT_DIR$/src/Netnix/ActionListener.java" />
         <option value="$PROJECT_DIR$/src/Netnix/StartupPage.form" />
         <option value="$PROJECT_DIR$/src/Netnix/StartupPage.java" />
-        <option value="$PROJECT_DIR$/src/Netnix/Main.java" />
         <option value="$PROJECT_DIR$/src/Netnix/pnlCenter1.java" />
         <option value="$PROJECT_DIR$/src/Netnix/Center1.java" />
         <option value="$PROJECT_DIR$/Concept/src/sample/Main.java" />
@@ -166,9 +262,16 @@
         <option value="$PROJECT_DIR$/src/Netnix/Account.java" />
         <option value="$PROJECT_DIR$/src/Netnix/Bekeken.java" />
         <option value="$PROJECT_DIR$/src/Netnix/Profiel.java" />
-        <option value="$PROJECT_DIR$/src/Netnix/Film.java" />
         <option value="$PROJECT_DIR$/src/Netnix/Aflevering.java" />
+        <option value="$PROJECT_DIR$/src/Netnix/util/DataAccount.java" />
+        <option value="$PROJECT_DIR$/src/Netnix/util/DataSerie.java" />
+        <option value="$PROJECT_DIR$/src/Netnix/util/DataProfiel.java" />
+        <option value="$PROJECT_DIR$/src/Netnix/util/DateBekeken.java" />
+        <option value="$PROJECT_DIR$/src/Netnix/util/DataBekeken.java" />
+        <option value="$PROJECT_DIR$/src/Netnix/Film.java" />
         <option value="$PROJECT_DIR$/src/Netnix/UserInterface.java" />
+        <option value="$PROJECT_DIR$/src/Netnix/util/DataFilm.java" />
+        <option value="$PROJECT_DIR$/src/Netnix/Main.java" />
       </list>
     </option>
   </component>
@@ -201,9 +304,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -240,11 +340,21 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Netnix" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="ProjectNetnix" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ProjectNetnix" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Netnix" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -408,14 +518,16 @@
       <workItem from="1515327633745" duration="8658000" />
       <workItem from="1515504014853" duration="7218000" />
       <workItem from="1515676637702" duration="9000" />
+      <workItem from="1515762895809" duration="2711000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64792000" />
+    <option name="totallyTimeSpent" value="67503000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -430,7 +542,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32976446" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.122395836" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.122395836" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TMC Project List" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32985386" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -461,105 +573,12 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Netnix/UserInterface.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6018">
-          <caret line="354" column="56" lean-forward="false" selection-start-line="354" selection-start-column="56" selection-end-line="354" selection-end-column="56" />
-          <folding>
-            <element signature="method#UserInterface#0;class#UserInterface#0" expanded="false" />
-            <element signature="method#run#0;class#UserInterface#0" expanded="false" />
-            <element signature="method#addDefaultComponents#0;class#UserInterface#0" expanded="false" />
-            <element signature="method#createNorth#0;class#UserInterface#0" expanded="false" />
-            <element signature="method#createSouth#0;class#UserInterface#0" expanded="false" />
-            <element signature="method#createCenter#0;class#UserInterface#0" expanded="false" />
-            <element signature="method#createWest#0;class#UserInterface#0" expanded="false" />
-            <element signature="class#8823:9700" expanded="false" />
-            <element signature="class#10522:11399" expanded="false" />
-            <element signature="class#12219:13096" expanded="false" />
-            <element signature="class#13917:14794" expanded="false" />
-            <element signature="class#15557:16350" expanded="false" />
-            <element signature="method#createCenterPanel1#0;class#UserInterface#0" expanded="false" />
-            <element signature="method#createCenterPanel2#0;class#UserInterface#0" expanded="false" />
-            <element signature="method#createCenterPanel3#0;class#UserInterface#0" expanded="false" />
-            <element signature="method#createCenterPanel4#0;class#UserInterface#0" expanded="false" />
-            <element signature="method#createCenterPanel5#0;class#UserInterface#0" expanded="false" />
-            <element signature="method#createCenterPanel6#0;class#UserInterface#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Netnix/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1105">
-          <caret line="66" column="40" lean-forward="false" selection-start-line="66" selection-start-column="40" selection-end-line="66" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1514043824380" expanded="true" signature="1187:1212" ph="SELECT TOP 1... Boek" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Netnix/UserInterface.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1632">
-          <caret line="96" column="101" lean-forward="false" selection-start-line="96" selection-start-column="101" selection-end-line="96" selection-end-column="101" />
-          <folding>
-            <element signature="method#UserInterface#0;class#UserInterface#0" expanded="false" />
-            <element signature="method#run#0;class#UserInterface#0" expanded="false" />
-            <element signature="method#addDefaultComponents#0;class#UserInterface#0" expanded="false" />
-            <element signature="method#createNorth#0;class#UserInterface#0" expanded="false" />
-            <element signature="method#createSouth#0;class#UserInterface#0" expanded="false" />
-            <element signature="method#createCenter#0;class#UserInterface#0" expanded="false" />
-            <element signature="method#createWest#0;class#UserInterface#0" expanded="false" />
-            <element signature="class#8823:9700" expanded="false" />
-            <element signature="class#10522:11399" expanded="false" />
-            <element signature="class#12219:13096" expanded="false" />
-            <element signature="class#13917:14794" expanded="false" />
-            <element signature="class#15557:16350" expanded="false" />
-            <element signature="method#createCenterPanel1#0;class#UserInterface#0" expanded="false" />
-            <element signature="method#createCenterPanel2#0;class#UserInterface#0" expanded="false" />
-            <element signature="method#createCenterPanel3#0;class#UserInterface#0" expanded="false" />
-            <element signature="method#createCenterPanel4#0;class#UserInterface#0" expanded="false" />
-            <element signature="method#createCenterPanel5#0;class#UserInterface#0" expanded="false" />
-            <element signature="method#createCenterPanel6#0;class#UserInterface#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Netnix/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="952">
-          <caret line="57" column="32" lean-forward="false" selection-start-line="57" selection-start-column="32" selection-end-line="57" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1514043824380" expanded="true" signature="1187:1212" ph="SELECT TOP 1... Boek" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Netnix/StartupPage.form" />
-    <entry file="file://$PROJECT_DIR$/src/Netnix/StartupPage.java" />
-    <entry file="file://$PROJECT_DIR$/src/Netnix/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="952">
-          <caret line="57" column="32" lean-forward="false" selection-start-line="57" selection-start-column="32" selection-end-line="57" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1514043824380" expanded="true" signature="1187:1212" ph="SELECT TOP 1... Boek" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Netnix/StartupPage.form" />
     <entry file="file://$PROJECT_DIR$/src/Netnix/StartupPage.java" />
     <entry file="file://$PROJECT_DIR$/src/Netnix/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1105">
           <caret line="66" column="10" lean-forward="false" selection-start-line="66" selection-start-column="10" selection-end-line="66" selection-end-column="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1514043824380" expanded="true" signature="1187:1212" ph="SELECT TOP 1... Boek" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -569,22 +588,15 @@
         <state relative-caret-position="935">
           <caret line="60" column="12" lean-forward="false" selection-start-line="60" selection-start-column="12" selection-end-line="60" selection-end-column="48" />
           <folding>
-            <element signature="method#UserInterface#0;class#UserInterface#0" expanded="false" />
             <element signature="method#run#0;class#UserInterface#0" expanded="false" />
             <element signature="method#addDefaultComponents#0;class#UserInterface#0" expanded="false" />
             <element signature="method#createNorth#0;class#UserInterface#0" expanded="false" />
             <element signature="method#createSouth#0;class#UserInterface#0" expanded="false" />
             <element signature="method#createCenter#0;class#UserInterface#0" expanded="false" />
             <element signature="method#createWest#0;class#UserInterface#0" expanded="false" />
-            <element signature="class#8823:9700" expanded="false" />
-            <element signature="class#10522:11399" expanded="false" />
-            <element signature="class#12219:13096" expanded="false" />
-            <element signature="class#13917:14794" expanded="false" />
-            <element signature="class#15557:16350" expanded="false" />
             <element signature="method#createCenterPanel1#0;class#UserInterface#0" expanded="false" />
             <element signature="method#createCenterPanel2#0;class#UserInterface#0" expanded="false" />
             <element signature="method#createCenterPanel3#0;class#UserInterface#0" expanded="false" />
-            <element signature="method#createCenterPanel4#0;class#UserInterface#0" expanded="false" />
             <element signature="method#createCenterPanel5#0;class#UserInterface#0" expanded="false" />
             <element signature="method#createCenterPanel6#0;class#UserInterface#0" expanded="false" />
           </folding>
@@ -596,10 +608,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1105">
           <caret line="65" column="34" lean-forward="false" selection-start-line="65" selection-start-column="34" selection-end-line="65" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1514043824380" expanded="true" signature="1187:1212" ph="SELECT TOP 1... Boek" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -608,22 +617,15 @@
         <state relative-caret-position="544">
           <caret line="35" column="12" lean-forward="false" selection-start-line="35" selection-start-column="12" selection-end-line="35" selection-end-column="12" />
           <folding>
-            <element signature="method#UserInterface#0;class#UserInterface#0" expanded="false" />
             <element signature="method#run#0;class#UserInterface#0" expanded="false" />
             <element signature="method#addDefaultComponents#0;class#UserInterface#0" expanded="false" />
             <element signature="method#createNorth#0;class#UserInterface#0" expanded="false" />
             <element signature="method#createSouth#0;class#UserInterface#0" expanded="false" />
             <element signature="method#createCenter#0;class#UserInterface#0" expanded="false" />
             <element signature="method#createWest#0;class#UserInterface#0" expanded="false" />
-            <element signature="class#8823:9700" expanded="false" />
-            <element signature="class#10522:11399" expanded="false" />
-            <element signature="class#12219:13096" expanded="false" />
-            <element signature="class#13917:14794" expanded="false" />
-            <element signature="class#15557:16350" expanded="false" />
             <element signature="method#createCenterPanel1#0;class#UserInterface#0" expanded="false" />
             <element signature="method#createCenterPanel2#0;class#UserInterface#0" expanded="false" />
             <element signature="method#createCenterPanel3#0;class#UserInterface#0" expanded="false" />
-            <element signature="method#createCenterPanel4#0;class#UserInterface#0" expanded="false" />
             <element signature="method#createCenterPanel5#0;class#UserInterface#0" expanded="false" />
             <element signature="method#createCenterPanel6#0;class#UserInterface#0" expanded="false" />
           </folding>
@@ -634,10 +636,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1105">
           <caret line="65" column="34" lean-forward="false" selection-start-line="65" selection-start-column="34" selection-end-line="65" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1514043824380" expanded="true" signature="1187:1212" ph="SELECT TOP 1... Boek" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -646,22 +645,15 @@
         <state relative-caret-position="527">
           <caret line="34" column="34" lean-forward="true" selection-start-line="34" selection-start-column="34" selection-end-line="34" selection-end-column="34" />
           <folding>
-            <element signature="method#UserInterface#0;class#UserInterface#0" expanded="false" />
             <element signature="method#run#0;class#UserInterface#0" expanded="false" />
             <element signature="method#addDefaultComponents#0;class#UserInterface#0" expanded="false" />
             <element signature="method#createNorth#0;class#UserInterface#0" expanded="false" />
             <element signature="method#createSouth#0;class#UserInterface#0" expanded="false" />
             <element signature="method#createCenter#0;class#UserInterface#0" expanded="false" />
             <element signature="method#createWest#0;class#UserInterface#0" expanded="false" />
-            <element signature="class#8823:9700" expanded="false" />
-            <element signature="class#10522:11399" expanded="false" />
-            <element signature="class#12219:13096" expanded="false" />
-            <element signature="class#13917:14794" expanded="false" />
-            <element signature="class#15557:16350" expanded="false" />
             <element signature="method#createCenterPanel1#0;class#UserInterface#0" expanded="false" />
             <element signature="method#createCenterPanel2#0;class#UserInterface#0" expanded="false" />
             <element signature="method#createCenterPanel3#0;class#UserInterface#0" expanded="false" />
-            <element signature="method#createCenterPanel4#0;class#UserInterface#0" expanded="false" />
             <element signature="method#createCenterPanel5#0;class#UserInterface#0" expanded="false" />
             <element signature="method#createCenterPanel6#0;class#UserInterface#0" expanded="false" />
           </folding>
@@ -672,10 +664,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1514043824380" expanded="true" signature="1187:1212" ph="SELECT TOP 1... Boek" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -684,22 +673,15 @@
         <state relative-caret-position="17">
           <caret line="1" column="18" lean-forward="true" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
           <folding>
-            <element signature="method#UserInterface#0;class#UserInterface#0" expanded="false" />
             <element signature="method#run#0;class#UserInterface#0" expanded="false" />
             <element signature="method#addDefaultComponents#0;class#UserInterface#0" expanded="false" />
             <element signature="method#createNorth#0;class#UserInterface#0" expanded="false" />
             <element signature="method#createSouth#0;class#UserInterface#0" expanded="false" />
             <element signature="method#createCenter#0;class#UserInterface#0" expanded="false" />
             <element signature="method#createWest#0;class#UserInterface#0" expanded="false" />
-            <element signature="class#8823:9700" expanded="false" />
-            <element signature="class#10522:11399" expanded="false" />
-            <element signature="class#12219:13096" expanded="false" />
-            <element signature="class#13917:14794" expanded="false" />
-            <element signature="class#15557:16350" expanded="false" />
             <element signature="method#createCenterPanel1#0;class#UserInterface#0" expanded="false" />
             <element signature="method#createCenterPanel2#0;class#UserInterface#0" expanded="false" />
             <element signature="method#createCenterPanel3#0;class#UserInterface#0" expanded="false" />
-            <element signature="method#createCenterPanel4#0;class#UserInterface#0" expanded="false" />
             <element signature="method#createCenterPanel5#0;class#UserInterface#0" expanded="false" />
             <element signature="method#createCenterPanel6#0;class#UserInterface#0" expanded="false" />
           </folding>
@@ -710,10 +692,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1088">
           <caret line="65" column="34" lean-forward="false" selection-start-line="65" selection-start-column="34" selection-end-line="65" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1514043824380" expanded="true" signature="1187:1212" ph="SELECT TOP 1... Boek" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -722,22 +701,15 @@
         <state relative-caret-position="901">
           <caret line="57" column="30" lean-forward="true" selection-start-line="57" selection-start-column="30" selection-end-line="57" selection-end-column="30" />
           <folding>
-            <element signature="method#UserInterface#0;class#UserInterface#0" expanded="false" />
             <element signature="method#run#0;class#UserInterface#0" expanded="false" />
             <element signature="method#addDefaultComponents#0;class#UserInterface#0" expanded="false" />
             <element signature="method#createNorth#0;class#UserInterface#0" expanded="false" />
             <element signature="method#createSouth#0;class#UserInterface#0" expanded="false" />
             <element signature="method#createCenter#0;class#UserInterface#0" expanded="false" />
             <element signature="method#createWest#0;class#UserInterface#0" expanded="false" />
-            <element signature="class#8823:9700" expanded="false" />
-            <element signature="class#10522:11399" expanded="false" />
-            <element signature="class#12219:13096" expanded="false" />
-            <element signature="class#13917:14794" expanded="false" />
-            <element signature="class#15557:16350" expanded="false" />
             <element signature="method#createCenterPanel1#0;class#UserInterface#0" expanded="false" />
             <element signature="method#createCenterPanel2#0;class#UserInterface#0" expanded="false" />
             <element signature="method#createCenterPanel3#0;class#UserInterface#0" expanded="false" />
-            <element signature="method#createCenterPanel4#0;class#UserInterface#0" expanded="false" />
             <element signature="method#createCenterPanel5#0;class#UserInterface#0" expanded="false" />
             <element signature="method#createCenterPanel6#0;class#UserInterface#0" expanded="false" />
           </folding>
@@ -748,10 +720,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1514043824380" expanded="true" signature="1187:1212" ph="SELECT TOP 1... Boek" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -759,10 +728,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1514043824380" expanded="true" signature="1187:1212" ph="SELECT TOP 1... Boek" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -795,7 +761,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -813,7 +778,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -822,7 +786,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -830,10 +793,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="32" lean-forward="true" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
-          <folding>
-            <element signature="e#699#700#0" expanded="false" />
-            <element signature="e#727#728#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -864,22 +823,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Netnix/Accounts.java" />
     <entry file="file://$PROJECT_DIR$/src/Netnix/Profielen.java" />
-    <entry file="file://$PROJECT_DIR$/src/Netnix/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/Netnix/Account.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="43" column="29" lean-forward="false" selection-start-line="43" selection-start-column="23" selection-end-line="43" selection-end-column="29" />
+        <state relative-caret-position="782">
+          <caret line="62" column="5" lean-forward="false" selection-start-line="62" selection-start-column="5" selection-end-line="62" selection-end-column="5" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1514043824380" expanded="true" signature="1187:1212" ph="SELECT TOP 1... Boek" />
+            <element signature="e#1390#1391#0" expanded="true" />
+            <element signature="e#1423#1424#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Netnix/Account.java">
+    <entry file="file://$PROJECT_DIR$/src/Netnix/util/DataWrite.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="748">
-          <caret line="62" column="5" lean-forward="false" selection-start-line="62" selection-start-column="5" selection-end-line="62" selection-end-column="5" />
-          <folding />
+        <state relative-caret-position="68">
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <marker date="1515762774109" expanded="true" signature="300:441" ph="INSERT INTO Afleveringen... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Netnix/Serie.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="33" column="34" lean-forward="false" selection-start-line="33" selection-start-column="18" selection-end-line="33" selection-end-column="34" />
+          <folding>
+            <element signature="e#1404#1405#0" expanded="true" />
+            <element signature="e#1442#1443#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -893,7 +865,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Netnix/Bekeken.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
+        <state relative-caret-position="646">
           <caret line="52" column="5" lean-forward="false" selection-start-line="52" selection-start-column="5" selection-end-line="52" selection-end-column="5" />
           <folding>
             <element signature="e#1188#1189#0" expanded="true" />
@@ -902,24 +874,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Netnix/Film.java">
+    <entry file="file://$PROJECT_DIR$/src/Netnix/util/DataAccount.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="782">
-          <caret line="63" column="10" lean-forward="false" selection-start-line="63" selection-start-column="10" selection-end-line="63" selection-end-column="10" />
+        <state relative-caret-position="918">
+          <caret line="58" column="5" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="59" selection-end-column="1" />
           <folding>
-            <element signature="e#1718#1719#0" expanded="true" />
-            <element signature="e#1760#1761#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <marker date="1515765474222" expanded="true" signature="740:762" ph="SELECT * FRO... Accounts" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Netnix/Serie.java">
+    <entry file="file://$PROJECT_DIR$/src/Netnix/util/DateBekeken.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="731">
-          <caret line="61" column="26" lean-forward="false" selection-start-line="61" selection-start-column="26" selection-end-line="61" selection-end-column="26" />
+        <state relative-caret-position="442">
+          <caret line="26" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="57" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Netnix/util/DataSerie.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="9" selection-end-column="22" />
           <folding>
-            <element signature="e#1404#1405#0" expanded="true" />
-            <element signature="e#1442#1443#0" expanded="true" />
+            <marker date="1515765474184" expanded="true" signature="730:750" ph="SELECT * FRO... Series" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Netnix/util/DataAflevering.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="12" column="4" lean-forward="false" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="69" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1515762774094" expanded="true" signature="757:781" ph="SELECT * FRO... Aflevering" />
           </folding>
         </state>
       </provider>
@@ -932,30 +922,75 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Netnix/util/DataBekeken.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="35" column="44" lean-forward="true" selection-start-line="35" selection-start-column="44" selection-end-line="35" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1515765474291" expanded="true" signature="742:763" ph="SELECT * FRO... Bekeken" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Netnix/util/DataFilm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" column="42" lean-forward="false" selection-start-line="29" selection-start-column="42" selection-end-line="29" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1515765474381" expanded="true" signature="725:744" ph="SELECT * FRO... Films" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Netnix/Film.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="33" column="0" lean-forward="true" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+          <folding>
+            <element signature="e#1464#1465#0" expanded="true" />
+            <element signature="e#1500#1501#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Netnix/UserInterface.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="970" column="56" lean-forward="false" selection-start-line="970" selection-start-column="56" selection-end-line="970" selection-end-column="56" />
+        <state relative-caret-position="508">
+          <caret line="771" column="20" lean-forward="true" selection-start-line="771" selection-start-column="20" selection-end-line="771" selection-end-column="20" />
           <folding>
-            <element signature="method#UserInterface#0;class#UserInterface#0" expanded="false" />
             <element signature="method#run#0;class#UserInterface#0" expanded="false" />
             <element signature="method#addDefaultComponents#0;class#UserInterface#0" expanded="false" />
             <element signature="method#createNorth#0;class#UserInterface#0" expanded="false" />
             <element signature="method#createSouth#0;class#UserInterface#0" expanded="false" />
             <element signature="method#createCenter#0;class#UserInterface#0" expanded="false" />
             <element signature="method#createWest#0;class#UserInterface#0" expanded="false" />
-            <element signature="class#8823:9700" expanded="false" />
-            <element signature="class#10522:11399" expanded="false" />
-            <element signature="class#12219:13096" expanded="false" />
-            <element signature="class#13917:14794" expanded="false" />
-            <element signature="class#15557:16350" expanded="false" />
             <element signature="method#createCenterPanel1#0;class#UserInterface#0" expanded="false" />
             <element signature="method#createCenterPanel2#0;class#UserInterface#0" expanded="false" />
             <element signature="method#createCenterPanel3#0;class#UserInterface#0" expanded="false" />
-            <element signature="method#createCenterPanel4#0;class#UserInterface#0" expanded="false" />
             <element signature="method#createCenterPanel5#0;class#UserInterface#0" expanded="false" />
             <element signature="method#createCenterPanel6#0;class#UserInterface#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Netnix/util/DataProfiel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="19" lean-forward="false" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1515765474135" expanded="true" signature="648:669" ph="SELECT * FRO... Profiel" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Netnix/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="32" column="56" lean-forward="false" selection-start-line="32" selection-start-column="56" selection-end-line="32" selection-end-column="56" />
+          <folding />
         </state>
       </provider>
     </entry>

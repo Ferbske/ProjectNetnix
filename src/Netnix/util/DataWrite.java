@@ -6,10 +6,14 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.ResultSet;
 import java.sql.Statement;
-
+/*
+This Class is made for writing new Entities in the Database
+*/
 public class DataWrite {
     public static void writeAccount(String a, String b, String c, String d, String f){
+        //Query that needs to be executed:
         String SQL = "INSERT INTO Afleveringen (Aflevering_ID, Serie, Seizoen, Titel, Tijdsduur) VALUES (" + a + ",'" + b + "','" + c + "','" + d + "','" + f + "');";
+        //Nessesary information for the connection with the Database
         String connectionUrl = "jdbc:sqlserver://localhost\\SQLEXPRESS;databasename=TrioNetnix;integratedSecurity=true;portNumber=1433;";
         Connection con = null;
         Statement stmt = null;

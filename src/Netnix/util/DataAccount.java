@@ -9,6 +9,10 @@ import java.sql.Statement;
 import java.util.ArrayList;
 import java.util.List;
 
+/*
+This class is made for creating a List with all the Accounts so it can be used to get all the information in the Accounts JTable
+*/
+
 public class DataAccount {
     private static List<Account> accounts = new ArrayList<>();
 

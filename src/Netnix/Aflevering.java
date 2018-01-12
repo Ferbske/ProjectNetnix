@@ -9,20 +9,13 @@ public class Aflevering {
     private String titelAfl;
     private String tijdsduurAfl;
 
+    //Constructor for creating Aflevering
     public Aflevering(int afleveringID, String serieAfl, String seizoen, String titelAfl, String tijdsduurAfl){
         this.afleveringID = afleveringID;
         this.serieAfl = serieAfl;
         this.seizoen = seizoen;
         this.titelAfl= titelAfl;
         this.tijdsduurAfl = tijdsduurAfl;
-    }
-
-    public Aflevering(){
-        this.afleveringID = 0;
-        this.serieAfl = "";
-        this.seizoen = "";
-        this.titelAfl = "";
-        this.tijdsduurAfl = "";
     }
 
     public int getAfleveringID() {

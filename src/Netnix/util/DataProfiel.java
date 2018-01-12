@@ -6,6 +6,10 @@ import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
 
+/*
+This class is made for creating a List with all the Accounts so it can be used to get all the information in the Profielen JTable
+*/
+
 public class DataProfiel {
     private static List<Profiel> profielen = new ArrayList<>();
 

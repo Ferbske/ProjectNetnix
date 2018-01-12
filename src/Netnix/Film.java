@@ -10,6 +10,7 @@ public class Film {
     private String tijdsduurFilm;
     private String genreFilm;
 
+    //Constructor for creating Film
     public Film(int filmID, String titelFilm, String leeftijdFilm, String taalFilm, String tijdsduurFilm, String genreFilm){
         this.filmID = filmID;
         this.titelFilm = titelFilm;
@@ -17,15 +18,6 @@ public class Film {
         this.taalFilm= taalFilm;
         this.tijdsduurFilm = tijdsduurFilm;
         this.genreFilm = genreFilm;
-    }
-
-    public Film(){
-        this.filmID = 0;
-        this.titelFilm = "";
-        this.leeftijdFilm = "";
-        this.taalFilm = "";
-        this.tijdsduurFilm = null;
-        this. genreFilm = "";
     }
 
     public int getFilmID() {

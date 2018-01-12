@@ -6,18 +6,12 @@ public class Bekeken {
     private int gezien;
     private int procent;
 
+    //Constructor for creating Bekeken
     public Bekeken(int abonneenummerBek, String profielnaamBek, int gezien, int procent) {
         this.abonneenummerBek = abonneenummerBek;
         this.profielnaamBek = profielnaamBek;
         this.gezien = gezien;
         this.procent = procent;
-    }
-
-    public Bekeken() {
-        this.abonneenummerBek = 0;
-        this.profielnaamBek = "";
-        this.gezien = 0;
-        this.procent = 0;
     }
 
     public int getAbonneenummerBek() {

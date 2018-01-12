@@ -7,16 +7,11 @@ public class Profiel {
     private String profielnaamPro;
     private Date geboortedatum;
 
+    //Constructor for creating Profiel
     public Profiel(int abonneenummerPro, String profielnaamPro, Date geboortedatum){
         this.abonneenummerPro = abonneenummerPro;
         this.profielnaamPro = profielnaamPro;
         this.geboortedatum = geboortedatum;
-    }
-
-    public Profiel(){
-        this.abonneenummerPro = 0;
-        this.profielnaamPro = "";
-        this.geboortedatum = null;
     }
 
     public int getAbonneenummerPro() { return abonneenummerPro; }

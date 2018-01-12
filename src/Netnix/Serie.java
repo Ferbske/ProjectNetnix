@@ -7,20 +7,13 @@ public class Serie {
     private String genreSerie;
     private String lijktOp;
 
+    //Constructor for creating Serie
     public Serie(String serie, String leeftijdSerie, String taalSerie, String genreSerie, String lijktOp){
         this.serie = serie;
         this.leeftijdSerie = leeftijdSerie;
         this.taalSerie = taalSerie;
         this.genreSerie = genreSerie;
         this.lijktOp = lijktOp;
-    }
-
-    public Serie(){
-        this.serie = "";
-        this.leeftijdSerie = "";
-        this.taalSerie = "";
-        this.genreSerie = "";
-        this.lijktOp = "";
     }
 
     public String getSerie() {

@@ -24,7 +24,7 @@ public class Main {
         // We kunnen door de rows heen stappen en iedere kolom lezen.
         ResultSet rs = null;
 
-        // Ophalen van data voor tabellen
+        // Calling methodes to create all the Lists with all the Entities for the JTables
         DataAccount.createAccounts(connectionUrl,con,stmt,rs);
         DataAflevering.createAfleveringen(connectionUrl, con, stmt, rs);
         DataBekeken.createBekeken(connectionUrl,con,stmt,rs);
@@ -32,6 +32,7 @@ public class Main {
         DataProfiel.createProfielen(connectionUrl,con,stmt,rs);
         DataSerie.createSeries(connectionUrl,con,stmt,rs);
 
+        // Executing app
         UserInterface app = new UserInterface();
         SwingUtilities.invokeLater(app);
     }

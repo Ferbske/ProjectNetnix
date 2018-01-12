@@ -8,6 +8,7 @@ public class Account {
     private int huisnummer;
     private String plaats;
 
+    //Constructor for creating Account
     public Account(int abonneenummer, String naam, String straat, String postcode, int huisnummer, String plaats) {
         this.abonneenummerAcc = abonneenummer;
         this.naam = naam;
@@ -15,15 +16,6 @@ public class Account {
         this.postcode = postcode;
         this.huisnummer = huisnummer;
         this.plaats = plaats;
-    }
-
-    public Account() {
-        this.abonneenummerAcc = 0;
-        this.naam = "";
-        this.straat = "";
-        this.postcode = "";
-        this.huisnummer = 0;
-        this.plaats = "";
     }
 
     public int getAbonneenummerAcc() {

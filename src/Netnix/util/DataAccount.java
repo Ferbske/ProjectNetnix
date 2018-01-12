@@ -20,7 +20,7 @@ public class DataAccount {
             con = DriverManager.getConnection(connectionUrl);
 
             // Stel een SQL query samen.
-            String SQL = "SELECT * FROM Accounts";
+            String SQL = "SELECT * FROM Account";
             stmt = con.createStatement();
             // Voer de query uit op de database.
             rs = stmt.executeQuery(SQL);
@@ -28,12 +28,12 @@ public class DataAccount {
             // Als de resultset waarden bevat dan lopen we hier door deze waarden en printen ze.
             while (rs.next()) {
                 // Vraag per row de kolommen in die row op.
-                int abonneenummerAcc = rs.getInt("Aflevering_ID");
-                String naam = rs.getString("Serie");
-                String straat = rs.getString("Seizoen");
-                String postcode = rs.getString("Titel");
-                int huisnummer = rs.getInt("Tijdsduur");
-                String plaats = rs.getString("");
+                int abonneenummerAcc = rs.getInt("Abonneenummer");
+                String naam = rs.getString("Naam");
+                String straat = rs.getString("Straat");
+                String postcode = rs.getString("Postcode");
+                int huisnummer = rs.getInt("Huisnummer");
+                String plaats = rs.getString("Plaats");
                 Account acc = new Account(abonneenummerAcc,naam,straat,postcode,huisnummer,plaats);
                 DataAccount.addAccounts(acc);
             }

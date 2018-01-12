@@ -20,7 +20,7 @@ public class DataFilm {
             con = DriverManager.getConnection(connectionUrl);
 
             // Stel een SQL query samen.
-            String SQL = "SELECT * FROM Films";
+            String SQL = "SELECT * FROM Film";
             stmt = con.createStatement();
             // Voer de query uit op de database.
             rs = stmt.executeQuery(SQL);
@@ -28,12 +28,12 @@ public class DataFilm {
             // Als de resultset waarden bevat dan lopen we hier door deze waarden en printen ze.
             while (rs.next()) {
                 // Vraag per row de kolommen in die row op.
-                int filmID = rs.getInt("Serie");
-                String titelFilm = rs.getString("Seizoen");
-                String leeftijdFilm = rs.getString("Seizoen");
-                String taalFilm = rs.getString("Seizoen");
-                String tijdsduurFilm = rs.getString("");
-                String genreFilm = rs.getString("Seizoen");
+                int filmID = rs.getInt("Film_ID");
+                String titelFilm = rs.getString("Titel");
+                String leeftijdFilm = rs.getString("Leeftijdsindicatie");
+                String taalFilm = rs.getString("Taal");
+                String tijdsduurFilm = rs.getString("Tijdsduur");
+                String genreFilm = rs.getString("Genre");
                 Film fil = new Film(filmID,titelFilm,leeftijdFilm,taalFilm,tijdsduurFilm,genreFilm);
                 DataFilm.addFilm(fil);
             }

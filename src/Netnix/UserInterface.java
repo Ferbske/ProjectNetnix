@@ -5,7 +5,6 @@ import java.awt.*;
 import java.awt.event.*;
 import javax.swing.*;
 import javax.swing.table.DefaultTableModel;
-import javax.swing.table.TableModel;
 import java.util.List;
 
 public class UserInterface implements Runnable {
@@ -23,13 +22,6 @@ public class UserInterface implements Runnable {
     private JTextField abonneenummerProField, profielnaamProField, geboortedatumField;
     private JLabel abonneenummerBek, profielnaamBek, gezien, procent;
     private JTextField abonneenummerBekField, profielnaamBekField, gezienField, procentField;
-    private JLabel filmID, titelFilm, leeftijdFilm, taalFilm, tijdsduurFilm, genreFilm;
-    private JTextField filmIDField, titelFilmField, leeftijdFilmField, taalFilmField, tijdsduurFilmField, genreFilmField;
-    private JLabel serie, leeftijdSerie, taalSerie, genreSerie, lijktOp;
-    private JTextField serieField, leeftijdSerieField, taalSerieField, genreSerieField, lijktOpField;
-    private JLabel afleveringID, serieAfl, seizoen, titelAfl, tijdsduurAfl;
-    private JTextField afleveringIDField, serieAflField, seizoenField, titelAflField, tijdsduurAflField;
-    private TableModel model;
     private List<Aflevering> afleveringen;
     private List<Account> accounts;
     private List<Profiel> profielen;
@@ -46,7 +38,7 @@ public class UserInterface implements Runnable {
             north = new JPanel();
             south = new JPanel();
             west = new JPanel();
-            //pnlCenterMain = new JPanel();
+        //pnlCenterMain = new JPanel();
             pnlCenter1 = new JPanel();
             pnlCenter2 = new JPanel();
             pnlCenter3 = new JPanel();
@@ -99,7 +91,7 @@ public class UserInterface implements Runnable {
         JLabel blank = new JLabel("");
         JLabel s1 = new JLabel("Netnix Statistix");
         s1.setForeground(Color.WHITE);
-        JLabel s2 = new JLabel("Informatica | Jaar 2017 | Klas F | Rik Vanhijfte | Chino Zheng | Rick Voesenek", SwingConstants.RIGHT);
+        JLabel s2 = new JLabel("Informatica | Jaar 2017 | Klas F | Rik Vanhijfte | Chino Zheng | Rick Voesenek  ", SwingConstants.RIGHT);
         s2.setForeground(Color.WHITE);
         // Temp testing area's
             south.setBackground(Color.DARK_GRAY);
@@ -115,6 +107,7 @@ public class UserInterface implements Runnable {
         // Main Panel
             //JLabel lblCenterMain = new JLabel("Welkom! Selecteer een categorie in de linker menu balk!");
             pnlCenterMain = new JPanel();
+            pnlCenterMain.setLayout(new CardLayout());
         // Panels Center Data
             pnlCenter1.setVisible(false);
             pnlCenter2.setVisible(false);
@@ -151,7 +144,7 @@ public class UserInterface implements Runnable {
         container.add(pnlCenterMain, BorderLayout.CENTER);
     }
     private void createWest(Container container){
-        GridLayout layoutWest = new GridLayout(20, 1);
+        GridLayout layoutWest = new GridLayout(13, 1);
         west.setLayout(layoutWest);
         west.setPreferredSize(new Dimension(275,50));
         // Button 1
@@ -195,7 +188,7 @@ public class UserInterface implements Runnable {
                     btnPanel1.setBackground(Color.DARK_GRAY);
                 }
             });
-            btnPanel1.setPreferredSize(new Dimension( 100, 100));
+            btnPanel1.setPreferredSize(new Dimension( 275, 100));
         // Button 2
             JButton btnPanel2 = new JButton("Profielen");
             btnPanel2.addActionListener(new ActionListener() {
@@ -234,7 +227,7 @@ public class UserInterface implements Runnable {
                     btnPanel2.setBackground(Color.DARK_GRAY);
                 }
             });
-            btnPanel2.setPreferredSize(new Dimension( 100, 100));
+            btnPanel2.setPreferredSize(new Dimension( 275, 100));
         // Button 3
             JButton btnPanel3 = new JButton("Bekeken");
             btnPanel3.addActionListener(new ActionListener() {
@@ -273,7 +266,7 @@ public class UserInterface implements Runnable {
                     btnPanel3.setBackground(Color.DARK_GRAY);
                 }
             });
-            btnPanel3.setPreferredSize(new Dimension( 100, 100));
+            btnPanel3.setPreferredSize(new Dimension( 275, 100));
         // Button 4
             JButton btnPanel4 = new JButton("Films");
             btnPanel4.addActionListener(new ActionListener() {
@@ -312,7 +305,7 @@ public class UserInterface implements Runnable {
                     btnPanel4.setBackground(Color.DARK_GRAY);
                 }
             });
-            btnPanel4.setPreferredSize(new Dimension( 100, 100));
+            btnPanel4.setPreferredSize(new Dimension( 275, 100));
         // Button 5
             JButton btnPanel5 = new JButton("Series");
             btnPanel5.addActionListener(new ActionListener() {
@@ -351,7 +344,7 @@ public class UserInterface implements Runnable {
                     btnPanel5.setBackground(Color.DARK_GRAY);
                 }
             });
-            btnPanel5.setPreferredSize(new Dimension( 100, 100));
+            btnPanel5.setPreferredSize(new Dimension( 275, 100));
         // Button 6
         JButton btnPanel6 = new JButton("Afleveringen");
         btnPanel6.addActionListener(new ActionListener() {
@@ -390,33 +383,39 @@ public class UserInterface implements Runnable {
                 btnPanel6.setBackground(Color.DARK_GRAY);
             }
         });
-        btnPanel6.setPreferredSize(new Dimension( 100, 100));
+        btnPanel6.setPreferredSize(new Dimension( 275, 100));
         // Blank spots
-            JLabel blank1 = new JLabel(" ");
-            JLabel blank2 = new JLabel(" ");
-            JLabel blank3 = new JLabel(" ");
-            JLabel blank4 = new JLabel(" ");
-            JLabel blank5 = new JLabel(" ");
-            blank1.setPreferredSize(new Dimension(100,20));
-            blank2.setPreferredSize(new Dimension(100,20));
-            blank3.setPreferredSize(new Dimension(100,20));
-            blank4.setPreferredSize(new Dimension(100,20));
-            blank5.setPreferredSize(new Dimension(100,20));
+        JLabel blank1 = new JLabel(" ");
+        JLabel blank2 = new JLabel(" ");
+        JLabel blank3 = new JLabel(" ");
+        JLabel blank4 = new JLabel(" ");
+        JLabel blank5 = new JLabel(" ");
+        JLabel blank6 = new JLabel(" ");
+        JLabel blank7 = new JLabel(" ");
+        blank1.setPreferredSize(new Dimension(275,20));
+        blank2.setPreferredSize(new Dimension(275,20));
+        blank3.setPreferredSize(new Dimension(275,20));
+        blank4.setPreferredSize(new Dimension(275,20));
+        blank5.setPreferredSize(new Dimension(275,20));
+        blank6.setPreferredSize(new Dimension(275,20));
+        blank7.setPreferredSize(new Dimension(275,20));
         // Background
             west.setBackground(Color.gray);
         // Adding all components
-            west.add(btnPanel1);
-            west.add(blank1);
-            west.add(btnPanel2);
-            west.add(blank2);
-            west.add(btnPanel3);
-            west.add(blank3);
-            west.add(btnPanel4);
-            west.add(blank4);
-            west.add(btnPanel5);
-            west.add(blank5);
-            west.add(btnPanel6);
-            container.add(west, BorderLayout.WEST);
+        west.add(blank1);
+        west.add(btnPanel1);
+        west.add(blank2);
+        west.add(btnPanel2);
+        west.add(blank3);
+        west.add(btnPanel3);
+        west.add(blank4);
+        west.add(btnPanel4);
+        west.add(blank5);
+        west.add(btnPanel5);
+        west.add(blank6);
+        west.add(btnPanel6);
+        west.add(blank7);
+        container.add(west, BorderLayout.WEST);
     }
     private void createCenterPanel1(Container container){
         JPanel centerSouth1 = new JPanel(new GridLayout(1,9));
@@ -756,7 +755,6 @@ public class UserInterface implements Runnable {
         container.add(centerSouth3, BorderLayout.SOUTH);
     }
     private void createCenterPanel4(Container container){
-        JPanel centerSouth4 = new JPanel(new GridLayout(1,9));
         table4 = new JTable();
         container.setLayout(new BorderLayout());
         Object[] columns = {"Film ID", "Titel", "Leeftijdsindicatie", "Taal", "Tijdsduur", "Genre"};
@@ -774,116 +772,13 @@ public class UserInterface implements Runnable {
             String[] temp = {fil.getFilmID()+"", fil.getTitelFilm(), fil.getLeeftijdFilm(), fil.getTaalFilm(), fil.getTijdsduurFilm()+"", fil.getGenreFilm()};
             model.addRow(temp);
         }
-        // Labels
-        filmID = new JLabel(" Film ID: ");
-        titelFilm = new JLabel(" Titel: ");
-        leeftijdFilm = new JLabel(" Leeftijd: ");
-        taalFilm = new JLabel(" Taal: ");
-        tijdsduurFilm = new JLabel(" Tijdsduur: ");
-        genreFilm = new JLabel(" Genre: ");
-        // Input fields
-        filmIDField = new JTextField();
-        titelFilmField = new JTextField();
-        leeftijdFilmField = new JTextField();
-        taalFilmField = new JTextField();
-        tijdsduurFilmField = new JTextField();
-        genreFilmField = new JTextField();
-        // Buttons
-        JButton btnAdd4 = new JButton("Add");
-        JButton btnDelete4 = new JButton ("Delete");
-        JButton btnUpdate4 = new JButton("Update");
         // ScrollPane
         JScrollPane pane = new JScrollPane(table4);
         pane.setBounds(0, 0, 880, 200);
-        // ActionListeners
-        btnAdd4.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                    rows[0] = filmIDField.getText();
-                    rows[1] = titelFilmField.getText();
-                    rows[2] = leeftijdFilmField.getText();
-                    rows[3] = taalFilmField.getText();
-                    rows[4] = tijdsduurFilmField.getText();
-                    rows[5] = genreFilmField.getText();
-                    model.addRow(rows);
-                    filmIDField.setText("");
-                    titelFilmField.setText("");
-                    leeftijdFilmField.setText("");
-                    taalFilmField.setText("");
-                    tijdsduurFilmField.setText("");
-                    genreFilmField.setText("");
-            }
-        });
-        btnDelete4.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                int i = table4.getSelectedRow();
-                if (i >= 0) {
-                    model.removeRow(i);
-                }
-                else{
-                    System.out.println("Delete Error");
-                }
-                filmIDField.setText("");
-                titelFilmField.setText("");
-                leeftijdFilmField.setText("");
-                taalFilmField.setText("");
-                tijdsduurFilmField.setText("");
-                genreFilmField.setText("");
-            }
-        });
-
-        table4.addMouseListener(new MouseAdapter() {
-            @Override
-            public void mouseClicked(MouseEvent e){
-                int i = table4.getSelectedRow();
-                filmIDField.setText(model.getValueAt(i, 0).toString());
-                titelFilmField.setText(model.getValueAt(i, 1).toString());
-                leeftijdFilmField.setText(model.getValueAt(i, 2).toString());
-                taalFilmField.setText(model.getValueAt(i, 3).toString());
-                tijdsduurFilmField.setText(model.getValueAt(i, 4).toString());
-                genreFilmField.setText(model.getValueAt(i, 5).toString());
-            }
-        });
-
-        btnUpdate4.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                int i = table4.getSelectedRow();
-                if (i >= 0) {
-                    model.setValueAt(filmIDField.getText(), i, 0);
-                    model.setValueAt(titelFilmField.getText(), i, 1);
-                    model.setValueAt(leeftijdFilmField.getText(), i, 2);
-                    model.setValueAt(taalFilmField.getText(), i, 3);
-                    model.setValueAt(tijdsduurFilmField.getText(), i, 4);
-                    model.setValueAt(genreFilmField.getText(), i, 5);
-                }
-                else{
-                    System.out.println("Update Error");
-                }
-            }
-        });
         // Adding all the things
         container.add(pane);
-        centerSouth4.add(filmID);
-        centerSouth4.add(filmIDField);
-        centerSouth4.add(titelFilm);
-        centerSouth4.add(titelFilmField);
-        centerSouth4.add(leeftijdFilm);
-        centerSouth4.add(leeftijdFilmField);
-        centerSouth4.add(taalFilm);
-        centerSouth4.add(taalFilmField);
-        centerSouth4.add(tijdsduurFilm);
-        centerSouth4.add(tijdsduurFilmField);
-        centerSouth4.add(genreFilm);
-        centerSouth4.add(genreFilmField);
-        centerSouth4.add(btnAdd4);
-        centerSouth4.add(btnDelete4);
-        centerSouth4.add(btnUpdate4);
-        container.add(centerSouth4, BorderLayout.SOUTH);
     }
     private void createCenterPanel5(Container container){
-        JPanel centerSouth5 = new JPanel(new GridLayout(1,9));
         table5 = new JTable();
         container.setLayout(new BorderLayout());
         Object[] columns = {"Serie", "Leeftijdsindicatie", "Taal", "Genre", "Lijkt op"};
@@ -901,108 +796,15 @@ public class UserInterface implements Runnable {
             String[] temp = {ser.getSerie(), ser.getLeeftijdSerie(), ser.getTaalSerie(), ser.getGenreSerie(), ser.getLijktOp()};
             model.addRow(temp);
         }
-        // Labels
-        serie = new JLabel(" Serie: ");
-        leeftijdSerie = new JLabel(" Leeftijd: ");
-        taalSerie = new JLabel(" Taal: ");
-        genreSerie = new JLabel(" Genre: ");
-        lijktOp = new JLabel(" Lijkt op: ");
-        // Input fields
-        serieField = new JTextField();
-        leeftijdSerieField = new JTextField();
-        taalSerieField = new JTextField();
-        genreSerieField = new JTextField();
-        lijktOpField = new JTextField();
-        // Buttons
-        JButton btnAdd5 = new JButton("Add");
-        JButton btnDelete5 = new JButton ("Delete");
-        JButton btnUpdate5 = new JButton("Update");
         // ScrollPane
         JScrollPane pane = new JScrollPane(table5);
         pane.setBounds(0, 0, 880, 200);
-        // ActionListeners
-        btnAdd5.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                    rows[0] = serieField.getText();
-                    rows[1] = leeftijdSerieField.getText();
-                    rows[2] = taalSerieField.getText();
-                    rows[3] = genreSerieField.getText();
-                    rows[4] = lijktOpField.getText();
-                    model.addRow(rows);
-                    serieField.setText("");
-                    leeftijdSerieField.setText("");
-                    taalSerieField.setText("");
-                    genreSerieField.setText("");
-                    lijktOpField.setText("");
-            }
-        });
-        btnDelete5.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                int i = table5.getSelectedRow();
-                if (i >= 0) {
-                    model.removeRow(i);
-                }
-                else{
-                    System.out.println("Delete Error");
-                }
-                serieField.setText("");
-                leeftijdSerieField.setText("");
-                taalSerieField.setText("");
-                genreSerieField.setText("");
-                lijktOpField.setText("");
-            }
-        });
-
-        table5.addMouseListener(new MouseAdapter() {
-            @Override
-            public void mouseClicked(MouseEvent e){
-                int i = table5.getSelectedRow();
-                serieField.setText(model.getValueAt(i, 0).toString());
-                leeftijdSerieField.setText(model.getValueAt(i, 1).toString());
-                taalSerieField.setText(model.getValueAt(i, 2).toString());
-                genreSerieField.setText(model.getValueAt(i, 3).toString());
-                lijktOpField.setText(model.getValueAt(i, 4).toString());
-            }
-        });
-
-        btnUpdate5.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                int i = table5.getSelectedRow();
-                if (i >= 0) {
-                    model.setValueAt(serieField.getText(), i, 0);
-                    model.setValueAt(leeftijdSerieField.getText(), i, 1);
-                    model.setValueAt(taalSerieField.getText(), i, 2);
-                    model.setValueAt(genreSerieField.getText(), i, 3);
-                    model.setValueAt(lijktOpField.getText(), i, 4);
-                }
-                else{
-                    System.out.println("Update Error");
-                }
-            }
-        });
         // Adding all the things
         container.add(pane);
-        centerSouth5.add(serie);
-        centerSouth5.add(serieField);
-        centerSouth5.add(leeftijdSerie);
-        centerSouth5.add(leeftijdSerieField);
-        centerSouth5.add(taalSerie);
-        centerSouth5.add(taalSerieField);
-        centerSouth5.add(genreSerie);
-        centerSouth5.add(genreSerieField);
-        centerSouth5.add(lijktOp);
-        centerSouth5.add(lijktOpField);
-        centerSouth5.add(btnAdd5);
-        centerSouth5.add(btnDelete5);
-        centerSouth5.add(btnUpdate5);
-        container.add(centerSouth5, BorderLayout.SOUTH);
     }
     private void createCenterPanel6(Container container){
-        JPanel centerSouth6 = new JPanel(new GridLayout(1,9));
         table6 = new JTable();
+        table6.setAutoResizeMode(JTable.AUTO_RESIZE_ALL_COLUMNS);
         container.setLayout(new BorderLayout());
         Object[] columns = {"Aflevering ID", "Serie", "Seizoen", "Titel", "Tijdsduur"};
         DefaultTableModel model = new DefaultTableModel();
@@ -1015,109 +817,15 @@ public class UserInterface implements Runnable {
         table6.setRowHeight(30);
         Object[] rows = new Object [5];
         afleveringen = DataAflevering.getAfleveringen();
-        for(Aflevering afl : afleveringen){
-            String[] temp = {afl.getAfleveringID()+"", afl.getSerieAfl(), afl.getSeizoen(), afl.getTitelAfl(), afl.getTijdsduurAfl()};
+        for(Aflevering afl : afleveringen) {
+            String[] temp = {afl.getAfleveringID() + "", afl.getSerieAfl(), afl.getSeizoen(), afl.getTitelAfl(), afl.getTijdsduurAfl()};
             model.addRow(temp);
         }
-        // Labels
-        afleveringID = new JLabel(" Aflevering ID: ");
-        serieAfl = new JLabel(" Serie: ");
-        seizoen = new JLabel(" Seizoen: ");
-        titelAfl = new JLabel(" Titel: ");
-        tijdsduurAfl = new JLabel(" Tijdsduur: ");
-        // Input fields
-        afleveringIDField = new JTextField();
-        serieAflField = new JTextField();
-        seizoenField = new JTextField();
-        titelAflField = new JTextField();
-        tijdsduurAflField = new JTextField();
-        // Buttons
-        JButton btnAdd6 = new JButton("Add");
-        JButton btnDelete6 = new JButton ("Delete");
-        JButton btnUpdate6 = new JButton("Update");
         // ScrollPane
         JScrollPane pane = new JScrollPane(table6);
         pane.setBounds(0, 0, 880, 200);
-        // ActionListeners
-        btnAdd6.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                rows[0] = afleveringIDField.getText();
-                rows[1] = serieAflField.getText();
-                rows[2] = seizoenField.getText();
-                rows[3] = titelAflField.getText();
-                rows[4] = tijdsduurAflField.getText();
-                model.addRow(rows);
-                DataWrite.writeAflevering(afleveringIDField.getText(), serieAflField.getText(), seizoenField.getText(), titelAflField.getText(), tijdsduurAflField.getText());
-                afleveringIDField.setText("");
-                serieAflField.setText("");
-                seizoenField.setText("");
-                titelAflField.setText("");
-                tijdsduurAflField.setText("");
-            }
-        });
-        btnDelete6.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                int i = table6.getSelectedRow();
-                if (i >= 0) {
-                    model.removeRow(i);
-                }
-                else{
-                    System.out.println("Delete Error");
-                }
-                afleveringIDField.setText("");
-                serieAflField.setText("");
-                seizoenField.setText("");
-                titelAflField.setText("");
-                tijdsduurAflField.setText("");
-            }
-        });
-
-        table6.addMouseListener(new MouseAdapter() {
-            @Override
-            public void mouseClicked(MouseEvent e){
-                int i = table6.getSelectedRow();
-                afleveringIDField.setText(model.getValueAt(i, 0).toString());
-                serieAflField.setText(model.getValueAt(i, 1).toString());
-                seizoenField.setText(model.getValueAt(i, 2).toString());
-                titelAflField.setText(model.getValueAt(i, 3).toString());
-                tijdsduurAflField.setText(model.getValueAt(i, 4).toString());
-            }
-        });
-
-        btnUpdate6.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                int i = table6.getSelectedRow();
-                if (i >= 0) {
-                    model.setValueAt(afleveringIDField.getText(), i, 0);
-                    model.setValueAt(serieAflField.getText(), i, 1);
-                    model.setValueAt(seizoenField.getText(), i, 2);
-                    model.setValueAt(titelAflField.getText(), i, 3);
-                    model.setValueAt(tijdsduurAflField.getText(), i, 4);
-                }
-                else{
-                    System.out.println("Update Error");
-                }
-            }
-        });
         // Adding all the things
         container.add(pane);
-        centerSouth6.add(afleveringID);
-        centerSouth6.add(afleveringIDField);
-        centerSouth6.add(serieAfl);
-        centerSouth6.add(serieAflField);
-        centerSouth6.add(seizoen);
-        centerSouth6.add(seizoenField);
-        centerSouth6.add(titelAfl);
-        centerSouth6.add(titelAflField);
-        centerSouth6.add(tijdsduurAfl);
-        centerSouth6.add(tijdsduurAflField);
-        centerSouth6.add(btnAdd6);
-        centerSouth6.add(btnDelete6);
-        centerSouth6.add(btnUpdate6);
-        container.add(centerSouth6, BorderLayout.SOUTH);
     }
     public JFrame getFrame() {
         return mainpage;

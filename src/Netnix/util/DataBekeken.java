@@ -28,10 +28,10 @@ public class DataBekeken {
             // Als de resultset waarden bevat dan lopen we hier door deze waarden en printen ze.
             while (rs.next()) {
                 // Vraag per row de kolommen in die row op.
-                int abonneenummerBek = rs.getInt("Serie");
-                String profielNaamBek = rs.getString("Seizoen");
-                int gezien = rs.getInt("Titel");
-                int procent = rs.getInt("");
+                int abonneenummerBek = rs.getInt("Abonneenummer");
+                String profielNaamBek = rs.getString("Profielnaam");
+                int gezien = rs.getInt("Gezien");
+                int procent = rs.getInt("Procent");
                 Bekeken bek = new Bekeken(abonneenummerBek,profielNaamBek,gezien,procent);
                 DataBekeken.addBekeken(bek);
             }

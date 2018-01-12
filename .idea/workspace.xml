@@ -2,10 +2,52 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aa6c38b0-fcf6-4637-91c2-6390a35816cb" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ProjectNetnix/Netnix/UserInterface$26.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ProjectNetnix/Netnix/UserInterface$27.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ProjectNetnix/Netnix/UserInterface$28.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ProjectNetnix/Netnix/UserInterface$29.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ProjectNetnix/Netnix/UserInterface$30.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ProjectNetnix/Netnix/UserInterface$31.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ProjectNetnix/Netnix/UserInterface$32.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ProjectNetnix/Netnix/UserInterface$33.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ProjectNetnix/Netnix/UserInterface$34.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ProjectNetnix/Netnix/UserInterface$35.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ProjectNetnix/Netnix/UserInterface$36.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ProjectNetnix/Netnix/UserInterface$37.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ProjectNetnix/Netnix/util/DataAccess.class" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ProjectNetnix/Netnix/Film.class" afterPath="$PROJECT_DIR$/out/production/ProjectNetnix/Netnix/Film.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ProjectNetnix/Netnix/Main.class" afterPath="$PROJECT_DIR$/out/production/ProjectNetnix/Netnix/Main.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ProjectNetnix/Netnix/UserInterface$1.class" afterPath="$PROJECT_DIR$/out/production/ProjectNetnix/Netnix/UserInterface$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ProjectNetnix/Netnix/UserInterface$10.class" afterPath="$PROJECT_DIR$/out/production/ProjectNetnix/Netnix/UserInterface$10.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ProjectNetnix/Netnix/UserInterface$11.class" afterPath="$PROJECT_DIR$/out/production/ProjectNetnix/Netnix/UserInterface$11.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ProjectNetnix/Netnix/UserInterface$12.class" afterPath="$PROJECT_DIR$/out/production/ProjectNetnix/Netnix/UserInterface$12.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ProjectNetnix/Netnix/UserInterface$13.class" afterPath="$PROJECT_DIR$/out/production/ProjectNetnix/Netnix/UserInterface$13.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ProjectNetnix/Netnix/UserInterface$18.class" afterPath="$PROJECT_DIR$/out/production/ProjectNetnix/Netnix/UserInterface$18.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ProjectNetnix/Netnix/UserInterface$19.class" afterPath="$PROJECT_DIR$/out/production/ProjectNetnix/Netnix/UserInterface$19.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ProjectNetnix/Netnix/UserInterface$2.class" afterPath="$PROJECT_DIR$/out/production/ProjectNetnix/Netnix/UserInterface$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ProjectNetnix/Netnix/UserInterface$20.class" afterPath="$PROJECT_DIR$/out/production/ProjectNetnix/Netnix/UserInterface$20.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ProjectNetnix/Netnix/UserInterface$21.class" afterPath="$PROJECT_DIR$/out/production/ProjectNetnix/Netnix/UserInterface$21.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ProjectNetnix/Netnix/UserInterface$22.class" afterPath="$PROJECT_DIR$/out/production/ProjectNetnix/Netnix/UserInterface$22.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ProjectNetnix/Netnix/UserInterface$23.class" afterPath="$PROJECT_DIR$/out/production/ProjectNetnix/Netnix/UserInterface$23.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ProjectNetnix/Netnix/UserInterface$24.class" afterPath="$PROJECT_DIR$/out/production/ProjectNetnix/Netnix/UserInterface$24.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ProjectNetnix/Netnix/UserInterface$25.class" afterPath="$PROJECT_DIR$/out/production/ProjectNetnix/Netnix/UserInterface$25.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ProjectNetnix/Netnix/UserInterface$3.class" afterPath="$PROJECT_DIR$/out/production/ProjectNetnix/Netnix/UserInterface$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ProjectNetnix/Netnix/UserInterface$4.class" afterPath="$PROJECT_DIR$/out/production/ProjectNetnix/Netnix/UserInterface$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ProjectNetnix/Netnix/UserInterface$5.class" afterPath="$PROJECT_DIR$/out/production/ProjectNetnix/Netnix/UserInterface$5.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ProjectNetnix/Netnix/UserInterface$6.class" afterPath="$PROJECT_DIR$/out/production/ProjectNetnix/Netnix/UserInterface$6.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ProjectNetnix/Netnix/UserInterface$7.class" afterPath="$PROJECT_DIR$/out/production/ProjectNetnix/Netnix/UserInterface$7.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ProjectNetnix/Netnix/UserInterface$8.class" afterPath="$PROJECT_DIR$/out/production/ProjectNetnix/Netnix/UserInterface$8.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ProjectNetnix/Netnix/UserInterface$9.class" afterPath="$PROJECT_DIR$/out/production/ProjectNetnix/Netnix/UserInterface$9.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ProjectNetnix/Netnix/UserInterface.class" afterPath="$PROJECT_DIR$/out/production/ProjectNetnix/Netnix/UserInterface.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ProjectNetnix/Netnix/util/DataWrite.class" afterPath="$PROJECT_DIR$/out/production/ProjectNetnix/Netnix/util/DataWrite.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Netnix/Film.java" afterPath="$PROJECT_DIR$/src/Netnix/Film.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Netnix/Main.java" afterPath="$PROJECT_DIR$/src/Netnix/Main.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Netnix/UserInterface.java" afterPath="$PROJECT_DIR$/src/Netnix/UserInterface.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Netnix/util/DataAccount.java" afterPath="$PROJECT_DIR$/src/Netnix/util/DataAccount.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Netnix/util/DataBekeken.java" afterPath="$PROJECT_DIR$/src/Netnix/util/DataBekeken.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Netnix/util/DataFilm.java" afterPath="$PROJECT_DIR$/src/Netnix/util/DataFilm.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Netnix/util/DataProfiel.java" afterPath="$PROJECT_DIR$/src/Netnix/util/DataProfiel.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Netnix/util/DataSerie.java" afterPath="$PROJECT_DIR$/src/Netnix/util/DataSerie.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Netnix/util/DataWrite.java" afterPath="$PROJECT_DIR$/src/Netnix/util/DataWrite.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,206 +57,51 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="DockManager">
-    <window id="1">
-      <content type="file-editors">
-        <state>
-          <leaf>
-            <file leaf-file-name="Aflevering.java" pinned="false" current-in-tab="false">
-              <entry file="file://$PROJECT_DIR$/src/Netnix/Aflevering.java">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="34">
-                    <caret line="2" column="21" lean-forward="false" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
-                    <folding />
-                  </state>
-                </provider>
-              </entry>
-            </file>
-            <file leaf-file-name="Account.java" pinned="false" current-in-tab="false">
-              <entry file="file://$PROJECT_DIR$/src/Netnix/Account.java">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="782">
-                    <caret line="62" column="5" lean-forward="false" selection-start-line="62" selection-start-column="5" selection-end-line="62" selection-end-column="5" />
-                    <folding>
-                      <element signature="e#1390#1391#0" expanded="true" />
-                      <element signature="e#1423#1424#0" expanded="true" />
-                    </folding>
-                  </state>
-                </provider>
-              </entry>
-            </file>
-            <file leaf-file-name="Serie.java" pinned="false" current-in-tab="false">
-              <entry file="file://$PROJECT_DIR$/src/Netnix/Serie.java">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="493">
-                    <caret line="33" column="34" lean-forward="false" selection-start-line="33" selection-start-column="18" selection-end-line="33" selection-end-column="34" />
-                    <folding>
-                      <element signature="e#1404#1405#0" expanded="true" />
-                      <element signature="e#1442#1443#0" expanded="true" />
-                    </folding>
-                  </state>
-                </provider>
-              </entry>
-            </file>
-            <file leaf-file-name="Profiel.java" pinned="false" current-in-tab="false">
-              <entry file="file://$PROJECT_DIR$/src/Netnix/Profiel.java">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="17">
-                    <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-                    <folding />
-                  </state>
-                </provider>
-              </entry>
-            </file>
-            <file leaf-file-name="Bekeken.java" pinned="false" current-in-tab="false">
-              <entry file="file://$PROJECT_DIR$/src/Netnix/Bekeken.java">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="646">
-                    <caret line="52" column="5" lean-forward="false" selection-start-line="52" selection-start-column="5" selection-end-line="52" selection-end-column="5" />
-                    <folding>
-                      <element signature="e#1188#1189#0" expanded="true" />
-                      <element signature="e#1226#1227#0" expanded="true" />
-                    </folding>
-                  </state>
-                </provider>
-              </entry>
-            </file>
-            <file leaf-file-name="Film.java" pinned="false" current-in-tab="true">
-              <entry file="file://$PROJECT_DIR$/src/Netnix/Film.java">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="527">
-                    <caret line="33" column="0" lean-forward="true" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-                    <folding>
-                      <element signature="e#1464#1465#0" expanded="true" />
-                      <element signature="e#1500#1501#0" expanded="true" />
-                    </folding>
-                  </state>
-                </provider>
-              </entry>
-            </file>
-          </leaf>
-        </state>
-      </content>
-    </window>
-  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Netnix/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="32" column="56" lean-forward="false" selection-start-line="32" selection-start-column="56" selection-end-line="32" selection-end-column="56" />
+            <state relative-caret-position="340">
+              <caret line="23" column="33" lean-forward="false" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserInterface.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="UserInterface.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Netnix/UserInterface.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="508">
-              <caret line="771" column="20" lean-forward="true" selection-start-line="771" selection-start-column="20" selection-end-line="771" selection-end-column="20" />
+            <state relative-caret-position="612">
+              <caret line="86" column="49" lean-forward="false" selection-start-line="86" selection-start-column="49" selection-end-line="86" selection-end-column="49" />
               <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#UserInterface#0;class#UserInterface#0" expanded="false" />
                 <element signature="method#run#0;class#UserInterface#0" expanded="false" />
                 <element signature="method#addDefaultComponents#0;class#UserInterface#0" expanded="false" />
                 <element signature="method#createNorth#0;class#UserInterface#0" expanded="false" />
                 <element signature="method#createSouth#0;class#UserInterface#0" expanded="false" />
                 <element signature="method#createCenter#0;class#UserInterface#0" expanded="false" />
                 <element signature="method#createWest#0;class#UserInterface#0" expanded="false" />
+                <element signature="class#6092:6528" expanded="false" />
+                <element signature="class#6725:7605" expanded="false" />
+                <element signature="class#7796:8232" expanded="false" />
+                <element signature="class#8429:9306" expanded="false" />
+                <element signature="class#9495:9931" expanded="false" />
+                <element signature="class#10128:11005" expanded="false" />
+                <element signature="class#11192:11628" expanded="false" />
+                <element signature="class#11825:12702" expanded="false" />
+                <element signature="class#12890:13326" expanded="false" />
+                <element signature="class#13523:14400" expanded="false" />
+                <element signature="class#14586:14982" expanded="false" />
+                <element signature="class#15163:15956" expanded="false" />
                 <element signature="method#createCenterPanel1#0;class#UserInterface#0" expanded="false" />
                 <element signature="method#createCenterPanel2#0;class#UserInterface#0" expanded="false" />
                 <element signature="method#createCenterPanel3#0;class#UserInterface#0" expanded="false" />
+                <element signature="method#createCenterPanel4#0;class#UserInterface#0" expanded="false" />
                 <element signature="method#createCenterPanel5#0;class#UserInterface#0" expanded="false" />
                 <element signature="method#createCenterPanel6#0;class#UserInterface#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DataFilm.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Netnix/util/DataFilm.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="29" column="42" lean-forward="false" selection-start-line="29" selection-start-column="42" selection-end-line="29" selection-end-column="42" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <marker date="1515765474381" expanded="true" signature="725:744" ph="SELECT * FRO... Films" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DataWrite.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Netnix/util/DataWrite.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-              <folding>
-                <marker date="1515762774109" expanded="true" signature="300:441" ph="INSERT INTO Afleveringen... " />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DataAflevering.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Netnix/util/DataAflevering.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="202">
-              <caret line="12" column="4" lean-forward="false" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="69" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <marker date="1515762774094" expanded="true" signature="757:781" ph="SELECT * FRO... Aflevering" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DataAccount.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Netnix/util/DataAccount.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="918">
-              <caret line="58" column="5" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="59" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <marker date="1515765474222" expanded="true" signature="740:762" ph="SELECT * FRO... Accounts" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DataSerie.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Netnix/util/DataSerie.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="9" selection-end-column="22" />
-              <folding>
-                <marker date="1515765474184" expanded="true" signature="730:750" ph="SELECT * FRO... Series" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DataProfiel.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Netnix/util/DataProfiel.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="19" lean-forward="false" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <marker date="1515765474135" expanded="true" signature="648:669" ph="SELECT * FRO... Profiel" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DataBekeken.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Netnix/util/DataBekeken.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="595">
-              <caret line="35" column="44" lean-forward="true" selection-start-line="35" selection-start-column="44" selection-end-line="35" selection-end-column="44" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <marker date="1515765474291" expanded="true" signature="742:763" ph="SELECT * FRO... Bekeken" />
+                <marker date="1515768061623" expanded="true" signature="33719:33901" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -259,19 +146,21 @@
         <option value="$PROJECT_DIR$/src/Netnix/Accounts.java" />
         <option value="$PROJECT_DIR$/src/Netnix/Profielen.java" />
         <option value="$PROJECT_DIR$/src/Netnix/Serie.java" />
-        <option value="$PROJECT_DIR$/src/Netnix/Account.java" />
         <option value="$PROJECT_DIR$/src/Netnix/Bekeken.java" />
         <option value="$PROJECT_DIR$/src/Netnix/Profiel.java" />
         <option value="$PROJECT_DIR$/src/Netnix/Aflevering.java" />
-        <option value="$PROJECT_DIR$/src/Netnix/util/DataAccount.java" />
-        <option value="$PROJECT_DIR$/src/Netnix/util/DataSerie.java" />
-        <option value="$PROJECT_DIR$/src/Netnix/util/DataProfiel.java" />
         <option value="$PROJECT_DIR$/src/Netnix/util/DateBekeken.java" />
-        <option value="$PROJECT_DIR$/src/Netnix/util/DataBekeken.java" />
         <option value="$PROJECT_DIR$/src/Netnix/Film.java" />
-        <option value="$PROJECT_DIR$/src/Netnix/UserInterface.java" />
-        <option value="$PROJECT_DIR$/src/Netnix/util/DataFilm.java" />
         <option value="$PROJECT_DIR$/src/Netnix/Main.java" />
+        <option value="$PROJECT_DIR$/src/Netnix/util/DataBekeken.java" />
+        <option value="$PROJECT_DIR$/src/Netnix/util/DataProfiel.java" />
+        <option value="$PROJECT_DIR$/src/Netnix/util/DataAccount.java" />
+        <option value="$PROJECT_DIR$/src/Netnix/util/DataFilm.java" />
+        <option value="$PROJECT_DIR$/src/Netnix/util/DataSerie.java" />
+        <option value="$PROJECT_DIR$/src/Netnix/util/ColumnResize.java" />
+        <option value="$PROJECT_DIR$/src/Netnix/util/DataWrite.java" />
+        <option value="$PROJECT_DIR$/src/Netnix/UserInterface.java" />
+        <option value="$PROJECT_DIR$/src/Netnix/Account.java" />
       </list>
     </option>
   </component>
@@ -285,9 +174,6 @@
     <option name="x" value="-7" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
-  </component>
-  <component name="ProjectLevelVcsManager">
-    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -304,30 +190,16 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="ProjectNetnix" type="b2602c69:ProjectViewProjectNode" />
               <item name="ProjectNetnix" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ProjectNetnix" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ProjectNetnix" type="462c0819:PsiDirectoryNode" />
-              <item name="Concept" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ProjectNetnix" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ProjectNetnix" type="462c0819:PsiDirectoryNode" />
-              <item name="Concept" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ProjectNetnix" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ProjectNetnix" type="462c0819:PsiDirectoryNode" />
-              <item name="Concept" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sample" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ProjectNetnix" type="b2602c69:ProjectViewProjectNode" />
@@ -351,10 +223,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -523,7 +391,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="67503000" />
+    <option name="totallyTimeSpent" value="70195000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -531,33 +399,56 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32979852" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="TMC Test Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="TMC Test Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34040296" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32976446" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32979852" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.122395836" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TMC Project List" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32985386" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.084375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TMC Project List" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3997879" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="TMC Test Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3997879" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32441112" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34040296" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32976446" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.122395836" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TMC Project List" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32985386" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32976446" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -568,12 +459,11 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="16" />
+      <option name="time" value="21" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Netnix/StartupPage.java" />
     <entry file="file://$PROJECT_DIR$/src/Netnix/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1105">
@@ -588,17 +478,33 @@
         <state relative-caret-position="935">
           <caret line="60" column="12" lean-forward="false" selection-start-line="60" selection-start-column="12" selection-end-line="60" selection-end-column="48" />
           <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#UserInterface#0;class#UserInterface#0" expanded="false" />
             <element signature="method#run#0;class#UserInterface#0" expanded="false" />
             <element signature="method#addDefaultComponents#0;class#UserInterface#0" expanded="false" />
             <element signature="method#createNorth#0;class#UserInterface#0" expanded="false" />
             <element signature="method#createSouth#0;class#UserInterface#0" expanded="false" />
             <element signature="method#createCenter#0;class#UserInterface#0" expanded="false" />
             <element signature="method#createWest#0;class#UserInterface#0" expanded="false" />
+            <element signature="class#6092:6528" expanded="false" />
+            <element signature="class#6725:7605" expanded="false" />
+            <element signature="class#7796:8232" expanded="false" />
+            <element signature="class#8429:9306" expanded="false" />
+            <element signature="class#9495:9931" expanded="false" />
+            <element signature="class#10128:11005" expanded="false" />
+            <element signature="class#11192:11628" expanded="false" />
+            <element signature="class#11825:12702" expanded="false" />
+            <element signature="class#12890:13326" expanded="false" />
+            <element signature="class#13523:14400" expanded="false" />
+            <element signature="class#14586:14982" expanded="false" />
+            <element signature="class#15163:15956" expanded="false" />
             <element signature="method#createCenterPanel1#0;class#UserInterface#0" expanded="false" />
             <element signature="method#createCenterPanel2#0;class#UserInterface#0" expanded="false" />
             <element signature="method#createCenterPanel3#0;class#UserInterface#0" expanded="false" />
+            <element signature="method#createCenterPanel4#0;class#UserInterface#0" expanded="false" />
             <element signature="method#createCenterPanel5#0;class#UserInterface#0" expanded="false" />
             <element signature="method#createCenterPanel6#0;class#UserInterface#0" expanded="false" />
+            <marker date="1515768061623" expanded="true" signature="33719:33901" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -617,17 +523,33 @@
         <state relative-caret-position="544">
           <caret line="35" column="12" lean-forward="false" selection-start-line="35" selection-start-column="12" selection-end-line="35" selection-end-column="12" />
           <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#UserInterface#0;class#UserInterface#0" expanded="false" />
             <element signature="method#run#0;class#UserInterface#0" expanded="false" />
             <element signature="method#addDefaultComponents#0;class#UserInterface#0" expanded="false" />
             <element signature="method#createNorth#0;class#UserInterface#0" expanded="false" />
             <element signature="method#createSouth#0;class#UserInterface#0" expanded="false" />
             <element signature="method#createCenter#0;class#UserInterface#0" expanded="false" />
             <element signature="method#createWest#0;class#UserInterface#0" expanded="false" />
+            <element signature="class#6092:6528" expanded="false" />
+            <element signature="class#6725:7605" expanded="false" />
+            <element signature="class#7796:8232" expanded="false" />
+            <element signature="class#8429:9306" expanded="false" />
+            <element signature="class#9495:9931" expanded="false" />
+            <element signature="class#10128:11005" expanded="false" />
+            <element signature="class#11192:11628" expanded="false" />
+            <element signature="class#11825:12702" expanded="false" />
+            <element signature="class#12890:13326" expanded="false" />
+            <element signature="class#13523:14400" expanded="false" />
+            <element signature="class#14586:14982" expanded="false" />
+            <element signature="class#15163:15956" expanded="false" />
             <element signature="method#createCenterPanel1#0;class#UserInterface#0" expanded="false" />
             <element signature="method#createCenterPanel2#0;class#UserInterface#0" expanded="false" />
             <element signature="method#createCenterPanel3#0;class#UserInterface#0" expanded="false" />
+            <element signature="method#createCenterPanel4#0;class#UserInterface#0" expanded="false" />
             <element signature="method#createCenterPanel5#0;class#UserInterface#0" expanded="false" />
             <element signature="method#createCenterPanel6#0;class#UserInterface#0" expanded="false" />
+            <marker date="1515768061623" expanded="true" signature="33719:33901" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -645,17 +567,33 @@
         <state relative-caret-position="527">
           <caret line="34" column="34" lean-forward="true" selection-start-line="34" selection-start-column="34" selection-end-line="34" selection-end-column="34" />
           <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#UserInterface#0;class#UserInterface#0" expanded="false" />
             <element signature="method#run#0;class#UserInterface#0" expanded="false" />
             <element signature="method#addDefaultComponents#0;class#UserInterface#0" expanded="false" />
             <element signature="method#createNorth#0;class#UserInterface#0" expanded="false" />
             <element signature="method#createSouth#0;class#UserInterface#0" expanded="false" />
             <element signature="method#createCenter#0;class#UserInterface#0" expanded="false" />
             <element signature="method#createWest#0;class#UserInterface#0" expanded="false" />
+            <element signature="class#6092:6528" expanded="false" />
+            <element signature="class#6725:7605" expanded="false" />
+            <element signature="class#7796:8232" expanded="false" />
+            <element signature="class#8429:9306" expanded="false" />
+            <element signature="class#9495:9931" expanded="false" />
+            <element signature="class#10128:11005" expanded="false" />
+            <element signature="class#11192:11628" expanded="false" />
+            <element signature="class#11825:12702" expanded="false" />
+            <element signature="class#12890:13326" expanded="false" />
+            <element signature="class#13523:14400" expanded="false" />
+            <element signature="class#14586:14982" expanded="false" />
+            <element signature="class#15163:15956" expanded="false" />
             <element signature="method#createCenterPanel1#0;class#UserInterface#0" expanded="false" />
             <element signature="method#createCenterPanel2#0;class#UserInterface#0" expanded="false" />
             <element signature="method#createCenterPanel3#0;class#UserInterface#0" expanded="false" />
+            <element signature="method#createCenterPanel4#0;class#UserInterface#0" expanded="false" />
             <element signature="method#createCenterPanel5#0;class#UserInterface#0" expanded="false" />
             <element signature="method#createCenterPanel6#0;class#UserInterface#0" expanded="false" />
+            <marker date="1515768061623" expanded="true" signature="33719:33901" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -673,17 +611,33 @@
         <state relative-caret-position="17">
           <caret line="1" column="18" lean-forward="true" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
           <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#UserInterface#0;class#UserInterface#0" expanded="false" />
             <element signature="method#run#0;class#UserInterface#0" expanded="false" />
             <element signature="method#addDefaultComponents#0;class#UserInterface#0" expanded="false" />
             <element signature="method#createNorth#0;class#UserInterface#0" expanded="false" />
             <element signature="method#createSouth#0;class#UserInterface#0" expanded="false" />
             <element signature="method#createCenter#0;class#UserInterface#0" expanded="false" />
             <element signature="method#createWest#0;class#UserInterface#0" expanded="false" />
+            <element signature="class#6092:6528" expanded="false" />
+            <element signature="class#6725:7605" expanded="false" />
+            <element signature="class#7796:8232" expanded="false" />
+            <element signature="class#8429:9306" expanded="false" />
+            <element signature="class#9495:9931" expanded="false" />
+            <element signature="class#10128:11005" expanded="false" />
+            <element signature="class#11192:11628" expanded="false" />
+            <element signature="class#11825:12702" expanded="false" />
+            <element signature="class#12890:13326" expanded="false" />
+            <element signature="class#13523:14400" expanded="false" />
+            <element signature="class#14586:14982" expanded="false" />
+            <element signature="class#15163:15956" expanded="false" />
             <element signature="method#createCenterPanel1#0;class#UserInterface#0" expanded="false" />
             <element signature="method#createCenterPanel2#0;class#UserInterface#0" expanded="false" />
             <element signature="method#createCenterPanel3#0;class#UserInterface#0" expanded="false" />
+            <element signature="method#createCenterPanel4#0;class#UserInterface#0" expanded="false" />
             <element signature="method#createCenterPanel5#0;class#UserInterface#0" expanded="false" />
             <element signature="method#createCenterPanel6#0;class#UserInterface#0" expanded="false" />
+            <marker date="1515768061623" expanded="true" signature="33719:33901" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -701,17 +655,33 @@
         <state relative-caret-position="901">
           <caret line="57" column="30" lean-forward="true" selection-start-line="57" selection-start-column="30" selection-end-line="57" selection-end-column="30" />
           <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#UserInterface#0;class#UserInterface#0" expanded="false" />
             <element signature="method#run#0;class#UserInterface#0" expanded="false" />
             <element signature="method#addDefaultComponents#0;class#UserInterface#0" expanded="false" />
             <element signature="method#createNorth#0;class#UserInterface#0" expanded="false" />
             <element signature="method#createSouth#0;class#UserInterface#0" expanded="false" />
             <element signature="method#createCenter#0;class#UserInterface#0" expanded="false" />
             <element signature="method#createWest#0;class#UserInterface#0" expanded="false" />
+            <element signature="class#6092:6528" expanded="false" />
+            <element signature="class#6725:7605" expanded="false" />
+            <element signature="class#7796:8232" expanded="false" />
+            <element signature="class#8429:9306" expanded="false" />
+            <element signature="class#9495:9931" expanded="false" />
+            <element signature="class#10128:11005" expanded="false" />
+            <element signature="class#11192:11628" expanded="false" />
+            <element signature="class#11825:12702" expanded="false" />
+            <element signature="class#12890:13326" expanded="false" />
+            <element signature="class#13523:14400" expanded="false" />
+            <element signature="class#14586:14982" expanded="false" />
+            <element signature="class#15163:15956" expanded="false" />
             <element signature="method#createCenterPanel1#0;class#UserInterface#0" expanded="false" />
             <element signature="method#createCenterPanel2#0;class#UserInterface#0" expanded="false" />
             <element signature="method#createCenterPanel3#0;class#UserInterface#0" expanded="false" />
+            <element signature="method#createCenterPanel4#0;class#UserInterface#0" expanded="false" />
             <element signature="method#createCenterPanel5#0;class#UserInterface#0" expanded="false" />
             <element signature="method#createCenterPanel6#0;class#UserInterface#0" expanded="false" />
+            <marker date="1515768061623" expanded="true" signature="33719:33901" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -823,10 +793,141 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Netnix/Accounts.java" />
     <entry file="file://$PROJECT_DIR$/src/Netnix/Profielen.java" />
+    <entry file="file://$PROJECT_DIR$/src/Netnix/Serie.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Netnix/Profiel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Netnix/Bekeken.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Netnix/util/DateBekeken.java" />
+    <entry file="file://$PROJECT_DIR$/src/Netnix/Aflevering.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-164">
+          <caret line="7" column="27" lean-forward="false" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Netnix/Film.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding>
+            <marker date="1515765656072" expanded="false" signature="1603:1609" ph=" }" />
+            <marker date="1515765656072" expanded="false" signature="1643:1654" ph=" { " />
+            <marker date="1515765656072" expanded="false" signature="1671:1677" ph=" }" />
+            <marker date="1515765656072" expanded="false" signature="1725:1736" ph=" { " />
+            <marker date="1515765656072" expanded="false" signature="1763:1769" ph=" }" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Netnix/util/DataAccount.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="22" column="47" lean-forward="false" selection-start-line="22" selection-start-column="47" selection-end-line="22" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2119#2120#0" expanded="true" />
+            <element signature="e#2150#2151#0" expanded="true" />
+            <marker date="1515765905794" expanded="true" signature="740:761" ph="SELECT * FRO... Account" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Netnix/util/DataAflevering.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1515762575794" expanded="true" signature="757:781" ph="SELECT * FRO... Aflevering" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Netnix/util/DataBekeken.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="33" column="48" lean-forward="false" selection-start-line="33" selection-start-column="48" selection-end-line="33" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1515765778130" expanded="true" signature="742:763" ph="SELECT * FRO... Bekeken" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Netnix/util/DataFilm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="22" column="44" lean-forward="false" selection-start-line="22" selection-start-column="44" selection-end-line="22" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1515765905746" expanded="true" signature="725:743" ph="SELECT * FRO... Film" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Netnix/util/DataProfiel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="29" column="62" lean-forward="false" selection-start-line="29" selection-start-column="62" selection-end-line="29" selection-end-column="62" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1515765905706" expanded="true" signature="648:669" ph="SELECT * FRO... Profiel" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Netnix/util/DataSerie.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="34" column="54" lean-forward="false" selection-start-line="34" selection-start-column="54" selection-end-line="34" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1515765930642" expanded="true" signature="730:749" ph="SELECT * FRO... Serie" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Netnix/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="23" column="33" lean-forward="false" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Netnix/util/ColumnResize.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="40" lean-forward="false" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Netnix/Account.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="782">
-          <caret line="62" column="5" lean-forward="false" selection-start-line="62" selection-start-column="5" selection-end-line="62" selection-end-column="5" />
+        <state relative-caret-position="0">
+          <caret line="0" column="15" lean-forward="false" selection-start-line="0" selection-start-column="15" selection-end-line="0" selection-end-column="15" />
           <folding>
             <element signature="e#1390#1391#0" expanded="true" />
             <element signature="e#1423#1424#0" expanded="true" />
@@ -836,161 +937,60 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Netnix/util/DataWrite.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding>
-            <marker date="1515762774109" expanded="true" signature="300:441" ph="INSERT INTO Afleveringen... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Netnix/Serie.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="33" column="34" lean-forward="false" selection-start-line="33" selection-start-column="18" selection-end-line="33" selection-end-column="34" />
-          <folding>
-            <element signature="e#1404#1405#0" expanded="true" />
-            <element signature="e#1442#1443#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Netnix/Profiel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Netnix/Bekeken.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="52" column="5" lean-forward="false" selection-start-line="52" selection-start-column="5" selection-end-line="52" selection-end-column="5" />
-          <folding>
-            <element signature="e#1188#1189#0" expanded="true" />
-            <element signature="e#1226#1227#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Netnix/util/DataAccount.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="918">
-          <caret line="58" column="5" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="59" selection-end-column="1" />
+        <state relative-caret-position="114">
+          <caret line="10" column="35" lean-forward="false" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1515765474222" expanded="true" signature="740:762" ph="SELECT * FRO... Accounts" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Netnix/util/DateBekeken.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="57" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Netnix/util/DataSerie.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="9" selection-end-column="22" />
-          <folding>
-            <marker date="1515765474184" expanded="true" signature="730:750" ph="SELECT * FRO... Series" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Netnix/util/DataAflevering.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="12" column="4" lean-forward="false" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="69" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1515762774094" expanded="true" signature="757:781" ph="SELECT * FRO... Aflevering" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Netnix/Aflevering.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="21" lean-forward="false" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Netnix/util/DataBekeken.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="35" column="44" lean-forward="true" selection-start-line="35" selection-start-column="44" selection-end-line="35" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1515765474291" expanded="true" signature="742:763" ph="SELECT * FRO... Bekeken" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Netnix/util/DataFilm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" column="42" lean-forward="false" selection-start-line="29" selection-start-column="42" selection-end-line="29" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1515765474381" expanded="true" signature="725:744" ph="SELECT * FRO... Films" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Netnix/Film.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="33" column="0" lean-forward="true" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-          <folding>
-            <element signature="e#1464#1465#0" expanded="true" />
-            <element signature="e#1500#1501#0" expanded="true" />
+            <marker date="1515767619295" expanded="true" signature="297:371" ph="INSERT INTO Afleveringen... " />
+            <marker date="1515767619295" expanded="true" signature="297:372" ph="INSERT INTO Afleveringen... " />
+            <marker date="1515767619295" expanded="true" signature="297:380" ph="INSERT INTO Afleveringen... " />
+            <marker date="1515767619295" expanded="true" signature="297:385" ph="INSERT INTO Afleveringen... " />
+            <marker date="1515767619295" expanded="true" signature="297:390" ph="INSERT INTO Afleveringen... " />
+            <marker date="1515767619295" expanded="true" signature="297:396" ph="INSERT INTO Afleveringen... " />
+            <marker date="1515767619295" expanded="true" signature="297:402" ph="INSERT INTO Afleveringen... " />
+            <marker date="1515767619295" expanded="true" signature="297:408" ph="INSERT INTO Afleveringen... " />
+            <marker date="1515767619295" expanded="true" signature="297:414" ph="INSERT INTO Afleveringen... " />
+            <marker date="1515767619295" expanded="true" signature="297:420" ph="INSERT INTO Afleveringen... " />
+            <marker date="1515767619295" expanded="true" signature="297:426" ph="INSERT INTO Afleveringen... " />
+            <marker date="1515767619295" expanded="true" signature="297:432" ph="INSERT INTO Afleveringen... " />
+            <marker date="1515767619295" expanded="true" signature="297:438" ph="INSERT INTO Afleveringen... " />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Netnix/UserInterface.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="508">
-          <caret line="771" column="20" lean-forward="true" selection-start-line="771" selection-start-column="20" selection-end-line="771" selection-end-column="20" />
+        <state relative-caret-position="612">
+          <caret line="86" column="49" lean-forward="false" selection-start-line="86" selection-start-column="49" selection-end-line="86" selection-end-column="49" />
           <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#UserInterface#0;class#UserInterface#0" expanded="false" />
             <element signature="method#run#0;class#UserInterface#0" expanded="false" />
             <element signature="method#addDefaultComponents#0;class#UserInterface#0" expanded="false" />
             <element signature="method#createNorth#0;class#UserInterface#0" expanded="false" />
             <element signature="method#createSouth#0;class#UserInterface#0" expanded="false" />
             <element signature="method#createCenter#0;class#UserInterface#0" expanded="false" />
             <element signature="method#createWest#0;class#UserInterface#0" expanded="false" />
+            <element signature="class#6092:6528" expanded="false" />
+            <element signature="class#6725:7605" expanded="false" />
+            <element signature="class#7796:8232" expanded="false" />
+            <element signature="class#8429:9306" expanded="false" />
+            <element signature="class#9495:9931" expanded="false" />
+            <element signature="class#10128:11005" expanded="false" />
+            <element signature="class#11192:11628" expanded="false" />
+            <element signature="class#11825:12702" expanded="false" />
+            <element signature="class#12890:13326" expanded="false" />
+            <element signature="class#13523:14400" expanded="false" />
+            <element signature="class#14586:14982" expanded="false" />
+            <element signature="class#15163:15956" expanded="false" />
             <element signature="method#createCenterPanel1#0;class#UserInterface#0" expanded="false" />
             <element signature="method#createCenterPanel2#0;class#UserInterface#0" expanded="false" />
             <element signature="method#createCenterPanel3#0;class#UserInterface#0" expanded="false" />
+            <element signature="method#createCenterPanel4#0;class#UserInterface#0" expanded="false" />
             <element signature="method#createCenterPanel5#0;class#UserInterface#0" expanded="false" />
             <element signature="method#createCenterPanel6#0;class#UserInterface#0" expanded="false" />
+            <marker date="1515768061623" expanded="true" signature="33719:33901" ph="{...}" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Netnix/util/DataProfiel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="19" lean-forward="false" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1515765474135" expanded="true" signature="648:669" ph="SELECT * FRO... Profiel" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Netnix/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="32" column="56" lean-forward="false" selection-start-line="32" selection-start-column="56" selection-end-line="32" selection-end-column="56" />
-          <folding />
         </state>
       </provider>
     </entry>

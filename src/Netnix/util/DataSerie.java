@@ -20,7 +20,7 @@ public class DataSerie {
             con = DriverManager.getConnection(connectionUrl);
 
             // Stel een SQL query samen.
-            String SQL = "SELECT * FROM Series";
+            String SQL = "SELECT * FROM Serie";
             stmt = con.createStatement();
             // Voer de query uit op de database.
             rs = stmt.executeQuery(SQL);
@@ -29,10 +29,10 @@ public class DataSerie {
             while (rs.next()) {
                 // Vraag per row de kolommen in die row op.
                 String serie = rs.getString("Serie");
-                String leeftijdSerie = rs.getString("Seizoen");
-                String taalSerie = rs.getString("Titel");
-                String genreSerie = rs.getString("");
-                String lijktOp = rs.getString("");
+                String leeftijdSerie = rs.getString("Leeftijd");
+                String taalSerie = rs.getString("Taal");
+                String genreSerie = rs.getString("Genre");
+                String lijktOp = rs.getString("LijktOp");
                 Serie ser = new Serie(serie,leeftijdSerie,taalSerie,genreSerie,lijktOp);
                 DataSerie.addSerie(ser);
             }

@@ -8,7 +8,7 @@ import java.sql.ResultSet;
 import java.sql.Statement;
 
 public class DataWrite {
-    public static void writeAflevering(String a, String b, String c, String d, String f){
+    public static void writeAccount(String a, String b, String c, String d, String f){
         String SQL = "INSERT INTO Afleveringen (Aflevering_ID, Serie, Seizoen, Titel, Tijdsduur) VALUES (" + a + ",'" + b + "','" + c + "','" + d + "','" + f + "');";
         String connectionUrl = "jdbc:sqlserver://localhost\\SQLEXPRESS;databasename=TrioNetnix;integratedSecurity=true;portNumber=1433;";
         Connection con = null;

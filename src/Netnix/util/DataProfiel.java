@@ -25,9 +25,9 @@ public class DataProfiel {
             // Als de resultset waarden bevat dan lopen we hier door deze waarden en printen ze.
             while (rs.next()) {
                 // Vraag per row de kolommen in die row op.
-                int abonneenummerPro = rs.getInt("Serie");
-                String profielNaamPro = rs.getString("Seizoen");
-                Date geboortedatum = rs.getDate("Titel");
+                int abonneenummerPro = rs.getInt("Abonneenummer");
+                String profielNaamPro = rs.getString("Profielnaam");
+                Date geboortedatum = rs.getDate("geboortedatum");
                 Profiel pro = new Profiel(abonneenummerPro,profielNaamPro,geboortedatum);
                 DataProfiel.addProfiel(pro);
             }

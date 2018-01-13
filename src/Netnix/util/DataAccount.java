@@ -18,6 +18,7 @@ public class DataAccount {
 
     public static void createAccounts(String connectionUrl, Connection con, Statement stmt, ResultSet rs){
         try {
+            accounts = new ArrayList<>();
             // 'Importeer' de driver die je gedownload hebt.
             Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
             // Maak de verbinding met de database.

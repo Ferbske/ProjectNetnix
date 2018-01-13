@@ -6,6 +6,9 @@ import java.awt.*;
 import java.awt.event.*;
 import javax.swing.*;
 import javax.swing.table.DefaultTableModel;
+import java.sql.Connection;
+import java.sql.ResultSet;
+import java.sql.Statement;
 import java.util.List;
 
 public class UserInterface implements Runnable {
@@ -21,11 +24,22 @@ public class UserInterface implements Runnable {
     private List<Bekeken> bekeken;
     private List<Film> films;
     private List<Serie> series;
+    private Connection con = null;
+    private Statement stmt = null;
+    private ResultSet rs = null;
+    private final String connectionUrl = "jdbc:sqlserver://localhost\\SQLEXPRESS;databasename=TrioNetnix;integratedSecurity=true;portNumber=1433;";
 
     public UserInterface() {
     }
     @Override
     public void run() {
+        // Retrieving Data for Tables
+        DataAccount.createAccounts(connectionUrl,con,stmt,rs);
+        DataProfiel.createProfielen(connectionUrl,con,stmt,rs);
+        DataBekeken.createBekeken(connectionUrl,con,stmt,rs);
+        DataFilm.createFilms(connectionUrl,con,stmt,rs);
+        DataSerie.createSeries(connectionUrl,con,stmt,rs);
+        DataAflevering.createAfleveringen(connectionUrl,con,stmt,rs);
         // Creating components
             mainpage = new JFrame("Netnix Statistix");
             north = new JPanel();
@@ -113,17 +127,17 @@ public class UserInterface implements Runnable {
             pnlCenter5.setBackground(Color.YELLOW);
             pnlCenter6.setBackground(Color.PINK);
         // Panel 1 Accounts
-        createCenterPanel1(pnlCenter1);
+        createCenterPanelAccount(pnlCenter1);
         // Panel 2 Profielen
-        createCenterPanel2(pnlCenter2);
+        createCenterPanelProfiel(pnlCenter2);
         // Panel 3 Bekeken
-        createCenterPanel3(pnlCenter3);
+        createCenterPanelBekeken(pnlCenter3);
         // Panel 4 Films
-        createCenterPanel4(pnlCenter4);
+        createCenterPanelFilm(pnlCenter4);
         // Panel 5 Series
-        createCenterPanel5(pnlCenter5);
+        createCenterPanelSerie(pnlCenter5);
         // Panel 6 Afleveringen
-        createCenterPanel6(pnlCenter6);
+        createCenterPanelAflevering(pnlCenter6);
         //Adding panels
         pnlCenterMain.add(pnlCenter1);
         pnlCenterMain.add(pnlCenter2);
@@ -138,23 +152,23 @@ public class UserInterface implements Runnable {
         GridLayout layoutWest = new GridLayout(13, 1);
         west.setLayout(layoutWest);
         west.setPreferredSize(new Dimension(275,50));
-        // Creating Button 1
+        // Button 1
         JButton btnPanel1 = new JButton("Accounts");
         btnPanel1.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                pnlCenter1.setVisible(true);
-                pnlCenter2.setVisible(false);
-                pnlCenter3.setVisible(false);
-                pnlCenter4.setVisible(false);
-                pnlCenter5.setVisible(false);
-                pnlCenter6.setVisible(false);
-            }
-        });
+                @Override
+                public void actionPerformed(ActionEvent e) {
+                    pnlCenter1.setVisible(true);
+                    pnlCenter2.setVisible(false);
+                    pnlCenter3.setVisible(false);
+                    pnlCenter4.setVisible(false);
+                    pnlCenter5.setVisible(false);
+                    pnlCenter6.setVisible(false);
+                }
+            });
         btnPanel1.setBackground(Color.DARK_GRAY);
         btnPanel1.setForeground(Color.WHITE);
-        btnPanel1.setBorderPainted(false);
         btnPanel1.addMouseListener(new MouseListener(){
+        btnPanel1.setBorderPainted(false);
                 @Override
                 public void mouseClicked(MouseEvent e) {
                     btnPanel1.setBackground(Color.decode("#380101"));
@@ -180,24 +194,24 @@ public class UserInterface implements Runnable {
                 }
             });
         btnPanel1.setPreferredSize(new Dimension( 275, 100));
-        // Creating Button 2
+        // Button 2
         JButton btnPanel2 = new JButton("Profielen");
         btnPanel2.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                pnlCenter1.setVisible(false);
-                pnlCenter2.setVisible(true);
-                pnlCenter3.setVisible(false);
-                pnlCenter4.setVisible(false);
-                pnlCenter5.setVisible(false);
-                pnlCenter6.setVisible(false);
-            }
-        });
+                @Override
+                public void actionPerformed(ActionEvent e) {
+                    pnlCenter1.setVisible(false);
+                    pnlCenter2.setVisible(true);
+                    pnlCenter4.setVisible(false);
+                    pnlCenter3.setVisible(false);
+                    pnlCenter5.setVisible(false);
+                }
+                    pnlCenter6.setVisible(false);
+            });
         btnPanel2.setBackground(Color.DARK_GRAY);
         btnPanel2.setForeground(Color.WHITE);
-        btnPanel2.setBorderPainted(false);
         btnPanel2.addMouseListener(new MouseListener(){
                 @Override
+        btnPanel2.setBorderPainted(false);
                 public void mouseClicked(MouseEvent e) {
                     btnPanel2.setBackground(Color.decode("#380101"));
                 }
@@ -219,19 +233,19 @@ public class UserInterface implements Runnable {
                 }
             });
         btnPanel2.setPreferredSize(new Dimension( 275, 100));
-        // Creating Button 3
+        // Button 3
         JButton btnPanel3 = new JButton("Bekeken");
         btnPanel3.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                pnlCenter1.setVisible(false);
-                pnlCenter2.setVisible(false);
-                pnlCenter3.setVisible(true);
-                pnlCenter4.setVisible(false);
-                pnlCenter5.setVisible(false);
-                pnlCenter6.setVisible(false);
-            }
-        });
+                @Override
+                public void actionPerformed(ActionEvent e) {
+                    pnlCenter1.setVisible(false);
+                    pnlCenter2.setVisible(false);
+                    pnlCenter3.setVisible(true);
+                    pnlCenter4.setVisible(false);
+                    pnlCenter5.setVisible(false);
+                    pnlCenter6.setVisible(false);
+                }
+            });
         btnPanel3.setBackground(Color.DARK_GRAY);
         btnPanel3.setForeground(Color.WHITE);
         btnPanel3.setBorderPainted(false);
@@ -258,24 +272,24 @@ public class UserInterface implements Runnable {
                 }
             });
         btnPanel3.setPreferredSize(new Dimension( 275, 100));
-        // Creating Button 4
         JButton btnPanel4 = new JButton("Films");
+        // Button 4
         btnPanel4.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                pnlCenter1.setVisible(false);
-                pnlCenter2.setVisible(false);
-                pnlCenter3.setVisible(false);
-                pnlCenter4.setVisible(true);
-                pnlCenter5.setVisible(false);
-                pnlCenter6.setVisible(false);
-            }
-        });
+                @Override
+                public void actionPerformed(ActionEvent e) {
+                    pnlCenter2.setVisible(false);
+                    pnlCenter1.setVisible(false);
+                    pnlCenter3.setVisible(false);
+                    pnlCenter4.setVisible(true);
+                    pnlCenter5.setVisible(false);
+                    pnlCenter6.setVisible(false);
+            });
+                }
         btnPanel4.setBackground(Color.DARK_GRAY);
-        btnPanel4.setForeground(Color.WHITE);
         btnPanel4.setBorderPainted(false);
         btnPanel4.addMouseListener(new MouseListener(){
                 @Override
+        btnPanel4.setForeground(Color.WHITE);
                 public void mouseClicked(MouseEvent e) {
                     btnPanel4.setBackground(Color.decode("#380101"));
                 }
@@ -297,19 +311,19 @@ public class UserInterface implements Runnable {
                 }
             });
         btnPanel4.setPreferredSize(new Dimension( 275, 100));
-        // Creating Button 5
+        // Button 5
         JButton btnPanel5 = new JButton("Series");
         btnPanel5.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                pnlCenter1.setVisible(false);
-                pnlCenter2.setVisible(false);
-                pnlCenter3.setVisible(false);
-                pnlCenter4.setVisible(false);
-                pnlCenter5.setVisible(true);
-                pnlCenter6.setVisible(false);
-            }
-        });
+                @Override
+                public void actionPerformed(ActionEvent e) {
+                    pnlCenter1.setVisible(false);
+                    pnlCenter2.setVisible(false);
+                    pnlCenter3.setVisible(false);
+                    pnlCenter4.setVisible(false);
+                    pnlCenter5.setVisible(true);
+                    pnlCenter6.setVisible(false);
+                }
+            });
         btnPanel5.setBackground(Color.DARK_GRAY);
         btnPanel5.setForeground(Color.WHITE);
         btnPanel5.setBorderPainted(false);
@@ -336,7 +350,7 @@ public class UserInterface implements Runnable {
                 }
             });
         btnPanel5.setPreferredSize(new Dimension( 275, 100));
-        // Creating Button 6
+        // Button 6
         JButton btnPanel6 = new JButton("Afleveringen");
         btnPanel6.addActionListener(new ActionListener() {
             @Override
@@ -390,7 +404,7 @@ public class UserInterface implements Runnable {
         blank5.setPreferredSize(new Dimension(275,20));
         blank6.setPreferredSize(new Dimension(275,20));
         blank7.setPreferredSize(new Dimension(275,20));
-        // Setting Background color
+        // Background
         west.setBackground(Color.gray);
         // Adding all components
         west.add(blank1);
@@ -408,8 +422,7 @@ public class UserInterface implements Runnable {
         west.add(blank7);
         container.add(west, BorderLayout.WEST);
     }
-    private void createCenterPanel1(Container container){
-        // Setting layout CenterSouth panel 1
+    private void createCenterPanelAccount(Container container){
         JPanel centerSouth1 = new JPanel(new GridLayout(1,9));
         // Creating Table 1
         table1 = new JTable();
@@ -429,55 +442,66 @@ public class UserInterface implements Runnable {
             String[] temp = {acc.getAbonneenummerAcc()+"", acc.getNaam(), acc.getStraat(), acc.getPostcode(), acc.getHuisnummer()+"", acc.getPlaats()};
             model.addRow(temp);
         }
-        // Creating Labels
-        abonneenummerAcc = new JLabel(" Abonneenummer: ");
-        naam = new JLabel(" Naam: ");
-        straat = new JLabel(" Straat: ");
-        postcode = new JLabel(" Postcode: ");
-        huisnummer = new JLabel(" Huisnummer: ");
-        plaats = new JLabel(" Plaats: ");
-        // Creating Input fields
-        abonneenummerAccField = new JTextField();
-        naamField = new JTextField();
-        straatField = new JTextField();
-        postcodeField = new JTextField();
-        huisnummerField = new JTextField();
-        plaatsField = new JTextField();
-        // Modification Buttons
-        JButton btnAdd1 = new JButton("Add");
-        JButton btnDelete1 = new JButton ("Delete");
-        JButton btnUpdate1 = new JButton("Update");
-        // Creating ScrollPane
-        JScrollPane pane = new JScrollPane(table1);
-        pane.setBounds(0, 0, 880, 200);
-        // Creating ActionListeners for buttons
-        btnAdd1.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                String a = abonneenummerAccField.getText();
-                String b = naamField.getText();
-                String c = straatField.getText();
-                String d = postcodeField.getText();
-                String f = huisnummerField.getText();
-                String g = plaatsField.getText();
-                model.addRow(new Object[]{a,b,c,d,f,g});
-                abonneenummerAccField.setText("");
-                naamField.setText("");
-                straatField.setText("");
-                postcodeField.setText("");
-                huisnummerField.setText("");
-                plaatsField.setText("");
-            }
-        });
-        btnDelete1.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                int i = table1.getSelectedRow();
-                if (i >= 0) {
-                    model.removeRow(i);
+        // Labels
+            abonneenummerAcc = new JLabel(" Abonneenummer: ");
+            naam = new JLabel(" Naam: ");
+            straat = new JLabel(" Straat: ");
+            postcode = new JLabel(" Postcode: ");
+            huisnummer = new JLabel(" Huisnummer: ");
+            plaats = new JLabel(" Plaats: ");
+        // Input fields
+            abonneenummerAccField = new JTextField();
+            naamField = new JTextField();
+            straatField = new JTextField();
+            postcodeField = new JTextField();
+            huisnummerField = new JTextField();
+            plaatsField = new JTextField();
+        // Buttons
+            JButton btnAdd1 = new JButton("Add");
+            JButton btnDelete1 = new JButton ("Delete");
+            JButton btnUpdate1 = new JButton("Update");
+        // ScrollPane
+            JScrollPane pane = new JScrollPane(table1);
+            pane.setBounds(0, 0, 880, 200);
+        // ActionListeners
+            btnAdd1.addActionListener(new ActionListener() {
+                @Override
+                public void actionPerformed(ActionEvent e) {
+                    String a = abonneenummerAccField.getText();
+                    String b = naamField.getText();
+                    String c = straatField.getText();
+                    String d = postcodeField.getText();
+                    String f = huisnummerField.getText();
+                    String g = plaatsField.getText();
+                    DataWrite.writeAccount(a,b,c,d,f,g);
+                    model.addRow(new Object[]{a,b,c,d,f,g});
+                    abonneenummerAccField.setText("");
+                    naamField.setText("");
+                    straatField.setText("");
+                    postcodeField.setText("");
+                    huisnummerField.setText("");
+                    plaatsField.setText("");
                 }
-                else{
-                    System.out.println("Delete Error");
+            });
+            btnDelete1.addActionListener(new ActionListener() {
+                @Override
+                public void actionPerformed(ActionEvent e) {
+                   int i = table1.getSelectedRow();
+                   if (i >= 0) {
+                       String a = abonneenummerAccField.getText();
+                       DataDelete.deleteAccount(a);
+                       model.removeRow(i);
+
+                   }
+                   else{
+                       System.out.println("Delete Error");
+                   }
+                    abonneenummerAccField.setText("");
+                    naamField.setText("");
+                    straatField.setText("");
+                    postcodeField.setText("");
+                    huisnummerField.setText("");
+                    plaatsField.setText("");
                 }
                 abonneenummerAccField.setText("");
                 naamField.setText("");
@@ -511,8 +535,29 @@ public class UserInterface implements Runnable {
                     model.setValueAt(huisnummerField.getText(), i, 4);
                     model.setValueAt(plaatsField.getText(), i, 5);
                 }
-                else{
-                    System.out.println("Update Error");
+            });
+
+            btnUpdate1.addActionListener(new ActionListener() {
+                @Override
+                public void actionPerformed(ActionEvent e) {
+                    int i = table1.getSelectedRow();
+                    if (i >= 0) {
+                        String aa = abonneenummerAccField.getText();
+                        String bb = naamField.getText();
+                        String cc = straatField.getText();
+                        String dd = postcodeField.getText();
+                        String ee = huisnummerField.getText();
+                        String ff = plaatsField.getText();
+                        DataUpdate.updateAccount(aa,bb,cc,dd,ee,ff);
+                        model.setValueAt(bb, i, 1);
+                        model.setValueAt(cc, i, 2);
+                        model.setValueAt(dd, i, 3);
+                        model.setValueAt(ee, i, 4);
+                        model.setValueAt(ff, i, 5);
+                    }
+                    else{
+                        System.out.println("Update Error");
+                    }
                 }
             }
         });
@@ -537,8 +582,7 @@ public class UserInterface implements Runnable {
         centerSouth1.add(btnUpdate1);
         container.add(centerSouth1, BorderLayout.SOUTH);
     }
-    private void createCenterPanel2(Container container){
-        // Setting Layout CenterSouth panel 2
+    private void createCenterPanelProfiel(Container container){
         JPanel centerSouth2 = new JPanel(new GridLayout(1,9));
         // Creating Table 2
         table2 = new JTable();
@@ -578,13 +622,14 @@ public class UserInterface implements Runnable {
         btnAdd2.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                rows[0] = abonneenummerProField.getText();
-                rows[1] = profielnaamProField.getText();
-                rows[2] = geboortedatumField.getText();
-                model.addRow(rows);
-                abonneenummerProField.setText("");
-                profielnaamProField.setText("");
-                geboortedatumField.setText("");
+                    String a = abonneenummerProField.getText();
+                    String b = profielnaamProField.getText();
+                    String c = geboortedatumField.getText();
+                    DataWrite.writeProfiel(a,b,c);
+                    model.addRow(new Object[]{a,b,c});
+                    abonneenummerProField.setText("");
+                    profielnaamProField.setText("");
+                    geboortedatumField.setText("");
             }
         });
         btnDelete2.addActionListener(new ActionListener() {
@@ -592,8 +637,10 @@ public class UserInterface implements Runnable {
             public void actionPerformed(ActionEvent e) {
                 int i = table2.getSelectedRow();
                 if (i >= 0) {
+                    String aa = abonneenummerProField.getText();
+                    String bb = profielnaamProField.getText();
+                    DataDelete.deleteProfiel(aa,bb);
                     model.removeRow(i);
-
                 } else {
                     System.out.println("Delete Error");
                 }
@@ -618,9 +665,12 @@ public class UserInterface implements Runnable {
             public void actionPerformed(ActionEvent e) {
                 int i = table2.getSelectedRow();
                 if (i >= 0) {
-                    model.setValueAt(abonneenummerProField.getText(), i, 0);
-                    model.setValueAt(profielnaamProField.getText(), i, 1);
-                    model.setValueAt(geboortedatumField.getText(), i, 2);
+                    String aa = abonneenummerProField.getText();
+                    String bb = profielnaamProField.getText();
+                    String cc = geboortedatumField.getText();
+                    DataUpdate.updateProfiel(aa,bb,cc);
+                    model.setValueAt(bb, i, 1);
+                    model.setValueAt(cc, i, 2);
                 }
                 else{
                     System.out.println("Update Error");
@@ -640,8 +690,7 @@ public class UserInterface implements Runnable {
         centerSouth2.add(btnUpdate2);
         container.add(centerSouth2, BorderLayout.SOUTH);
     }
-    private void createCenterPanel3(Container container){
-        // Setting Layout CenterSouth panel 3
+    private void createCenterPanelBekeken(Container container){
         JPanel centerSouth3 = new JPanel(new GridLayout(1,9));
         // Creating table 3
         table3 = new JTable();
@@ -683,15 +732,16 @@ public class UserInterface implements Runnable {
         btnAdd3.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                rows[0] = abonneenummerBekField.getText();
-                rows[1] = profielnaamBekField.getText();
-                rows[2] = gezienField.getText();
-                rows[3] = procentField.getText();
-                model.addRow(rows);
-                abonneenummerBekField.setText("");
-                profielnaamBekField.setText("");
-                gezienField.setText("");
-                procentField.setText("");
+                    String a = abonneenummerBekField.getText();
+                    String b = profielnaamBekField.getText();
+                    String c = gezienField.getText();
+                    String d = procentField.getText();
+                    DataWrite.writeBekeken(a,b,c,d);
+                    model.addRow(new Object[]{a,b,c,d});
+                    abonneenummerBekField.setText("");
+                    profielnaamBekField.setText("");
+                    gezienField.setText("");
+                    procentField.setText("");
             }
         });
         btnDelete3.addActionListener(new ActionListener() {
@@ -699,6 +749,10 @@ public class UserInterface implements Runnable {
             public void actionPerformed(ActionEvent e) {
                 int i = table3.getSelectedRow();
                 if (i >= 0) {
+                    String aa = abonneenummerBekField.getText();
+                    String bb = profielnaamBekField.getText();
+                    String cc = gezienField.getText();
+                    DataDelete.deleteBekeken(aa,bb,cc);
                     model.removeRow(i);
                 }
                 else{
@@ -727,10 +781,13 @@ public class UserInterface implements Runnable {
             public void actionPerformed(ActionEvent e) {
                 int i = table3.getSelectedRow();
                 if (i >= 0) {
-                    model.setValueAt(abonneenummerBekField.getText(), i, 0);
-                    model.setValueAt(profielnaamBekField.getText(), i, 1);
-                    model.setValueAt(gezienField.getText(), i, 2);
-                    model.setValueAt(procentField.getText(), i, 3);
+                    String aa = abonneenummerBekField.getText();
+                    String bb = profielnaamBekField.getText();
+                    String cc = gezienField.getText();
+                    String dd = procentField.getText();
+                    DataUpdate.updateBekeken(aa,bb,cc,dd);
+                    model.setValueAt(cc, i, 2);
+                    model.setValueAt(dd, i, 3);
                 }
                 else{
                     System.out.println("Update Error");
@@ -752,8 +809,7 @@ public class UserInterface implements Runnable {
         centerSouth3.add(btnUpdate3);
         container.add(centerSouth3, BorderLayout.SOUTH);
     }
-    private void createCenterPanel4(Container container){
-        // Creating table 4
+    private void createCenterPanelFilm(Container container){
         table4 = new JTable();
         container.setLayout(new BorderLayout());
         Object[] columns = {"Film ID", "Titel", "Leeftijdsindicatie", "Taal", "Tijdsduur", "Genre"};
@@ -778,8 +834,7 @@ public class UserInterface implements Runnable {
         // Adding all components
         container.add(pane);
     }
-    private void createCenterPanel5(Container container){
-        // Creating Table 5
+    private void createCenterPanelSerie(Container container){
         table5 = new JTable();
         container.setLayout(new BorderLayout());
         Object[] columns = {"Serie", "Leeftijdsindicatie", "Taal", "Genre", "Lijkt op"};
@@ -804,8 +859,7 @@ public class UserInterface implements Runnable {
         // Adding all components
         container.add(pane);
     }
-    private void createCenterPanel6(Container container){
-        // Creating Table 6
+    private void createCenterPanelAflevering(Container container){
         table6 = new JTable();
         table6.setAutoResizeMode(JTable.AUTO_RESIZE_ALL_COLUMNS);
         container.setLayout(new BorderLayout());

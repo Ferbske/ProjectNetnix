@@ -1,0 +1,1460 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="aa6c38b0-fcf6-4637-91c2-6390a35816cb" name="Default" comment="">
+<<<<<<< Updated upstream
+=======
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Netnix/util/DataDelete.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Netnix/util/DataUpdate.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ProjectNetnix/Netnix/UserInterface$14.class" afterPath="$PROJECT_DIR$/out/production/ProjectNetnix/Netnix/UserInterface$14.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ProjectNetnix/Netnix/UserInterface$15.class" afterPath="$PROJECT_DIR$/out/production/ProjectNetnix/Netnix/UserInterface$15.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ProjectNetnix/Netnix/UserInterface$16.class" afterPath="$PROJECT_DIR$/out/production/ProjectNetnix/Netnix/UserInterface$16.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ProjectNetnix/Netnix/UserInterface$17.class" afterPath="$PROJECT_DIR$/out/production/ProjectNetnix/Netnix/UserInterface$17.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ProjectNetnix/Netnix/UserInterface$18.class" afterPath="$PROJECT_DIR$/out/production/ProjectNetnix/Netnix/UserInterface$18.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ProjectNetnix/Netnix/UserInterface$19.class" afterPath="$PROJECT_DIR$/out/production/ProjectNetnix/Netnix/UserInterface$19.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ProjectNetnix/Netnix/UserInterface$20.class" afterPath="$PROJECT_DIR$/out/production/ProjectNetnix/Netnix/UserInterface$20.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ProjectNetnix/Netnix/UserInterface$21.class" afterPath="$PROJECT_DIR$/out/production/ProjectNetnix/Netnix/UserInterface$21.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ProjectNetnix/Netnix/UserInterface$22.class" afterPath="$PROJECT_DIR$/out/production/ProjectNetnix/Netnix/UserInterface$22.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ProjectNetnix/Netnix/UserInterface$23.class" afterPath="$PROJECT_DIR$/out/production/ProjectNetnix/Netnix/UserInterface$23.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ProjectNetnix/Netnix/UserInterface$24.class" afterPath="$PROJECT_DIR$/out/production/ProjectNetnix/Netnix/UserInterface$24.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ProjectNetnix/Netnix/UserInterface$25.class" afterPath="$PROJECT_DIR$/out/production/ProjectNetnix/Netnix/UserInterface$25.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ProjectNetnix/Netnix/UserInterface.class" afterPath="$PROJECT_DIR$/out/production/ProjectNetnix/Netnix/UserInterface.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ProjectNetnix/Netnix/util/DataWrite.class" afterPath="$PROJECT_DIR$/out/production/ProjectNetnix/Netnix/util/DataWrite.class" />
+>>>>>>> Stashed changes
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Netnix/Main.java" afterPath="$PROJECT_DIR$/src/Netnix/Main.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Netnix/UserInterface.java" afterPath="$PROJECT_DIR$/src/Netnix/UserInterface.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Netnix/util/DataAccount.java" afterPath="$PROJECT_DIR$/src/Netnix/util/DataAccount.java" />
+<<<<<<< Updated upstream
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Netnix/util/DataAflevering.java" afterPath="$PROJECT_DIR$/src/Netnix/util/DataAflevering.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Netnix/util/DataBekeken.java" afterPath="$PROJECT_DIR$/src/Netnix/util/DataBekeken.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Netnix/util/DataFilm.java" afterPath="$PROJECT_DIR$/src/Netnix/util/DataFilm.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Netnix/util/DataProfiel.java" afterPath="$PROJECT_DIR$/src/Netnix/util/DataProfiel.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Netnix/util/DataSerie.java" afterPath="$PROJECT_DIR$/src/Netnix/util/DataSerie.java" />
+=======
+>>>>>>> Stashed changes
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Netnix/util/DataWrite.java" afterPath="$PROJECT_DIR$/src/Netnix/util/DataWrite.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Netnix/Account.java" afterPath="$PROJECT_DIR$/src/Netnix/Classes/Account.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Netnix/Aflevering.java" afterPath="$PROJECT_DIR$/src/Netnix/Classes/Aflevering.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Netnix/Bekeken.java" afterPath="$PROJECT_DIR$/src/Netnix/Classes/Bekeken.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Netnix/Film.java" afterPath="$PROJECT_DIR$/src/Netnix/Classes/Film.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Netnix/Profiel.java" afterPath="$PROJECT_DIR$/src/Netnix/Classes/Profiel.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Netnix/Serie.java" afterPath="$PROJECT_DIR$/src/Netnix/Classes/Serie.java" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Netnix/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+<<<<<<< Updated upstream
+            <state relative-caret-position="476">
+              <caret line="34" column="24" lean-forward="false" selection-start-line="34" selection-start-column="24" selection-end-line="34" selection-end-column="24" />
+=======
+            <state relative-caret-position="136">
+              <caret line="11" column="44" lean-forward="false" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
+>>>>>>> Stashed changes
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Account.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Netnix/Classes/Account.java">
+          <provider selected="true" editor-type-id="text-editor">
+<<<<<<< Updated upstream
+            <state relative-caret-position="34">
+              <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+              <folding>
+                <element signature="method#Account#0;class#Account#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Aflevering.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Netnix/Classes/Aflevering.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+              <folding>
+                <element signature="method#Aflevering#0;class#Aflevering#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Bekeken.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Netnix/Classes/Bekeken.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+              <folding>
+                <element signature="method#Bekeken#0;class#Bekeken#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Film.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Netnix/Classes/Film.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+              <folding>
+                <element signature="method#Film#0;class#Film#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Profiel.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Netnix/Classes/Profiel.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+              <folding>
+                <element signature="method#Profiel#0;class#Profiel#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Serie.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Netnix/Classes/Serie.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+              <folding>
+                <element signature="method#Serie#0;class#Serie#0" expanded="false" />
+=======
+            <state relative-caret-position="420">
+              <caret line="865" column="5" lean-forward="true" selection-start-line="865" selection-start-column="5" selection-end-line="865" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#UserInterface#0;class#UserInterface#0" expanded="false" />
+                <element signature="method#run#0;class#UserInterface#0" expanded="false" />
+                <element signature="method#addDefaultComponents#0;class#UserInterface#0" expanded="false" />
+                <element signature="method#createNorth#0;class#UserInterface#0" expanded="false" />
+                <element signature="method#createSouth#0;class#UserInterface#0" expanded="false" />
+                <element signature="method#createCenter#0;class#UserInterface#0" expanded="false" />
+                <element signature="method#createWest#0;class#UserInterface#0" expanded="false" />
+                <element signature="class#7481:8361" expanded="false" />
+                <element signature="class#9157:10034" expanded="false" />
+                <element signature="class#10828:11705" expanded="false" />
+                <element signature="class#12497:13374" expanded="false" />
+                <element signature="class#14167:15044" expanded="false" />
+                <element signature="class#15803:16596" expanded="false" />
+                <element signature="method#createCenterPanelAccount#0;class#UserInterface#0" expanded="false" />
+                <element signature="method#createCenterPanelProfiel#0;class#UserInterface#0" expanded="false" />
+                <element signature="method#createCenterPanelBekeken#0;class#UserInterface#0" expanded="false" />
+                <element signature="method#createCenterPanelFilm#0;class#UserInterface#0" expanded="false" />
+                <element signature="method#createCenterPanelSerie#0;class#UserInterface#0" expanded="false" />
+                <element signature="method#createCenterPanelAflevering#0;class#UserInterface#0" expanded="false" />
+                <marker date="1515878829336" expanded="true" signature="35598:35780" ph="{...}" />
+>>>>>>> Stashed changes
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>sec</find>
+      <find>mainpage</find>
+      <find>this</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/temp.java" />
+        <option value="$PROJECT_DIR$/src/Main.java" />
+        <option value="$PROJECT_DIR$/src/Netnix/Buttons/Homebutton.java" />
+        <option value="$PROJECT_DIR$/src/Netnix/ActionListener.java" />
+        <option value="$PROJECT_DIR$/src/Netnix/StartupPage.form" />
+        <option value="$PROJECT_DIR$/src/Netnix/StartupPage.java" />
+        <option value="$PROJECT_DIR$/src/Netnix/pnlCenter1.java" />
+        <option value="$PROJECT_DIR$/src/Netnix/Center1.java" />
+        <option value="$PROJECT_DIR$/Concept/src/sample/Main.java" />
+        <option value="$PROJECT_DIR$/src/Netnix/Accounts.java" />
+        <option value="$PROJECT_DIR$/src/Netnix/Profielen.java" />
+        <option value="$PROJECT_DIR$/src/Netnix/util/DateBekeken.java" />
+<<<<<<< Updated upstream
+        <option value="$PROJECT_DIR$/src/Netnix/util/ColumnResize.java" />
+        <option value="$PROJECT_DIR$/src/Netnix/util/DataAccount.java" />
+        <option value="$PROJECT_DIR$/src/Netnix/util/DataAflevering.java" />
+        <option value="$PROJECT_DIR$/src/Netnix/util/DataBekeken.java" />
+=======
+        <option value="$PROJECT_DIR$/src/Netnix/Film.java" />
+        <option value="$PROJECT_DIR$/src/Netnix/util/DataBekeken.java" />
+        <option value="$PROJECT_DIR$/src/Netnix/util/DataProfiel.java" />
+>>>>>>> Stashed changes
+        <option value="$PROJECT_DIR$/src/Netnix/util/DataFilm.java" />
+        <option value="$PROJECT_DIR$/src/Netnix/util/DataProfiel.java" />
+        <option value="$PROJECT_DIR$/src/Netnix/util/DataSerie.java" />
+<<<<<<< Updated upstream
+        <option value="$PROJECT_DIR$/src/Netnix/util/DataWrite.java" />
+        <option value="$PROJECT_DIR$/src/Netnix/Aflevering.java" />
+        <option value="$PROJECT_DIR$/src/Netnix/Account.java" />
+        <option value="$PROJECT_DIR$/src/Netnix/Bekeken.java" />
+        <option value="$PROJECT_DIR$/src/Netnix/Film.java" />
+        <option value="$PROJECT_DIR$/src/Netnix/Profiel.java" />
+        <option value="$PROJECT_DIR$/src/Netnix/Serie.java" />
+        <option value="$PROJECT_DIR$/src/Netnix/Main.java" />
+        <option value="$PROJECT_DIR$/src/Netnix/UserInterface.java" />
+        <option value="$PROJECT_DIR$/src/Netnix/Classes/Account.java" />
+        <option value="$PROJECT_DIR$/src/Netnix/Classes/Aflevering.java" />
+        <option value="$PROJECT_DIR$/src/Netnix/Classes/Bekeken.java" />
+        <option value="$PROJECT_DIR$/src/Netnix/Classes/Film.java" />
+        <option value="$PROJECT_DIR$/src/Netnix/Classes/Profiel.java" />
+        <option value="$PROJECT_DIR$/src/Netnix/Classes/Serie.java" />
+=======
+        <option value="$PROJECT_DIR$/src/Netnix/util/ColumnResize.java" />
+        <option value="$PROJECT_DIR$/src/Netnix/Account.java" />
+        <option value="$PROJECT_DIR$/src/Netnix/util/DataWrite.java" />
+        <option value="$PROJECT_DIR$/src/Netnix/util/DataDelete.java" />
+        <option value="$PROJECT_DIR$/src/Netnix/util/DataUpdate.java" />
+        <option value="$PROJECT_DIR$/src/Netnix/Main.java" />
+        <option value="$PROJECT_DIR$/src/Netnix/util/DataAccount.java" />
+        <option value="$PROJECT_DIR$/src/Netnix/UserInterface.java" />
+>>>>>>> Stashed changes
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="954" />
+    <option name="width" value="973" />
+    <option name="height" value="1047" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+<<<<<<< Updated upstream
+=======
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
+>>>>>>> Stashed changes
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="ProjectNetnix" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ProjectNetnix" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ProjectNetnix" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ProjectNetnix" type="462c0819:PsiDirectoryNode" />
+              <item name="Concept" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ProjectNetnix" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ProjectNetnix" type="462c0819:PsiDirectoryNode" />
+              <item name="Concept" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ProjectNetnix" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ProjectNetnix" type="462c0819:PsiDirectoryNode" />
+              <item name="Concept" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sample" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ProjectNetnix" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ProjectNetnix" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ProjectNetnix" type="b2602c69:ProjectViewProjectNode" />
+<<<<<<< Updated upstream
+              <item name="ProjectNetnix" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Netnix" type="462c0819:PsiDirectoryNode" />
+=======
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+>>>>>>> Stashed changes
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ProjectNetstixYannick" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="UI_DESIGNER_EDITOR_MODE.PaletteManager.WIDTH" value="311" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Netnix" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.ProjectNetnix">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="sample.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="sample.Main" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="ProjectNetnix" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+    </configuration>
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="Application.ProjectNetnix" />
+      <item index="1" class="java.lang.String" itemvalue="Application.Main" />
+    </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="aa6c38b0-fcf6-4637-91c2-6390a35816cb" name="Default" comment="" />
+      <created>1512468707464</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1512468707464</updated>
+      <workItem from="1512468709511" duration="3602000" />
+      <workItem from="1512980699997" duration="889000" />
+      <workItem from="1513162163380" duration="7324000" />
+      <workItem from="1513244364606" duration="6143000" />
+      <workItem from="1513323515042" duration="1892000" />
+      <workItem from="1513332798129" duration="19000" />
+      <workItem from="1513599581535" duration="2621000" />
+      <workItem from="1513602229326" duration="3333000" />
+      <workItem from="1513712283217" duration="1725000" />
+      <workItem from="1514043794917" duration="9566000" />
+      <workItem from="1515066550798" duration="11793000" />
+      <workItem from="1515327633745" duration="8658000" />
+      <workItem from="1515504014853" duration="7218000" />
+      <workItem from="1515676637702" duration="9000" />
+<<<<<<< Updated upstream
+      <workItem from="1515762895809" duration="5889000" />
+=======
+      <workItem from="1515762895809" duration="2711000" />
+      <workItem from="1515870502950" duration="8254000" />
+>>>>>>> Stashed changes
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+<<<<<<< Updated upstream
+    <option name="totallyTimeSpent" value="72777000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+=======
+    <option name="totallyTimeSpent" value="78449000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="954" y="0" width="973" height="1047" extended-state="0" />
+    <editor active="true" />
+>>>>>>> Stashed changes
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32441112" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="TMC Test Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+<<<<<<< Updated upstream
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34040296" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32976446" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.122395836" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+=======
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3436831" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32976446" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24555904" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+>>>>>>> Stashed changes
+      <window_info id="TMC Project List" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32985386" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3997879" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+<<<<<<< Updated upstream
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3997879" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+=======
+>>>>>>> Stashed changes
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32976446" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+<<<<<<< Updated upstream
+      <option name="time" value="24" />
+=======
+      <option name="time" value="32" />
+>>>>>>> Stashed changes
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+<<<<<<< Updated upstream
+    <entry file="file://$PROJECT_DIR$/src/Netnix/StartupPage.java" />
+=======
+>>>>>>> Stashed changes
+    <entry file="file://$PROJECT_DIR$/src/Netnix/UserInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="935">
+          <caret line="60" column="12" lean-forward="false" selection-start-line="60" selection-start-column="12" selection-end-line="60" selection-end-column="48" />
+          <folding>
+            <element signature="method#UserInterface#0;class#UserInterface#0" expanded="false" />
+            <element signature="method#run#0;class#UserInterface#0" expanded="false" />
+            <element signature="method#addDefaultComponents#0;class#UserInterface#0" expanded="false" />
+            <element signature="method#createNorth#0;class#UserInterface#0" expanded="false" />
+            <element signature="method#createSouth#0;class#UserInterface#0" expanded="false" />
+            <element signature="method#createCenter#0;class#UserInterface#0" expanded="false" />
+            <element signature="method#createWest#0;class#UserInterface#0" expanded="false" />
+<<<<<<< Updated upstream
+            <element signature="class#5912:6308" expanded="false" />
+            <element signature="class#6489:7369" expanded="false" />
+            <element signature="class#7557:7953" expanded="false" />
+            <element signature="class#8134:9011" expanded="false" />
+            <element signature="class#9197:9593" expanded="false" />
+            <element signature="class#9774:10651" expanded="false" />
+            <element signature="class#10835:11231" expanded="false" />
+            <element signature="class#11412:12289" expanded="false" />
+            <element signature="class#12474:12870" expanded="false" />
+            <element signature="class#13051:13928" expanded="false" />
+            <element signature="class#14119:14515" expanded="false" />
+            <element signature="class#14696:15489" expanded="false" />
+            <element signature="method#createCenterPanel1#0;class#UserInterface#0" expanded="false" />
+            <element signature="class#18891:19643" expanded="false" />
+            <element signature="class#19687:20301" expanded="false" />
+            <element signature="e#20336#20949#0" expanded="true" />
+            <element signature="e#20948#20949#0" expanded="true" />
+            <element signature="class#20993:21723" expanded="false" />
+            <element signature="method#createCenterPanel2#0;class#UserInterface#0" expanded="false" />
+            <element signature="class#24275:24752" expanded="false" />
+            <element signature="class#24796:25284" expanded="false" />
+            <element signature="class#25773:26313" expanded="false" />
+            <element signature="method#createCenterPanel3#0;class#UserInterface#0" expanded="false" />
+            <element signature="method#createCenterPanel4#0;class#UserInterface#0" expanded="false" />
+            <element signature="method#createCenterPanel5#0;class#UserInterface#0" expanded="false" />
+            <element signature="method#createCenterPanel6#0;class#UserInterface#0" expanded="false" />
+            <marker date="1515771126739" expanded="true" signature="34973:34981" ph="{...}" />
+=======
+            <element signature="class#7481:8361" expanded="false" />
+            <element signature="class#9157:10034" expanded="false" />
+            <element signature="class#10828:11705" expanded="false" />
+            <element signature="class#12497:13374" expanded="false" />
+            <element signature="class#14167:15044" expanded="false" />
+            <element signature="class#15803:16596" expanded="false" />
+            <element signature="method#createCenterPanelAccount#0;class#UserInterface#0" expanded="false" />
+            <element signature="method#createCenterPanelProfiel#0;class#UserInterface#0" expanded="false" />
+            <element signature="method#createCenterPanelBekeken#0;class#UserInterface#0" expanded="false" />
+            <element signature="method#createCenterPanelFilm#0;class#UserInterface#0" expanded="false" />
+            <element signature="method#createCenterPanelSerie#0;class#UserInterface#0" expanded="false" />
+            <element signature="method#createCenterPanelAflevering#0;class#UserInterface#0" expanded="false" />
+            <marker date="1515878829336" expanded="true" signature="35598:35780" ph="{...}" />
+>>>>>>> Stashed changes
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Netnix/StartupPage.form" />
+    <entry file="file://$PROJECT_DIR$/src/Netnix/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1105">
+          <caret line="65" column="34" lean-forward="false" selection-start-line="65" selection-start-column="34" selection-end-line="65" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Netnix/UserInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="35" column="12" lean-forward="false" selection-start-line="35" selection-start-column="12" selection-end-line="35" selection-end-column="12" />
+          <folding>
+            <element signature="method#UserInterface#0;class#UserInterface#0" expanded="false" />
+            <element signature="method#run#0;class#UserInterface#0" expanded="false" />
+            <element signature="method#addDefaultComponents#0;class#UserInterface#0" expanded="false" />
+            <element signature="method#createNorth#0;class#UserInterface#0" expanded="false" />
+            <element signature="method#createSouth#0;class#UserInterface#0" expanded="false" />
+            <element signature="method#createCenter#0;class#UserInterface#0" expanded="false" />
+            <element signature="method#createWest#0;class#UserInterface#0" expanded="false" />
+<<<<<<< Updated upstream
+            <element signature="class#5912:6308" expanded="false" />
+            <element signature="class#6489:7369" expanded="false" />
+            <element signature="class#7557:7953" expanded="false" />
+            <element signature="class#8134:9011" expanded="false" />
+            <element signature="class#9197:9593" expanded="false" />
+            <element signature="class#9774:10651" expanded="false" />
+            <element signature="class#10835:11231" expanded="false" />
+            <element signature="class#11412:12289" expanded="false" />
+            <element signature="class#12474:12870" expanded="false" />
+            <element signature="class#13051:13928" expanded="false" />
+            <element signature="class#14119:14515" expanded="false" />
+            <element signature="class#14696:15489" expanded="false" />
+            <element signature="method#createCenterPanel1#0;class#UserInterface#0" expanded="false" />
+            <element signature="class#18891:19643" expanded="false" />
+            <element signature="class#19687:20301" expanded="false" />
+            <element signature="e#20336#20949#0" expanded="true" />
+            <element signature="e#20948#20949#0" expanded="true" />
+            <element signature="class#20993:21723" expanded="false" />
+            <element signature="method#createCenterPanel2#0;class#UserInterface#0" expanded="false" />
+            <element signature="class#24275:24752" expanded="false" />
+            <element signature="class#24796:25284" expanded="false" />
+            <element signature="class#25773:26313" expanded="false" />
+            <element signature="method#createCenterPanel3#0;class#UserInterface#0" expanded="false" />
+            <element signature="method#createCenterPanel4#0;class#UserInterface#0" expanded="false" />
+            <element signature="method#createCenterPanel5#0;class#UserInterface#0" expanded="false" />
+            <element signature="method#createCenterPanel6#0;class#UserInterface#0" expanded="false" />
+            <marker date="1515771126739" expanded="true" signature="34973:34981" ph="{...}" />
+=======
+            <element signature="class#7481:8361" expanded="false" />
+            <element signature="class#9157:10034" expanded="false" />
+            <element signature="class#10828:11705" expanded="false" />
+            <element signature="class#12497:13374" expanded="false" />
+            <element signature="class#14167:15044" expanded="false" />
+            <element signature="class#15803:16596" expanded="false" />
+            <element signature="method#createCenterPanelAccount#0;class#UserInterface#0" expanded="false" />
+            <element signature="method#createCenterPanelProfiel#0;class#UserInterface#0" expanded="false" />
+            <element signature="method#createCenterPanelBekeken#0;class#UserInterface#0" expanded="false" />
+            <element signature="method#createCenterPanelFilm#0;class#UserInterface#0" expanded="false" />
+            <element signature="method#createCenterPanelSerie#0;class#UserInterface#0" expanded="false" />
+            <element signature="method#createCenterPanelAflevering#0;class#UserInterface#0" expanded="false" />
+            <marker date="1515878829336" expanded="true" signature="35598:35780" ph="{...}" />
+>>>>>>> Stashed changes
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Netnix/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1105">
+          <caret line="65" column="34" lean-forward="false" selection-start-line="65" selection-start-column="34" selection-end-line="65" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Netnix/UserInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="34" column="34" lean-forward="true" selection-start-line="34" selection-start-column="34" selection-end-line="34" selection-end-column="34" />
+          <folding>
+            <element signature="method#UserInterface#0;class#UserInterface#0" expanded="false" />
+            <element signature="method#run#0;class#UserInterface#0" expanded="false" />
+            <element signature="method#addDefaultComponents#0;class#UserInterface#0" expanded="false" />
+            <element signature="method#createNorth#0;class#UserInterface#0" expanded="false" />
+            <element signature="method#createSouth#0;class#UserInterface#0" expanded="false" />
+            <element signature="method#createCenter#0;class#UserInterface#0" expanded="false" />
+            <element signature="method#createWest#0;class#UserInterface#0" expanded="false" />
+<<<<<<< Updated upstream
+            <element signature="class#5912:6308" expanded="false" />
+            <element signature="class#6489:7369" expanded="false" />
+            <element signature="class#7557:7953" expanded="false" />
+            <element signature="class#8134:9011" expanded="false" />
+            <element signature="class#9197:9593" expanded="false" />
+            <element signature="class#9774:10651" expanded="false" />
+            <element signature="class#10835:11231" expanded="false" />
+            <element signature="class#11412:12289" expanded="false" />
+            <element signature="class#12474:12870" expanded="false" />
+            <element signature="class#13051:13928" expanded="false" />
+            <element signature="class#14119:14515" expanded="false" />
+            <element signature="class#14696:15489" expanded="false" />
+            <element signature="method#createCenterPanel1#0;class#UserInterface#0" expanded="false" />
+            <element signature="class#18891:19643" expanded="false" />
+            <element signature="class#19687:20301" expanded="false" />
+            <element signature="e#20336#20949#0" expanded="true" />
+            <element signature="e#20948#20949#0" expanded="true" />
+            <element signature="class#20993:21723" expanded="false" />
+            <element signature="method#createCenterPanel2#0;class#UserInterface#0" expanded="false" />
+            <element signature="class#24275:24752" expanded="false" />
+            <element signature="class#24796:25284" expanded="false" />
+            <element signature="class#25773:26313" expanded="false" />
+            <element signature="method#createCenterPanel3#0;class#UserInterface#0" expanded="false" />
+            <element signature="method#createCenterPanel4#0;class#UserInterface#0" expanded="false" />
+            <element signature="method#createCenterPanel5#0;class#UserInterface#0" expanded="false" />
+            <element signature="method#createCenterPanel6#0;class#UserInterface#0" expanded="false" />
+            <marker date="1515771126739" expanded="true" signature="34973:34981" ph="{...}" />
+=======
+            <element signature="class#7481:8361" expanded="false" />
+            <element signature="class#9157:10034" expanded="false" />
+            <element signature="class#10828:11705" expanded="false" />
+            <element signature="class#12497:13374" expanded="false" />
+            <element signature="class#14167:15044" expanded="false" />
+            <element signature="class#15803:16596" expanded="false" />
+            <element signature="method#createCenterPanelAccount#0;class#UserInterface#0" expanded="false" />
+            <element signature="method#createCenterPanelProfiel#0;class#UserInterface#0" expanded="false" />
+            <element signature="method#createCenterPanelBekeken#0;class#UserInterface#0" expanded="false" />
+            <element signature="method#createCenterPanelFilm#0;class#UserInterface#0" expanded="false" />
+            <element signature="method#createCenterPanelSerie#0;class#UserInterface#0" expanded="false" />
+            <element signature="method#createCenterPanelAflevering#0;class#UserInterface#0" expanded="false" />
+            <marker date="1515878829336" expanded="true" signature="35598:35780" ph="{...}" />
+>>>>>>> Stashed changes
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Netnix/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Netnix/UserInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="18" lean-forward="true" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
+          <folding>
+            <element signature="method#UserInterface#0;class#UserInterface#0" expanded="false" />
+            <element signature="method#run#0;class#UserInterface#0" expanded="false" />
+            <element signature="method#addDefaultComponents#0;class#UserInterface#0" expanded="false" />
+            <element signature="method#createNorth#0;class#UserInterface#0" expanded="false" />
+            <element signature="method#createSouth#0;class#UserInterface#0" expanded="false" />
+            <element signature="method#createCenter#0;class#UserInterface#0" expanded="false" />
+            <element signature="method#createWest#0;class#UserInterface#0" expanded="false" />
+<<<<<<< Updated upstream
+            <element signature="class#5912:6308" expanded="false" />
+            <element signature="class#6489:7369" expanded="false" />
+            <element signature="class#7557:7953" expanded="false" />
+            <element signature="class#8134:9011" expanded="false" />
+            <element signature="class#9197:9593" expanded="false" />
+            <element signature="class#9774:10651" expanded="false" />
+            <element signature="class#10835:11231" expanded="false" />
+            <element signature="class#11412:12289" expanded="false" />
+            <element signature="class#12474:12870" expanded="false" />
+            <element signature="class#13051:13928" expanded="false" />
+            <element signature="class#14119:14515" expanded="false" />
+            <element signature="class#14696:15489" expanded="false" />
+            <element signature="method#createCenterPanel1#0;class#UserInterface#0" expanded="false" />
+            <element signature="class#18891:19643" expanded="false" />
+            <element signature="class#19687:20301" expanded="false" />
+            <element signature="e#20336#20949#0" expanded="true" />
+            <element signature="e#20948#20949#0" expanded="true" />
+            <element signature="class#20993:21723" expanded="false" />
+            <element signature="method#createCenterPanel2#0;class#UserInterface#0" expanded="false" />
+            <element signature="class#24275:24752" expanded="false" />
+            <element signature="class#24796:25284" expanded="false" />
+            <element signature="class#25773:26313" expanded="false" />
+            <element signature="method#createCenterPanel3#0;class#UserInterface#0" expanded="false" />
+            <element signature="method#createCenterPanel4#0;class#UserInterface#0" expanded="false" />
+            <element signature="method#createCenterPanel5#0;class#UserInterface#0" expanded="false" />
+            <element signature="method#createCenterPanel6#0;class#UserInterface#0" expanded="false" />
+            <marker date="1515771126739" expanded="true" signature="34973:34981" ph="{...}" />
+=======
+            <element signature="class#7481:8361" expanded="false" />
+            <element signature="class#9157:10034" expanded="false" />
+            <element signature="class#10828:11705" expanded="false" />
+            <element signature="class#12497:13374" expanded="false" />
+            <element signature="class#14167:15044" expanded="false" />
+            <element signature="class#15803:16596" expanded="false" />
+            <element signature="method#createCenterPanelAccount#0;class#UserInterface#0" expanded="false" />
+            <element signature="method#createCenterPanelProfiel#0;class#UserInterface#0" expanded="false" />
+            <element signature="method#createCenterPanelBekeken#0;class#UserInterface#0" expanded="false" />
+            <element signature="method#createCenterPanelFilm#0;class#UserInterface#0" expanded="false" />
+            <element signature="method#createCenterPanelSerie#0;class#UserInterface#0" expanded="false" />
+            <element signature="method#createCenterPanelAflevering#0;class#UserInterface#0" expanded="false" />
+            <marker date="1515878829336" expanded="true" signature="35598:35780" ph="{...}" />
+>>>>>>> Stashed changes
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Netnix/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1088">
+          <caret line="65" column="34" lean-forward="false" selection-start-line="65" selection-start-column="34" selection-end-line="65" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Netnix/UserInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="901">
+          <caret line="57" column="30" lean-forward="true" selection-start-line="57" selection-start-column="30" selection-end-line="57" selection-end-column="30" />
+          <folding>
+            <element signature="method#UserInterface#0;class#UserInterface#0" expanded="false" />
+            <element signature="method#run#0;class#UserInterface#0" expanded="false" />
+            <element signature="method#addDefaultComponents#0;class#UserInterface#0" expanded="false" />
+            <element signature="method#createNorth#0;class#UserInterface#0" expanded="false" />
+            <element signature="method#createSouth#0;class#UserInterface#0" expanded="false" />
+            <element signature="method#createCenter#0;class#UserInterface#0" expanded="false" />
+            <element signature="method#createWest#0;class#UserInterface#0" expanded="false" />
+<<<<<<< Updated upstream
+            <element signature="class#5912:6308" expanded="false" />
+            <element signature="class#6489:7369" expanded="false" />
+            <element signature="class#7557:7953" expanded="false" />
+            <element signature="class#8134:9011" expanded="false" />
+            <element signature="class#9197:9593" expanded="false" />
+            <element signature="class#9774:10651" expanded="false" />
+            <element signature="class#10835:11231" expanded="false" />
+            <element signature="class#11412:12289" expanded="false" />
+            <element signature="class#12474:12870" expanded="false" />
+            <element signature="class#13051:13928" expanded="false" />
+            <element signature="class#14119:14515" expanded="false" />
+            <element signature="class#14696:15489" expanded="false" />
+            <element signature="method#createCenterPanel1#0;class#UserInterface#0" expanded="false" />
+            <element signature="class#18891:19643" expanded="false" />
+            <element signature="class#19687:20301" expanded="false" />
+            <element signature="e#20336#20949#0" expanded="true" />
+            <element signature="e#20948#20949#0" expanded="true" />
+            <element signature="class#20993:21723" expanded="false" />
+            <element signature="method#createCenterPanel2#0;class#UserInterface#0" expanded="false" />
+            <element signature="class#24275:24752" expanded="false" />
+            <element signature="class#24796:25284" expanded="false" />
+            <element signature="class#25773:26313" expanded="false" />
+            <element signature="method#createCenterPanel3#0;class#UserInterface#0" expanded="false" />
+            <element signature="method#createCenterPanel4#0;class#UserInterface#0" expanded="false" />
+            <element signature="method#createCenterPanel5#0;class#UserInterface#0" expanded="false" />
+            <element signature="method#createCenterPanel6#0;class#UserInterface#0" expanded="false" />
+            <marker date="1515771126739" expanded="true" signature="34973:34981" ph="{...}" />
+=======
+            <element signature="class#7481:8361" expanded="false" />
+            <element signature="class#9157:10034" expanded="false" />
+            <element signature="class#10828:11705" expanded="false" />
+            <element signature="class#12497:13374" expanded="false" />
+            <element signature="class#14167:15044" expanded="false" />
+            <element signature="class#15803:16596" expanded="false" />
+            <element signature="method#createCenterPanelAccount#0;class#UserInterface#0" expanded="false" />
+            <element signature="method#createCenterPanelProfiel#0;class#UserInterface#0" expanded="false" />
+            <element signature="method#createCenterPanelBekeken#0;class#UserInterface#0" expanded="false" />
+            <element signature="method#createCenterPanelFilm#0;class#UserInterface#0" expanded="false" />
+            <element signature="method#createCenterPanelSerie#0;class#UserInterface#0" expanded="false" />
+            <element signature="method#createCenterPanelAflevering#0;class#UserInterface#0" expanded="false" />
+            <marker date="1515878829336" expanded="true" signature="35598:35780" ph="{...}" />
+>>>>>>> Stashed changes
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Netnix/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Netnix/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProjectNetnix.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/temp.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/lang/Runnable.java" />
+    <entry file="file://$PROJECT_DIR$/src/Netnix/Buttons/Homebutton.java" />
+    <entry file="file://$PROJECT_DIR$/src/Netnix/ActionListener.java" />
+    <entry file="file://$PROJECT_DIR$/Images/Netnix.PNG">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Netnix/StartupPage.form" />
+    <entry file="file://$PROJECT_DIR$/src/Netnix/StartupPage.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/awt/event/ActionListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="49" column="16" lean-forward="false" selection-start-line="49" selection-start-column="16" selection-end-line="49" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Concept/src/sample/Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/javafx-src.zip!/javafx/event/EventHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="44" column="9" lean-forward="false" selection-start-line="44" selection-start-column="9" selection-end-line="44" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Concept/src/sample/sample.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Netnix/Center1.java" />
+    <entry file="file://$PROJECT_DIR$/Concept/src/sample/Accounts.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Concept/src/sample/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="32" lean-forward="true" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/awt/Container.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="478" column="0" lean-forward="false" selection-start-line="478" selection-start-column="0" selection-end-line="478" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/awt/Dimension.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="110" column="0" lean-forward="false" selection-start-line="110" selection-start-column="0" selection-end-line="110" selection-end-column="0" />
+          <folding>
+            <element signature="e#2604#2605#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/awt/event/MouseAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="73" column="16" lean-forward="false" selection-start-line="73" selection-start-column="16" selection-end-line="73" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Netnix/Accounts.java" />
+    <entry file="file://$PROJECT_DIR$/src/Netnix/Profielen.java" />
+    <entry file="file://$PROJECT_DIR$/src/Netnix/util/DateBekeken.java" />
+    <entry file="file://$PROJECT_DIR$/src/Netnix/util/ColumnResize.java" />
+    <entry file="file://$PROJECT_DIR$/src/Netnix/util/DataAflevering.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="12" column="123" lean-forward="false" selection-start-line="12" selection-start-column="123" selection-end-line="12" selection-end-column="123" />
+          <folding>
+            <marker date="1515771127378" expanded="true" signature="903:927" ph="SELECT * FRO... Aflevering" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Netnix/util/DataBekeken.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="12" column="120" lean-forward="false" selection-start-line="12" selection-start-column="120" selection-end-line="12" selection-end-column="120" />
+          <folding>
+            <marker date="1515771126812" expanded="true" signature="885:906" ph="SELECT * FRO... Bekeken" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Netnix/util/DataFilm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="12" column="117" lean-forward="false" selection-start-line="12" selection-start-column="117" selection-end-line="12" selection-end-column="117" />
+          <folding>
+            <marker date="1515771127328" expanded="true" signature="865:883" ph="SELECT * FRO... Films" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Netnix/util/DataProfiel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="9" column="122" lean-forward="false" selection-start-line="9" selection-start-column="122" selection-end-line="9" selection-end-column="122" />
+          <folding>
+            <marker date="1515771126512" expanded="true" signature="793:814" ph="SELECT * FRO... Profiel" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Netnix/util/DataSerie.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="12" column="118" lean-forward="false" selection-start-line="12" selection-start-column="118" selection-end-line="12" selection-end-column="118" />
+          <folding>
+            <marker date="1515771126587" expanded="true" signature="871:890" ph="SELECT * FRO... Series" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+<<<<<<< Updated upstream
+    <entry file="file://$PROJECT_DIR$/src/Netnix/util/DataAccount.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="816">
+          <caret line="55" column="0" lean-forward="true" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+          <folding>
+            <marker date="1515771126618" expanded="true" signature="884:905" ph="SELECT * FRO... Accounts" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Netnix/util/DataWrite.java">
+=======
+    <entry file="file://$PROJECT_DIR$/src/Netnix/util/DataAflevering.java">
+>>>>>>> Stashed changes
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="15" column="68" lean-forward="false" selection-start-line="15" selection-start-column="68" selection-end-line="15" selection-end-column="68" />
+          <folding>
+            <marker date="1515771126679" expanded="true" signature="378:519" ph="INSERT INTO Afleveringen... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Netnix/UserInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding>
+            <element signature="method#UserInterface#0;class#UserInterface#0" expanded="false" />
+            <element signature="method#run#0;class#UserInterface#0" expanded="false" />
+            <element signature="method#addDefaultComponents#0;class#UserInterface#0" expanded="false" />
+            <element signature="method#createNorth#0;class#UserInterface#0" expanded="false" />
+            <element signature="method#createSouth#0;class#UserInterface#0" expanded="false" />
+            <element signature="method#createCenter#0;class#UserInterface#0" expanded="false" />
+            <element signature="method#createWest#0;class#UserInterface#0" expanded="false" />
+            <element signature="class#5912:6308" expanded="false" />
+            <element signature="class#6489:7369" expanded="false" />
+            <element signature="class#7557:7953" expanded="false" />
+            <element signature="class#8134:9011" expanded="false" />
+            <element signature="class#9197:9593" expanded="false" />
+            <element signature="class#9774:10651" expanded="false" />
+            <element signature="class#10835:11231" expanded="false" />
+            <element signature="class#11412:12289" expanded="false" />
+            <element signature="class#12474:12870" expanded="false" />
+            <element signature="class#13051:13928" expanded="false" />
+            <element signature="class#14119:14515" expanded="false" />
+            <element signature="class#14696:15489" expanded="false" />
+            <element signature="method#createCenterPanel1#0;class#UserInterface#0" expanded="false" />
+            <element signature="class#18891:19643" expanded="false" />
+            <element signature="class#19687:20301" expanded="false" />
+            <element signature="e#20336#20949#0" expanded="true" />
+            <element signature="e#20948#20949#0" expanded="true" />
+            <element signature="class#20993:21723" expanded="false" />
+            <element signature="method#createCenterPanel2#0;class#UserInterface#0" expanded="false" />
+            <element signature="class#24275:24752" expanded="false" />
+            <element signature="class#24796:25284" expanded="false" />
+            <element signature="class#25773:26313" expanded="false" />
+            <element signature="method#createCenterPanel3#0;class#UserInterface#0" expanded="false" />
+            <element signature="method#createCenterPanel4#0;class#UserInterface#0" expanded="false" />
+            <element signature="method#createCenterPanel5#0;class#UserInterface#0" expanded="false" />
+            <element signature="method#createCenterPanel6#0;class#UserInterface#0" expanded="false" />
+            <marker date="1515771126739" expanded="true" signature="34973:34981" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Netnix/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="34" column="24" lean-forward="false" selection-start-line="34" selection-start-column="24" selection-end-line="34" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Netnix/Classes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="20" lean-forward="false" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Netnix/Classes/Account.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding>
+            <element signature="method#Account#0;class#Account#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+<<<<<<< Updated upstream
+    <entry file="file://$PROJECT_DIR$/src/Netnix/Classes/Aflevering.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding>
+            <element signature="method#Aflevering#0;class#Aflevering#0" expanded="false" />
+=======
+    <entry file="file://$PROJECT_DIR$/src/Netnix/util/ColumnResize.java" />
+    <entry file="file://$PROJECT_DIR$/src/Netnix/Account.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="15" lean-forward="false" selection-start-line="0" selection-start-column="15" selection-end-line="0" selection-end-column="15" />
+          <folding>
+            <element signature="e#1390#1391#0" expanded="false" />
+            <element signature="e#1423#1424#0" expanded="false" />
+>>>>>>> Stashed changes
+          </folding>
+        </state>
+      </provider>
+    </entry>
+<<<<<<< Updated upstream
+    <entry file="file://$PROJECT_DIR$/src/Netnix/Classes/Bekeken.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding>
+            <element signature="method#Bekeken#0;class#Bekeken#0" expanded="false" />
+=======
+    <entry file="file://$PROJECT_DIR$/src/Netnix/util/DataDelete.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="47" column="93" lean-forward="false" selection-start-line="47" selection-start-column="93" selection-end-line="47" selection-end-column="93" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#deleteProfiel#0;class#DataDelete#0" expanded="false" />
+            <element signature="method#deleteBekeken#0;class#DataDelete#0" expanded="false" />
+            <marker date="1515873672375" expanded="true" signature="217:258" ph="DELETE FROM " />
+            <marker date="1515873672375" expanded="true" signature="217:259" ph="DELETE FROM " />
+            <marker date="1515873672375" expanded="true" signature="217:282" ph="DELETE FROM " />
+            <marker date="1515873672375" expanded="true" signature="1133:1218" ph="DELETE FROM " />
+            <marker date="1515873672375" expanded="true" signature="1133:1237" ph="DELETE FROM " />
+            <marker date="1515873672375" expanded="true" signature="2103:2223" ph="DELETE FROM " />
+            <marker date="1515873672375" expanded="true" signature="2103:2238" ph="DELETE FROM " />
+>>>>>>> Stashed changes
+          </folding>
+        </state>
+      </provider>
+    </entry>
+<<<<<<< Updated upstream
+    <entry file="file://$PROJECT_DIR$/src/Netnix/Classes/Film.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding>
+            <element signature="method#Film#0;class#Film#0" expanded="false" />
+=======
+    <entry file="file://$PROJECT_DIR$/src/Netnix/util/DataWrite.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="4" lean-forward="false" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#writeAccount#0;class#DataWrite#0" expanded="false" />
+            <element signature="method#writeProfiel#0;class#DataWrite#0" expanded="false" />
+            <element signature="method#writeBekeken#0;class#DataWrite#0" expanded="false" />
+            <marker date="1515873114862" expanded="true" signature="348:427" ph="INSERT INTO Afleveringen... " />
+            <marker date="1515873114862" expanded="true" signature="348:428" ph="INSERT INTO Afleveringen... " />
+            <marker date="1515873114862" expanded="true" signature="348:457" ph="INSERT INTO Afleveringen... " />
+            <marker date="1515873114862" expanded="true" signature="348:461" ph="INSERT INTO Afleveringen... " />
+            <marker date="1515873114862" expanded="true" signature="348:479" ph="INSERT INTO Account... " />
+            <marker date="1515873114862" expanded="true" signature="348:484" ph="INSERT INTO Afleveringen... " />
+            <marker date="1515873114862" expanded="true" signature="348:494" ph="INSERT INTO Afleveringen... " />
+            <marker date="1515873114862" expanded="true" signature="348:505" ph="INSERT INTO Afleveringen... " />
+            <marker date="1515873114862" expanded="true" signature="348:511" ph="INSERT INTO Afleveringen... " />
+            <marker date="1515873114862" expanded="true" signature="348:524" ph="INSERT INTO Afleveringen... " />
+            <marker date="1515873114862" expanded="true" signature="348:530" ph="INSERT INTO Afleveringen... " />
+            <marker date="1515873114862" expanded="true" signature="348:550" ph="INSERT INTO Account... " />
+            <marker date="1515873114862" expanded="true" signature="348:560" ph="INSERT INTO Afleveringen... " />
+            <marker date="1515873114862" expanded="true" signature="348:563" ph="INSERT INTO Account... " />
+            <marker date="1515873114862" expanded="true" signature="348:566" ph="INSERT INTO Afleveringen... " />
+            <marker date="1515873114862" expanded="true" signature="1580:1741" ph="INSERT INTO Account... " />
+            <marker date="1515873114862" expanded="true" signature="2721:2874" ph="INSERT INTO Bekeken... " />
+            <marker date="1515873114862" expanded="true" signature="2721:2875" ph="INSERT INTO Bekeken... " />
+            <marker date="1515873114862" expanded="true" signature="2721:2891" ph="INSERT INTO Bekeken... " />
+>>>>>>> Stashed changes
+          </folding>
+        </state>
+      </provider>
+    </entry>
+<<<<<<< Updated upstream
+    <entry file="file://$PROJECT_DIR$/src/Netnix/Classes/Profiel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding>
+            <element signature="method#Profiel#0;class#Profiel#0" expanded="false" />
+=======
+    <entry file="file://$PROJECT_DIR$/src/Netnix/util/DataUpdate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="83" column="71" lean-forward="false" selection-start-line="83" selection-start-column="71" selection-end-line="83" selection-end-column="71" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#updateAccount#0;class#DataUpdate#0" expanded="false" />
+            <element signature="method#updateProfiel#0;class#DataUpdate#0" expanded="false" />
+            <marker date="1515876296426" expanded="true" signature="323:362" ph="UPDATE Accou... " />
+            <marker date="1515876296426" expanded="true" signature="323:363" ph="UPDATE Accou... " />
+            <marker date="1515876296426" expanded="true" signature="323:371" ph="UPDATE Accou... " />
+            <marker date="1515876296426" expanded="true" signature="323:387" ph="UPDATE Accou... " />
+            <marker date="1515876296426" expanded="true" signature="323:416" ph="UPDATE Accou... " />
+            <marker date="1515876296426" expanded="true" signature="323:432" ph="UPDATE Accou... " />
+            <marker date="1515876296426" expanded="true" signature="323:465" ph="UPDATE Accou... " />
+            <marker date="1515876296426" expanded="true" signature="323:483" ph="UPDATE Accou... " />
+            <marker date="1515876296426" expanded="true" signature="323:516" ph="UPDATE Accou... " />
+            <marker date="1515876296426" expanded="true" signature="323:517" ph="UPDATE Accou... " />
+            <marker date="1515876296426" expanded="true" signature="323:536" ph="UPDATE Accou... " />
+            <marker date="1515876296426" expanded="true" signature="323:567" ph="UPDATE Accou... " />
+            <marker date="1515876296426" expanded="true" signature="323:582" ph="UPDATE Accou... " />
+            <marker date="1515876296426" expanded="true" signature="323:610" ph="UPDATE Accou... " />
+            <marker date="1515876296426" expanded="true" signature="323:625" ph="UPDATE Accou... " />
+            <marker date="1515876296426" expanded="true" signature="323:626" ph="UPDATE Accou... " />
+            <marker date="1515876296426" expanded="true" signature="323:648" ph="UPDATE Accou... " />
+            <marker date="1515876296426" expanded="true" signature="1619:1626" ph="UPDATE Profi... " />
+            <marker date="1515876296426" expanded="true" signature="1619:1674" ph="UPDATE Profi... " />
+            <marker date="1515876296426" expanded="true" signature="1619:1694" ph="UPDATE Profi... " />
+            <marker date="1515876296426" expanded="true" signature="1619:1799" ph="UPDATE Profi... " />
+            <marker date="1515876296426" expanded="true" signature="1619:1820" ph="UPDATE Profi... " />
+            <marker date="1515876296426" expanded="true" signature="1619:1821" ph="UPDATE Profi... " />
+            <marker date="1515876296426" expanded="true" signature="2801:2841" ph="UPDATE Bekek... " />
+            <marker date="1515876296426" expanded="true" signature="2801:2867" ph="UPDATE Bekek... " />
+            <marker date="1515876296426" expanded="true" signature="2801:3000" ph="UPDATE Bekek... " />
+            <marker date="1515876296426" expanded="true" signature="2801:3017" ph="UPDATE Bekek... " />
+            <marker date="1515876296426" expanded="true" signature="2801:3018" ph="UPDATE Bekek... " />
+            <marker date="1515876296426" expanded="true" signature="2801:3020" ph="UPDATE Bekek... " />
+            <marker date="1515876296426" expanded="true" signature="2801:3021" ph="UPDATE Bekek... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Netnix/util/DataAccount.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="14" column="18" lean-forward="false" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1515877088590" expanded="true" signature="782:803" ph="SELECT * FRO... Account" />
+>>>>>>> Stashed changes
+          </folding>
+        </state>
+      </provider>
+    </entry>
+<<<<<<< Updated upstream
+    <entry file="file://$PROJECT_DIR$/src/Netnix/Classes/Serie.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding>
+            <element signature="method#Serie#0;class#Serie#0" expanded="false" />
+=======
+    <entry file="file://$PROJECT_DIR$/src/Netnix/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="11" column="44" lean-forward="false" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Netnix/UserInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="865" column="5" lean-forward="true" selection-start-line="865" selection-start-column="5" selection-end-line="865" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#UserInterface#0;class#UserInterface#0" expanded="false" />
+            <element signature="method#run#0;class#UserInterface#0" expanded="false" />
+            <element signature="method#addDefaultComponents#0;class#UserInterface#0" expanded="false" />
+            <element signature="method#createNorth#0;class#UserInterface#0" expanded="false" />
+            <element signature="method#createSouth#0;class#UserInterface#0" expanded="false" />
+            <element signature="method#createCenter#0;class#UserInterface#0" expanded="false" />
+            <element signature="method#createWest#0;class#UserInterface#0" expanded="false" />
+            <element signature="class#7481:8361" expanded="false" />
+            <element signature="class#9157:10034" expanded="false" />
+            <element signature="class#10828:11705" expanded="false" />
+            <element signature="class#12497:13374" expanded="false" />
+            <element signature="class#14167:15044" expanded="false" />
+            <element signature="class#15803:16596" expanded="false" />
+            <element signature="method#createCenterPanelAccount#0;class#UserInterface#0" expanded="false" />
+            <element signature="method#createCenterPanelProfiel#0;class#UserInterface#0" expanded="false" />
+            <element signature="method#createCenterPanelBekeken#0;class#UserInterface#0" expanded="false" />
+            <element signature="method#createCenterPanelFilm#0;class#UserInterface#0" expanded="false" />
+            <element signature="method#createCenterPanelSerie#0;class#UserInterface#0" expanded="false" />
+            <element signature="method#createCenterPanelAflevering#0;class#UserInterface#0" expanded="false" />
+            <marker date="1515878829336" expanded="true" signature="35598:35780" ph="{...}" />
+>>>>>>> Stashed changes
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>ProjectNetnix</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>sqljdbc42</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

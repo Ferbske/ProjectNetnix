@@ -3,10 +3,12 @@ package Netnix.util;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.Statement;
-
+/*
+This Class is made for deleting Entities in the Database
+*/
 public class DataDelete {
     public static void deleteAccount(String Abonneenummer){
-        String SQL = "DELETE FROM Account WHERE Abonneenummer = '" + Abonneenummer + "';";
+        String SQL = "DELETE FROM Account WHERE Abonneenummer = " + Abonneenummer + ";";
         String connectionUrl = "jdbc:sqlserver://localhost\\SQLEXPRESS;databasename=TrioNetnix;integratedSecurity=true;portNumber=1433;";
         Connection con = null;
         Statement stmt = null;
@@ -26,7 +28,7 @@ public class DataDelete {
         }
     }
     public static void deleteProfiel(String Abonneenummer, String Profielnaam){
-        String SQL = "DELETE FROM Profiel WHERE Abonneenummer = '" + Abonneenummer + "' AND Profielnaam = '" + Profielnaam +"';";
+        String SQL = "DELETE FROM Profiel WHERE Abonneenummer = " + Abonneenummer + " AND Profielnaam = '" + Profielnaam +"';";
         String connectionUrl = "jdbc:sqlserver://localhost\\SQLEXPRESS;databasename=TrioNetnix;integratedSecurity=true;portNumber=1433;";
         Connection con = null;
         Statement stmt = null;
@@ -46,7 +48,7 @@ public class DataDelete {
         }
     }
     public static void deleteBekeken(String Abonneenummer, String Profielnaam, String Gezien){
-        String SQL = "DELETE FROM Bekeken WHERE Abonneenummer = '" + Abonneenummer + "' AND Profielnaam = '" + Profielnaam + "' AND Gezien = '" + Gezien + "';";
+        String SQL = "DELETE FROM Bekeken WHERE Abonneenummer = " + Abonneenummer + " AND Profielnaam = '" + Profielnaam + "' AND Gezien = " + Gezien + ";";
         String connectionUrl = "jdbc:sqlserver://localhost\\SQLEXPRESS;databasename=TrioNetnix;integratedSecurity=true;portNumber=1433;";
         Connection con = null;
         Statement stmt = null;

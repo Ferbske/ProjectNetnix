@@ -4,7 +4,9 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.ResultSet;
 import java.sql.Statement;
-
+/*
+This Class is made for updating Entities in the Database
+*/
 public class DataUpdate {
     public static void updateAccount(String Abonneenummer, String Naam, String Straat, String Postcode, String Huisnummer, String Plaats){
         String SQL = "UPDATE Account " +
@@ -61,9 +63,9 @@ public class DataUpdate {
     }
     public static void updateBekeken(String Abonneenummer, String Profielnaam, String Gezien, String Procent){
         String SQL = "UPDATE Bekeken " +
-                "SET Gezien = '" + Gezien + "'," +
-                "Procent = '" + Procent + "' " +
-                "WHERE Abonneenummer = " + Abonneenummer + " AND Profielnaam = '" + Profielnaam + "';";
+                "SET Gezien = " + Gezien + "," +
+                "Procent = " + Procent +
+                " WHERE Abonneenummer = " + Abonneenummer + " AND Profielnaam = '" + Profielnaam + "';";
         String connectionUrl = "jdbc:sqlserver://localhost\\SQLEXPRESS;databasename=TrioNetnix;integratedSecurity=true;portNumber=1433;";
         Connection con = null;
         Statement stmt = null;

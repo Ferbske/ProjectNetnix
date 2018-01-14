@@ -1,4 +1,5 @@
 package Netnix;
+
 import Netnix.Classes.*;
 import Netnix.util.*;
 
@@ -6,6 +7,9 @@ import java.awt.*;
 import java.awt.event.*;
 import javax.swing.*;
 import javax.swing.table.DefaultTableModel;
+import java.sql.Connection;
+import java.sql.ResultSet;
+import java.sql.Statement;
 import java.util.List;
 
 public class UserInterface implements Runnable {
@@ -21,11 +25,22 @@ public class UserInterface implements Runnable {
     private List<Bekeken> bekeken;
     private List<Film> films;
     private List<Serie> series;
+    private final String connectionUrl = "jdbc:sqlserver://localhost\\SQLEXPRESS;databasename=TrioNetnix;integratedSecurity=true;portNumber=1433;";
+    private Connection con = null;
+    private Statement stmt = null;
+    private ResultSet rs = null;
 
     public UserInterface() {
     }
     @Override
     public void run() {
+        //
+        DataAccount.createAccounts(connectionUrl,con,stmt,rs);
+        DataProfiel.createProfielen(connectionUrl,con,stmt,rs);
+        DataBekeken.createBekeken(connectionUrl,con,stmt,rs);
+        DataFilm.createFilms(connectionUrl,con,stmt,rs);
+        DataSerie.createSeries(connectionUrl,con,stmt,rs);
+        DataAflevering.createAfleveringen(connectionUrl,con,stmt,rs);
         // Creating components
             mainpage = new JFrame("Netnix Statistix");
             north = new JPanel();
@@ -113,17 +128,17 @@ public class UserInterface implements Runnable {
             pnlCenter5.setBackground(Color.YELLOW);
             pnlCenter6.setBackground(Color.PINK);
         // Panel 1 Accounts
-        createCenterPanel1(pnlCenter1);
+        createCenterPanelAccount(pnlCenter1);
         // Panel 2 Profielen
-        createCenterPanel2(pnlCenter2);
+        createCenterPanelProfiel(pnlCenter2);
         // Panel 3 Bekeken
-        createCenterPanel3(pnlCenter3);
+        createCenterPanelBekeken(pnlCenter3);
         // Panel 4 Films
-        createCenterPanel4(pnlCenter4);
+        createCenterPanelFilm(pnlCenter4);
         // Panel 5 Series
-        createCenterPanel5(pnlCenter5);
+        createCenterPanelSerie(pnlCenter5);
         // Panel 6 Afleveringen
-        createCenterPanel6(pnlCenter6);
+        createCenterPanelAflevering(pnlCenter6);
         //Adding panels
         pnlCenterMain.add(pnlCenter1);
         pnlCenterMain.add(pnlCenter2);
@@ -408,7 +423,7 @@ public class UserInterface implements Runnable {
         west.add(blank7);
         container.add(west, BorderLayout.WEST);
     }
-    private void createCenterPanel1(Container container){
+    private void createCenterPanelAccount(Container container){
         // Setting layout CenterSouth panel 1
         JPanel centerSouth1 = new JPanel(new GridLayout(1,9));
         // Creating Table 1
@@ -454,13 +469,14 @@ public class UserInterface implements Runnable {
         btnAdd1.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                String a = abonneenummerAccField.getText();
-                String b = naamField.getText();
-                String c = straatField.getText();
-                String d = postcodeField.getText();
-                String f = huisnummerField.getText();
-                String g = plaatsField.getText();
-                model.addRow(new Object[]{a,b,c,d,f,g});
+                String aa = abonneenummerAccField.getText();
+                String bb = naamField.getText();
+                String cc = straatField.getText();
+                String dd = postcodeField.getText();
+                String ee = huisnummerField.getText();
+                String ff = plaatsField.getText();
+                DataWrite.writeAccount(aa,bb,cc,dd,ee,ff);
+                model.addRow(new Object[]{aa,bb,cc,dd,ee,ff});
                 abonneenummerAccField.setText("");
                 naamField.setText("");
                 straatField.setText("");
@@ -474,6 +490,8 @@ public class UserInterface implements Runnable {
             public void actionPerformed(ActionEvent e) {
                 int i = table1.getSelectedRow();
                 if (i >= 0) {
+                    String aa = abonneenummerAccField.getText();
+                    DataDelete.deleteAccount(aa);
                     model.removeRow(i);
                 }
                 else{
@@ -504,12 +522,19 @@ public class UserInterface implements Runnable {
             public void actionPerformed(ActionEvent e) {
                 int i = table1.getSelectedRow();
                 if (i >= 0) {
-                    model.setValueAt(abonneenummerAccField.getText(), i, 0);
-                    model.setValueAt(naamField.getText(), i, 1);
-                    model.setValueAt(straatField.getText(), i, 2);
-                    model.setValueAt(postcodeField.getText(), i, 3);
-                    model.setValueAt(huisnummerField.getText(), i, 4);
-                    model.setValueAt(plaatsField.getText(), i, 5);
+                    String aa = abonneenummerAccField.getText();
+                    String bb = naamField.getText();
+                    String cc = straatField.getText();
+                    String dd = postcodeField.getText();
+                    String ee = huisnummerField.getText();
+                    String ff = plaatsField.getText();
+                    DataUpdate.updateAccount(aa,bb,cc,dd,ee,ff);
+                    model.setValueAt(aa, i, 0);
+                    model.setValueAt(bb, i, 1);
+                    model.setValueAt(cc, i, 2);
+                    model.setValueAt(dd, i, 3);
+                    model.setValueAt(ee, i, 4);
+                    model.setValueAt(ff, i, 5);
                 }
                 else{
                     System.out.println("Update Error");
@@ -537,7 +562,7 @@ public class UserInterface implements Runnable {
         centerSouth1.add(btnUpdate1);
         container.add(centerSouth1, BorderLayout.SOUTH);
     }
-    private void createCenterPanel2(Container container){
+    private void createCenterPanelProfiel(Container container){
         // Setting Layout CenterSouth panel 2
         JPanel centerSouth2 = new JPanel(new GridLayout(1,9));
         // Creating Table 2
@@ -578,10 +603,11 @@ public class UserInterface implements Runnable {
         btnAdd2.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                rows[0] = abonneenummerProField.getText();
-                rows[1] = profielnaamProField.getText();
-                rows[2] = geboortedatumField.getText();
-                model.addRow(rows);
+                String aa = abonneenummerProField.getText();
+                String bb = profielnaamProField.getText();
+                String cc = geboortedatumField.getText();
+                DataWrite.writeProfiel(aa,bb,cc);
+                model.addRow(new Object[]{aa,bb,cc});
                 abonneenummerProField.setText("");
                 profielnaamProField.setText("");
                 geboortedatumField.setText("");
@@ -592,6 +618,9 @@ public class UserInterface implements Runnable {
             public void actionPerformed(ActionEvent e) {
                 int i = table2.getSelectedRow();
                 if (i >= 0) {
+                    String aa = abonneenummerProField.getText();
+                    String bb = profielnaamProField.getText();
+                    DataDelete.deleteProfiel(aa,bb);
                     model.removeRow(i);
 
                 } else {
@@ -618,9 +647,13 @@ public class UserInterface implements Runnable {
             public void actionPerformed(ActionEvent e) {
                 int i = table2.getSelectedRow();
                 if (i >= 0) {
-                    model.setValueAt(abonneenummerProField.getText(), i, 0);
-                    model.setValueAt(profielnaamProField.getText(), i, 1);
-                    model.setValueAt(geboortedatumField.getText(), i, 2);
+                    String aa = abonneenummerProField.getText();
+                    String bb = profielnaamProField.getText();
+                    String cc = geboortedatumField.getText();
+                    DataUpdate.updateProfiel(aa,bb,cc);
+                    model.setValueAt(aa, i, 0);
+                    model.setValueAt(bb, i, 1);
+                    model.setValueAt(cc, i, 2);
                 }
                 else{
                     System.out.println("Update Error");
@@ -640,7 +673,7 @@ public class UserInterface implements Runnable {
         centerSouth2.add(btnUpdate2);
         container.add(centerSouth2, BorderLayout.SOUTH);
     }
-    private void createCenterPanel3(Container container){
+    private void createCenterPanelBekeken(Container container){
         // Setting Layout CenterSouth panel 3
         JPanel centerSouth3 = new JPanel(new GridLayout(1,9));
         // Creating table 3
@@ -683,11 +716,12 @@ public class UserInterface implements Runnable {
         btnAdd3.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                rows[0] = abonneenummerBekField.getText();
-                rows[1] = profielnaamBekField.getText();
-                rows[2] = gezienField.getText();
-                rows[3] = procentField.getText();
-                model.addRow(rows);
+                String aa = abonneenummerBekField.getText();
+                String bb = profielnaamBekField.getText();
+                String cc = gezienField.getText();
+                String dd = procentField.getText();
+                DataWrite.writeBekeken(aa,bb,cc,dd);
+                model.addRow(new Object[]{aa,bb,cc,dd});
                 abonneenummerBekField.setText("");
                 profielnaamBekField.setText("");
                 gezienField.setText("");
@@ -699,6 +733,10 @@ public class UserInterface implements Runnable {
             public void actionPerformed(ActionEvent e) {
                 int i = table3.getSelectedRow();
                 if (i >= 0) {
+                    String aa = abonneenummerBekField.getText();
+                    String bb = profielnaamBekField.getText();
+                    String cc = gezienField.getText();
+                    DataDelete.deleteBekeken(aa,bb,cc);
                     model.removeRow(i);
                 }
                 else{
@@ -727,10 +765,15 @@ public class UserInterface implements Runnable {
             public void actionPerformed(ActionEvent e) {
                 int i = table3.getSelectedRow();
                 if (i >= 0) {
-                    model.setValueAt(abonneenummerBekField.getText(), i, 0);
-                    model.setValueAt(profielnaamBekField.getText(), i, 1);
-                    model.setValueAt(gezienField.getText(), i, 2);
-                    model.setValueAt(procentField.getText(), i, 3);
+                    String aa = abonneenummerBekField.getText();
+                    String bb = profielnaamBekField.getText();
+                    String cc = gezienField.getText();
+                    String dd = procentField.getText();
+                    DataUpdate.updateBekeken(aa,bb,cc,dd);
+                    model.setValueAt(aa, i, 0);
+                    model.setValueAt(bb, i, 1);
+                    model.setValueAt(cc, i, 2);
+                    model.setValueAt(dd, i, 3);
                 }
                 else{
                     System.out.println("Update Error");
@@ -752,7 +795,7 @@ public class UserInterface implements Runnable {
         centerSouth3.add(btnUpdate3);
         container.add(centerSouth3, BorderLayout.SOUTH);
     }
-    private void createCenterPanel4(Container container){
+    private void createCenterPanelFilm(Container container){
         // Creating table 4
         table4 = new JTable();
         container.setLayout(new BorderLayout());
@@ -778,7 +821,7 @@ public class UserInterface implements Runnable {
         // Adding all components
         container.add(pane);
     }
-    private void createCenterPanel5(Container container){
+    private void createCenterPanelSerie(Container container){
         // Creating Table 5
         table5 = new JTable();
         container.setLayout(new BorderLayout());
@@ -804,7 +847,7 @@ public class UserInterface implements Runnable {
         // Adding all components
         container.add(pane);
     }
-    private void createCenterPanel6(Container container){
+    private void createCenterPanelAflevering(Container container){
         // Creating Table 6
         table6 = new JTable();
         table6.setAutoResizeMode(JTable.AUTO_RESIZE_ALL_COLUMNS);

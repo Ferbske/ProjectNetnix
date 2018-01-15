@@ -1,4 +1,4 @@
-package Netnix.Classes;
+package Netnix.classes;
 
 public class Serie {
     private String serie;

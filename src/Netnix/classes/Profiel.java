@@ -1,4 +1,4 @@
-package Netnix.Classes;
+package Netnix.classes;
 
 import java.sql.Date;
 

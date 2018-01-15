@@ -1,6 +1,6 @@
 package Netnix;
 
-import Netnix.Classes.*;
+import Netnix.classes.*;
 import Netnix.util.*;
 
 import java.awt.*;

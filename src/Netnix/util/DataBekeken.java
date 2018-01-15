@@ -1,6 +1,6 @@
 package Netnix.util;
 
-import Netnix.Classes.Bekeken;
+import Netnix.classes.Bekeken;
 
 import java.sql.Connection;
 import java.sql.DriverManager;

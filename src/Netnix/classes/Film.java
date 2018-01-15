@@ -1,6 +1,4 @@
-package Netnix.Classes;
-
-import java.sql.Time;
+package Netnix.classes;
 
 public class Film {
     private int filmID;
